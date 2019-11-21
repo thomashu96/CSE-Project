@@ -45,7 +45,7 @@ line-height: 1;
 
 <body>
 <div id="start" style="padding-left:50px ;text-align:center;padding-right: 50px;">
-<img width="100%" height="75%" src="/doodle.png">
+<img width="100%" height="75%" src="src/doodle.png">
 </div>
 <h3 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">If someone asks you to draw a square, how would you do it? Would you start from the top-left and go right? Would you draw it in one stroke? Would you draw it clockwise or not? Though these details might be trivial, they reveal a lot about a person. Even if we don&rsquo;t realize it, our culture has many effects in our life. It affects art by shaping the worldview of the artist and the associations they have with color, shapes and patterns.</span></h3>
 <p></p>
@@ -64,7 +64,7 @@ line-height: 1;
 <h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">We analyzed the public database from <a href="https://quickdraw.withgoogle.com/data"> Google's Quick,Draw! </a> to compare how people draw basic shapes around the world. Our study suggests that the way you draw basic shapes such as Square, Circle, Triangle is linked to geography and cultural upbringing,&nbsp;<span>deep-rooted in hundreds of years of written language, and significant in developmental psychology and trends in education today.</span></h3>
 <h3 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">Circle: A Universal Form</h3>
 <div style="padding-left:50px ;text-align:justify;padding-right: 50px;">
-	<img width="100%" height="100%" src="/cc.gif">
+	<img width="100%" height="100%" src="src/cc.gif">
 </div>
 <h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
 Revered by the ancient Greeks, essential to Islamic art, and venerated in Zen and Tibetan Buddhism, circles are a universal shape. No matter where you begin, there are really only two ways to draw a circle, a single stroke heading clockwise, or a single stroke heading counterclockwise.</span></h3>
@@ -85,7 +85,7 @@ British, Czech, Australian, and Finnish circles were drawn in the same direction
 
 <h3 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">Square: Solidity and Stability</h3>
 <div style="padding-left:50px ;text-align:justify;padding-right: 50px;">
-	<img width="100%" height="100%" src="/sq.gif">
+	<img width="100%" height="100%" src="src/sq.gif">
 </div>
 
 <h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
@@ -107,7 +107,7 @@ In Malaysia, India, United Arab Emirates and Saudi Arabia, there is equal prefer
 
 <h3 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">Triangle: Resiliance and Resolve</h3>
 <div style="padding-left:50px ;text-align:justify;padding-right: 50px;">
-	<img width="100%" height="100%" src="/tr.gif">
+	<img width="100%" height="100%" src="src/tr.gif">
 </div>
 
 <h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
@@ -224,7 +224,7 @@ var z = d3.scaleOrdinal()
 		});
 
 	
-d3.csv("circle_per_country.csv", function(d, i, columns) {
+d3.csv("./processed_data/circle_per_country.csv", function(d, i, columns) {
   for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
   d.total = t;
   return d;
@@ -308,7 +308,7 @@ d3.csv("circle_per_country.csv", function(d, i, columns) {
       .text(function(d) { return d; });
 });
 
-d3.csv("square_per_country.csv", function(d, i, columns) {
+d3.csv("./processed_data/square_per_country.csv", function(d, i, columns) {
   for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
   d.total = t;
   return d;
@@ -378,7 +378,7 @@ d3.csv("square_per_country.csv", function(d, i, columns) {
       .text(function(d) { return d; });
 });
 
-d3.csv("triangle_per_country.csv", function(d, i, columns) {
+d3.csv("./processed_data/triangle_per_country.csv", function(d, i, columns) {
   for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
   d.total = t;
   return d;

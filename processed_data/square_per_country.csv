@@ -1,174 +1,35 @@
-,clockwise,counter_clockwise
-Belarus,27,117
-Uganda,1,0
-Andorra,0,1
-Hong Kong,107,348
-Guadeloupe,2,5
-Uruguay,8,18
-Kyrgyzstan,1,18
-Luxembourg,8,25
-Philippines,341,1240
-Peru,19,78
-"Taiwan, Province of China",138,503
-Malawi,0,1
-Puerto Rico,19,56
-Denmark,90,305
-Spain,80,319
-Ghana,0,1
-United Kingdom,2619,6651
-Malaysia,209,448
-Faroe Islands,1,7
-Brunei Darussalam,15,33
-Bahamas,3,8
-El Salvador,1,13
-Morocco,31,44
-Barbados,1,3
-San Marino,0,3
-Bangladesh,22,37
-Cambodia,27,80
-Sweden,325,1447
-Libya,3,2
-Monaco,1,0
-Aruba,1,1
-Senegal,0,4
-Mozambique,0,2
-Zambia,0,1
-Nigeria,0,1
-Latvia,35,155
-Pakistan,39,70
-Bahrain,34,46
-Iceland,17,36
-Eswatini,0,1
-Saint Vincent and the Grenadines,0,1
-New Caledonia,4,3
-Nepal,12,28
-United Arab Emirates,295,493
-Bermuda,2,6
-Italy,353,1049
-Namibia,2,6
-North Macedonia,21,52
-Cyprus,4,29
-Maldives,7,10
-Indonesia,294,740
-Colombia,36,118
-Argentina,83,167
-Finland,368,1222
-"Bolivia, Plurinational State of",4,12
-Fiji,2,1
-Kazakhstan,31,123
-Anguilla,0,1
-Algeria,59,86
-"Venezuela, Bolivarian Republic of",13,44
-Azerbaijan,5,13
-Mongolia,4,10
-Bulgaria,71,408
-Iraq,103,93
-Chile,47,106
-"Virgin Islands, British",1,0
-Armenia,8,16
-Thailand,475,1027
-Gibraltar,2,1
-Sint Maarten (Dutch part),1,4
-Somalia,1,4
-Oman,15,36
-Turks and Caicos Islands,0,1
-United States,11951,46210
-Cayman Islands,1,7
-Slovakia,112,554
-Trinidad and Tobago,9,25
-Guyana,1,1
-"Tanzania, United Republic of",0,2
-New Zealand,134,485
-Botswana,0,2
-Ecuador,14,31
-"Palestine, State of",14,23
-Liechtenstein,1,0
-Montenegro,7,25
-France,384,1077
-Switzerland,65,361
-Guam,8,20
-Russian Federation,550,1698
-Jordan,54,72
-Bosnia and Herzegovina,36,168
-Brazil,545,1862
-Costa Rica,6,23
-Montserrat,0,1
-Yemen,1,1
-Haiti,0,1
-Madagascar,0,2
-French Polynesia,2,2
-Belize,0,6
-"Korea, Republic of",271,1169
-Australia,633,2266
-Grenada,1,1
-Ukraine,131,415
-Israel,104,126
-Suriname,1,4
-Viet Nam,251,593
-Macao,8,19
-Honduras,3,18
-Martinique,2,2
-Portugal,92,354
-Curaçao,2,7
-Canada,1115,3441
-Guatemala,5,19
-Qatar,56,100
-Isle of Man,3,11
-South Africa,62,195
-Austria,72,315
-"Moldova, Republic of",12,54
-Kenya,6,18
-Czechia,225,1011
-Egypt,93,112
-Japan,213,566
-Netherlands,233,908
-Dominica,1,0
-Réunion,3,17
-Serbia,100,402
-Uzbekistan,3,8
-Mauritania,0,2
-Bhutan,0,1
-Georgia,20,46
-Lao People's Democratic Republic,1,4
-Belgium,90,198
-Lithuania,44,149
-Ireland,136,524
-Poland,259,1019
-Turkey,132,433
-"Virgin Islands, U.S.",0,4
-Albania,2,28
-Mexico,98,335
-Dominican Republic,12,18
-Côte d'Ivoire,1,1
-Greece,49,127
-Zimbabwe,1,1
-Slovenia,26,98
-Paraguay,3,10
-Nicaragua,2,5
-Kuwait,74,99
-Estonia,48,173
-Saint Kitts and Nevis,2,2
-Singapore,86,270
-Sri Lanka,4,5
-Tunisia,20,19
-Myanmar,2,3
-Panama,1,21
-Åland Islands,0,4
-Mauritius,4,10
-Jamaica,2,16
-Antigua and Barbuda,0,1
-Hungary,231,834
-Northern Mariana Islands,1,7
-Norway,112,473
-Romania,157,678
-Lebanon,20,30
-China,1,7
-Guernsey,2,9
-Saudi Arabia,556,782
-Cameroon,0,1
-India,289,640
-Malta,12,32
-Croatia,72,420
-Germany,646,2678
-Jersey,3,11
-Rwanda,0,1
+country,Clockwise,Counter-Clockwise
+Serbia,0.284860558,0.715139442
+Thailand,0.391478029,0.608521971
+France,0.321697467,0.678302533
+New Zealand,0.268174475,0.731825525
+Hungary,0.304225352,0.695774648
+Finland,0.264150943,0.735849057
+India,0.4467169,0.5532831
+Canada,0.304653205,0.695346795
+Philippines,0.28969007,0.71030993
+Japan,0.394094994,0.605905006
+Saudi Arabia,0.420029895,0.579970105
+Ukraine,0.324175824,0.675824176
+United Kingdom,0.338834951,0.661165049
+Slovakia,0.207207207,0.792792793
+Poland,0.258215962,0.741784038
+Netherlands,0.263803681,0.736196319
+Italy,0.315977175,0.684022825
+"Korea, Republic of",0.292361111,0.707638889
+Germany,0.236762936,0.763237064
+Taiwan,0.361934477,0.638065523
+Brazil,0.281678438,0.718321562
+Russian Federation,0.346085409,0.653914591
+Czechia,0.237864078,0.762135922
+Malaysia,0.464231355,0.535768645
+Ireland,0.277272727,0.722727273
+United States,0.260741734,0.739258266
+United Arab Emirates,0.427664975,0.572335025
+Romania,0.295808383,0.704191617
+Indonesia,0.395551257,0.604448743
+Viet Nam,0.373222749,0.626777251
+Sweden,0.229119639,0.770880361
+Norway,0.232478632,0.767521368
+Australia,0.269403242,0.730596758
+Turkey,0.304424779,0.695575221
