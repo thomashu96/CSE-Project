@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="//d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<!-- modified from http://bl.ocks.org/mbostock/f705fc55e6f26df29354 -->
+<style>
+
+.line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+#container {
+    background-image:circle.png;
+    background-position:center;
+    width:700px;
+    height:400px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.d3-tip{
+line-height: 1;
+  padding: 12px;
+  background: rgba(43,43,43, 0.8);
+  stroke-width: 2px;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.rect{fill:#f7f4f9;stroke-width:3;stroke:rgb(0,0,0);}
+
+</style>
+
+<!-- <script src="//d3js.org/d3.v3.min.js"></script> -->
+
+<body>
+<div id="start" style="padding-left:50px ;text-align:center;padding-right: 50px;">
+<img width="100%" height="75%" src="src/doodle.png">
+</div>
+<h3 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">If someone asks you to draw a square, how would you do it? Would you start from the top-left and go right? Would you draw it in one stroke? Would you draw it clockwise or not? Though these details might be trivial, they reveal a lot about a person. Even if we don&rsquo;t realize it, our culture has many effects in our life. It affects art by shaping the worldview of the artist and the associations they have with color, shapes and patterns.</span></h3>
+<p></p>
+<p></p>
+<h3 style="text-align: center; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">Let's do a quick exercise ! Ready ? Draw a circle in the box below: Go ahead !&nbsp;</h3>
+
+<div style="padding-left:0px ;text-align:center" >
+<svg  width="500" height="350">
+  <rect style="fill:#f7f4f9;stroke-width:3;stroke:rgb(0,0,0)" width="100%" height="100%" ></rect>
+</svg></div>
+<div id="trial" style="padding-left:50px;style=font-weight:bold;text-align:center">
+<!-- <rect id="t" style="fill:#00FDC7"></rect> -->
+<p id="t" style="font-weight:bold"></p>
+</div>
+<h4 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">How did you draw the shape ? Clockwise or Anti-Clockwise ? Did you start at the top or the bottom ? The way you draw holds clues about where you come from.&nbsp;</h4>
+<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">We analyzed the public database from <a href="https://quickdraw.withgoogle.com/data"> Google's Quick,Draw! </a> to compare how people draw basic shapes around the world. Our study suggests that the way you draw basic shapes such as Square, Circle, Triangle is linked to geography and cultural upbringing,&nbsp;<span>deep-rooted in hundreds of years of written language, and significant in developmental psychology and trends in education today.</span></h3>
+<h3 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">Circle: A Universal Form</h3>
+<div style="padding-left:50px ;text-align:justify;padding-right: 50px;">
+	<img width="100%" height="100%" src="src/cc.gif">
+</div>
+<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+Revered by the ancient Greeks, essential to Islamic art, and venerated in Zen and Tibetan Buddhism, circles are a universal shape. No matter where you begin, there are really only two ways to draw a circle, a single stroke heading clockwise, or a single stroke heading counterclockwise.</span></h3>
+<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+Google’s dataset contains 119,000 unique circles drawn by people in 148 countries, and includes coordinates for the path traced by each player’s finger (or mouse). Applying some simple geometry to data from the 66 countries that submitted over 100 circles, we identified the circle-drawing directions favored by different nations.</span></h3>
+
+<div id="circle_chart" style="padding-left: 50px;style=font-weight:bold; text-align:center">
+<p style="font-weight:bold;font-family: Comic Sans MS, Comic Sans, cursive;text-align:left;padding-left:500px">How do people in the world draw a circle?</p>
+</div>
+<!-- <svg id="circle_chart" style="padding-left:50px;style=font-weight:bold;text-align:center"></svg> -->
+
+<h3 style="text-align: justify; padding-left: 50px;padding-top: 30px;  font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+Americans tend to draw circles anti-clockwise. Of nearly 50,000 circles drawn in the US, 86% were drawn this way. People in Japan, on the other hand, tend to draw circles in the opposite direction. Of 800 circles drawn in Japan, 80% went clockwise. Here’s a random sample of 100 circles people drew in each country:
+</span></h3>
+<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+British, Czech, Australian, and Finnish circles were drawn in the same direction, with the same consistency, as American ones. Some countries are even more regular—around 90% of French, German, and Filipino drawers submitted circles drawn counterclockwise. In Vietnam, a full 95% were drawn this way.
+</span></h3>
+
+<h3 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">Square: Solidity and Stability</h3>
+<div style="padding-left:50px ;text-align:justify;padding-right: 50px;">
+	<img width="100%" height="100%" src="src/sq.gif">
+</div>
+
+<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+Squares represent solidity, a perfection that is static, dependable, earthly and material. In Hinduism, the square represents cosmic order and the balance of opposites; in Native American religions, the square represents permanence, a safe place. In Chinese symbolism, the square represents the earth. In many many cultures, a square is a meeting place, a plaza at the heart of a city.</span></h3>
+<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+Google’s dataset contains 120,538 unique squares drawn by people , and includes coordinates for the path traced by each player’s finger (or mouse).</span></h3>
+
+<div id="square_chart" style="padding-left: 50px;style=font-weight:bold; text-align:center">
+<p style="font-weight:bold;font-family: Comic Sans MS, Comic Sans, cursive;text-align:left;padding-left:500px">How do people in the world draw a square?</p>
+</div>
+
+<h3 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+Most people in the world prefer to draw a square anti-clockwise. Out of nearly 60 000 squares drawn in the United State of America, 74% prefer to draw it this way. Unlike the trend observed with circles, people in Japan draw a square anti-clockwise like the rest of the world. 
+</span></h3>
+
+<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+In Malaysia, India, United Arab Emirates and Saudi Arabia, there is equal preference for clockwise and anti-clockwise. 
+</span></h3>
+
+<h3 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">Triangle: Resiliance and Resolve</h3>
+<div style="padding-left:50px ;text-align:justify;padding-right: 50px;">
+	<img width="100%" height="100%" src="src/tr.gif">
+</div>
+
+<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+In Western society, equilateral triangles most often have Christian meanings in religious contexts. Because the Christian God is a trinity — Father, Son, and Holy Ghost united in a single godhead—he is commonly represented by a triangle.
+
+Pythagoras associated the number 3 with triangles, which is meaningful to many groups. Triangles and other three-part symbols may present such concepts as past, present, and future or spirit, mind, and body.</span></h3>
+
+<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+Google’s dataset contains 120,499 unique squares drawn by people , and includes coordinates for the path traced by each player’s finger (or mouse).</span></h3>
+
+<div id="triangle_chart" style="padding-left: 50px;style=font-weight:bold; text-align:center">
+<p style="font-weight:bold;font-family: Comic Sans MS, Comic Sans, cursive;text-align:left;padding-left:500px">How do people in the world draw a triangle?</p>
+</div>
+
+<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+Unlike circles and squares, triangles follow a different trend. Most people in the world have an equal preference for clockwise/anti-clockwise when drawing a triangle. There are a few exceptions, in Brasil, more than 65% of the population prefere to draw a triangle clockwise.
+</span></h3>
+
+<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+Whereas, in Taiwan, South Korea, Hong Kong and Japan, around 90% of the population prefere to draw a triangle anti-clockwise. 
+</span></h3>
+
+<script>
+
+var margin = {top: 50, left: 0,bottom: 10, right: 0},
+width="600", height="612";
+
+d3.select("start").transition().duration(750);
+var activeLine;
+// .svg.
+var renderPath = d3.line()
+    .x(function(d) { return d[0]; })
+    .y(function(d) { return d[1]; });
+//width+margin.left+margin.right
+
+
+var svg1 = d3.select("#circle_chart")
+  .append("svg")
+      .attr("width", 800)
+    .attr("height", height );
+	
+var g = svg1.attr("transform",
+			  "translate(" + 0 + "," + 0 + ")");
+			  
+var svg2 = d3.select("#square_chart")
+  .append("svg")
+      .attr("width", 800)
+    .attr("height", 628 );
+	
+var g1 = svg2.attr("transform",
+			  "translate(" + 0 + "," + 0 + ")");
+			  
+var svg3 = d3.select("#triangle_chart")
+  .append("svg")
+      .attr("width", 800)
+    .attr("height", 628 );
+	
+var g2 = svg3.attr("transform",
+			  "translate(" + 0 + "," + 0 + ")");
+ 
+var y = d3.scaleBand()			// x = d3.scaleBand()	
+    .rangeRound([0, height])	// .rangeRound([0, width])
+    .paddingInner(0.05)
+    .align(0.1);
+
+var x = d3.scaleLinear()		// y = d3.scaleLinear()
+    .rangeRound([120, width]);	// .rangeRound([height, 0]);
+
+var z = d3.scaleOrdinal()
+    .range(["#3690c0", "#fc4e2a"]);
+	
+  var mouseover = function(d) {
+	
+    // what subgroup are we hovering?
+    var subgroupName = d3.select(this.parentNode).datum().key; // This was the tricky part
+	var subgroupValue = d.data[subgroupName];
+	tip.show(d.data,subgroupName);
+	<!-- console.log(subgroupName); -->
+    // Reduce opacity of all rect to 0.2
+    d3.selectAll(".myRect").style("opacity", 0.4)
+    // Highlight all rects of this subgroup with opacity 0.8. It is possible to select them since they have a specific class = their name.
+    d3.selectAll("."+subgroupName)
+      .style("opacity", 1);
+	  
+    }
+
+  // When user do not hover anymore
+  var mouseleave = function(d) {
+	tip.hide(d);
+    // Back to normal opacity: 0.8
+    d3.selectAll(".myRect")
+      .style("opacity",1)
+ 
+
+    }
+	
+	var tip = d3.tip()
+		.attr('class','d3-tip')
+		.offset([-5,0])
+		.attr("data-html","true")
+		.html(function(d,i) {
+			<!-- console.log(i) -->
+			var state = d.country;
+			var value = 0
+			if(i =="Clockwise"){
+				value = (d.Clockwise*100).toFixed(2);
+			}else{
+				value = (d["Counter-Clockwise"]*100).toFixed(2);
+			}
+			var message = state +"<br/>" +i+" : "+value +"%";
+			<!-- console.log(message); -->
+			return (message);
+			
+		});
+
+	
+d3.csv("./processed_data/circle_per_country.csv", function(d, i, columns) {
+  for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
+  d.total = t;
+  return d;
+}, function(error, data) {
+  if (error) throw error;
+
+  var keys = data.columns.slice(1);
+
+  data.sort(function(a, b) { return b.total - a.total; });
+  y.domain(data.map(function(d) { return d.country; }));				
+  x.domain([0, d3.max(data, function(d) { return d.total; })]).nice();	
+  z.domain(keys);
+
+  g.append("g")
+    .selectAll("g")
+    .data(d3.stack().keys(keys)(data))
+    .enter().append("g")
+      .attr("fill", function(d) { return z(d.key); })
+	  .attr("class", function(d){ return "myRect " + d.key })
+    .selectAll("rect")
+	.data(function(d) { return d; })
+    .enter().append("rect")
+		.attr("y", function(d) { return y(d.data.country); })	    //.attr("x", function(d) { return x(d.data.State); })
+	  .attr("x", function(d) { return x(d[0]); })			    //.attr("y", function(d) { return y(d[1]); })	
+	  .attr("width", function(d) { return x(d[1]) - x(d[0]); })	//.attr("height", function(d) { return y(d[0]) - y(d[1]); })
+	  .attr("height", y.bandwidth())			    //.attr("width", x.bandwidth());	
+	  .on("mouseover", mouseover)
+      .on("mouseleave", mouseleave);
+    
+	svg1.call(tip);
+  //y.bandwidth()
+  g.append("g")
+  
+      .attr("class", "axis")
+      .attr("transform", "translate(120,0)")
+	  <!-- .attr("y", -margin.left + 70)	  //  .attr("transform", "translate(0," + height + ")") --> -->
+      .call(d3.axisLeft(y))
+		.selectAll("Text")	
+		.attr("x", 50);
+			//   .call(d3.axisBottom(x));
+
+  g.append("g")
+  
+      .attr("class", "axis")
+	  .attr("transform", "translate(0,594)")	
+		<!-- .attr("x", width) -->
+	  .call(d3.axisBottom(x).ticks(null, "s"))	;
+	  
+	  
+	svg1.on("active", function() { console.log("yay");})  
+	
+	<!-- svg1.selectAll("rect").transition() -->
+	<!-- .duration(800) -->
+		<!-- .attr("x", function(d) { return x(d[0]); }) -->
+                <!-- .attr("y", function(d) {  return y(d.data.country); }) -->
+                <!-- .attr("width", function(d) {return x(d[1]) - x(d[0]); }) -->
+                <!-- .attr("height", y.bandwidth())			    //.attr("width", x.bandwidth());	 -->
+	      
+	<!-- .delay(function(d,i){return(i*100)}); -->
+
+  var legend = g.append("g")
+      .attr("font-family", "sans-serif")
+      .attr("font-size", 10)
+      .attr("text-anchor", "end")
+    .selectAll("g")
+    .data(keys.slice().reverse())
+    .enter().append("g")
+    //.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+	 .attr("transform", function(d, i) { return "translate(120," + (300 + i * 20) + ")"; });
+
+  legend.append("rect")
+      .attr("x", width - 19)
+      .attr("width", 19)
+      .attr("height", 19)
+      .attr("fill", z);
+
+  legend.append("text")
+      .attr("x", width - 24)
+      .attr("y", 9.5)
+      .attr("dy", "0.32em")
+      .text(function(d) { return d; });
+});
+
+d3.csv("./processed_data/square_per_country.csv", function(d, i, columns) {
+  for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
+  d.total = t;
+  return d;
+}, function(error, data) {
+  if (error) throw error;
+
+  var keys = data.columns.slice(1);
+
+  data.sort(function(a, b) { return b.total - a.total; });
+  y.domain(data.map(function(d) { return d.country; }));				
+  x.domain([0, d3.max(data, function(d) { return d.total; })]).nice();	
+  z.domain(keys);
+
+  g1.append("g")
+    .selectAll("g")
+    .data(d3.stack().keys(keys)(data))
+    .enter().append("g")
+      .attr("fill", function(d) { return z(d.key); })
+	  .attr("class", function(d){ return "myRect " + d.key })
+    .selectAll("rect")
+	.data(function(d) { return d; })
+    .enter().append("rect")
+      .attr("y", function(d) { return y(d.data.country); })	    //.attr("x", function(d) { return x(d.data.State); })
+      .attr("x", function(d) { return x(d[0]); })			    //.attr("y", function(d) { return y(d[1]); })	
+      .attr("width", function(d) { return x(d[1]) - x(d[0]); })	//.attr("height", function(d) { return y(d[0]) - y(d[1]); })
+      .attr("height", y.bandwidth())			    //.attr("width", x.bandwidth());	
+	      .on("mouseover", mouseover)
+      .on("mouseleave", mouseleave);
+    
+	svg2.call(tip);
+  //y.bandwidth()
+  g1.append("g")
+      .attr("class", "axis")
+      .attr("transform", "translate(120,0)")
+	  <!-- .attr("y", -margin.left + 70)	  //  .attr("transform", "translate(0," + height + ")") --> -->
+      .call(d3.axisLeft(y))
+		.selectAll("Text")	
+		.attr("x", 50);
+			//   .call(d3.axisBottom(x));
+
+  g1.append("g")
+      .attr("class", "axis")
+	  .attr("transform", "translate(0,610)")	
+		<!-- .attr("x", width) -->
+	  .call(d3.axisBottom(x).ticks(null, "s"))	;
+
+  var legend = g1.append("g")
+      .attr("font-family", "sans-serif")
+      .attr("font-size", 10)
+      .attr("text-anchor", "end")
+    .selectAll("g")
+    .data(keys.slice().reverse())
+    .enter().append("g")
+    //.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+	 .attr("transform", function(d, i) { return "translate(120," + (300 + i * 20) + ")"; });
+
+  legend.append("rect")
+      .attr("x", width - 19)
+      .attr("width", 19)
+      .attr("height", 19)
+      .attr("fill", z);
+
+  legend.append("text")
+      .attr("x", width - 24)
+      .attr("y", 9.5)
+      .attr("dy", "0.32em")
+      .text(function(d) { return d; });
+});
+
+d3.csv("./processed_data/triangle_per_country.csv", function(d, i, columns) {
+  for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
+  d.total = t;
+  return d;
+}, function(error, data) {
+  if (error) throw error;
+
+  var keys = data.columns.slice(1);
+
+  data.sort(function(a, b) { return b.total - a.total; });
+  y.domain(data.map(function(d) { return d.country; }));				
+  x.domain([0, d3.max(data, function(d) { return d.total; })]).nice();	
+  z.domain(keys);
+
+  g2.append("g")
+    .selectAll("g")
+    .data(d3.stack().keys(keys)(data))
+    .enter().append("g")
+      .attr("fill", function(d) { return z(d.key); })
+	  .attr("class", function(d){ return "myRect " + d.key })
+    .selectAll("rect")
+	.data(function(d) { return d; })
+    .enter().append("rect")
+      .attr("y", function(d) { return y(d.data.country); })	    //.attr("x", function(d) { return x(d.data.State); })
+      .attr("x", function(d) { return x(d[0]); })			    //.attr("y", function(d) { return y(d[1]); })	
+      .attr("width", function(d) { return x(d[1]) - x(d[0]); })	//.attr("height", function(d) { return y(d[0]) - y(d[1]); })
+      .attr("height", y.bandwidth())			    //.attr("width", x.bandwidth());	
+	      .on("mouseover", mouseover)
+      .on("mouseleave", mouseleave);
+    
+	svg3.call(tip);
+  //y.bandwidth()
+  g2.append("g")
+      .attr("class", "axis")
+      .attr("transform", "translate(120,0)")
+	  <!-- .attr("y", -margin.left + 70)	  //  .attr("transform", "translate(0," + height + ")") --> -->
+      .call(d3.axisLeft(y))
+		.selectAll("Text")	
+		.attr("x", 50);
+			//   .call(d3.axisBottom(x));
+
+  g2.append("g")
+      .attr("class", "axis")
+	  .attr("transform", "translate(0,594)")	
+		<!-- .attr("x", width) -->
+	  .call(d3.axisBottom(x).ticks(null, "s"))	;
+
+  var legend = g2.append("g")
+      .attr("font-family", "sans-serif")
+      .attr("font-size", 10)
+      .attr("text-anchor", "end")
+    .selectAll("g")
+    .data(keys.slice().reverse())
+    .enter().append("g")
+    //.attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+	 .attr("transform", function(d, i) { return "translate(120," + (300 + i * 20) + ")"; });
+
+  legend.append("rect")
+      .attr("x", width - 19)
+      .attr("width", 19)
+      .attr("height", 19)
+      .attr("fill", z);
+
+  legend.append("text")
+      .attr("x", width - 24)
+      .attr("y", 9.5)
+      .attr("dy", "0.32em")
+      .text(function(d) { return d; });
+});
+
+var svg = d3.select("svg")
+	.call(d3.drag()
+	.on("start", dragstarted)
+    .on("drag", dragged)
+    .on("end", dragended));
+	
+
+function dragstarted() {
+  d3.selectAll("path").remove();
+  d3.select("#t").remove();
+  activeLine = null;
+  activeLine = svg.append("path").datum([]).attr("class", "line");
+  activeLine.datum().push(d3.mouse(this));
+    
+}
+
+function dragged() {
+  activeLine.datum().push(d3.mouse(this));
+  activeLine.attr("d", renderPath);
+}
+
+function dragended() {
+  getDirection(activeLine.datum());
+  activeLine = null;
+}
+
+function getDirection(p){
+		
+	var points = p.map(function (d,i){
+	
+		return{
+		x:+d[0],
+		y:+d[1]}
+		
+		});
+	
+	
+	sum=0;
+	dir="";
+	for (i=1;i<p.length;i++){
+		w = points[i-1];
+		z = points[i];
+		t = (z.x - w.x)*(z.y + w.y);
+		//console.log(t);
+		sum = sum +t;
+	}
+	
+	
+	if(sum>0){
+	dir = "You drew that Counter Clockwise";
+	}else{
+	dir ="You drew that Clockwise";}
+	
+	d3.selectAll("#trial")
+		.append("p")
+        .attr("id", "t")
+        .append("text")
+		.attr("font-weight","bold")
+        .text(dir)
+		
+	d3.select("#d1")
+    .selectAll('h3')    //ADD THIS
+      .enter()
+      .append("h3")
+      .text("Revered by the ancient Greeks, essential to Islamic art, and venerated in Zen and Tibetan Buddhism, circles are a universal shape. No matter where you begin, there are really only two ways to draw a circle, a single stroke heading clockwise, or a single stroke heading counterclockwise. Google’s dataset contains 119,000 unique circles drawn by people in 148 countries, and includes coordinates for the path traced by each player’s finger (or mouse). Applying some simple geometry to data from the 66 countries that submitted over 100 circles, we identified the circle-drawing directions favored by different nations.");
+	
+	<!-- d3.selectAll("#trial") -->
+		<!-- .append("rect") -->
+        <!-- .attr("id", "t") -->
+        <!-- .append("text") -->
+		<!-- .attr("font-weight","bold") -->
+        <!-- .text(dir) -->
+
+	
+	//console.log(typeof x);
+	//console.log(x);
+}
+
+</script>
+</body>
