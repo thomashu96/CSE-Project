@@ -1,7 +1,7 @@
 '''
 Guide for usage:
 In your terminal, run the command:
-python download_gdrive.py GoogleFileID /path/for/this/file/to/download/file.type
+./data_processing/download_google_drive.py
 Credited to
 https://stackoverflow.com/questions/25010369/wget-curl-large-file-from-google-drive
 author: https://stackoverflow.com/users/1475331/user115202

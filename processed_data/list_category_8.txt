@@ -1,0 +1,8 @@
+circle
+square
+triangle
+windmill
+traffic light
+car
+book
+power outlet

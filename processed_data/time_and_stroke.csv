@@ -1,0 +1,1407 @@
+,country,stroke_count,drawing_time,count,word
+0,AN,1.0,1.26,1,circle
+1,Albania,1.4,2.48,34,circle
+2,Algeria,1.5,2.42,165,circle
+3,Angola,1.0,0.96,1,circle
+4,Anguilla,1.0,1.65,1,circle
+5,Antigua and Barbuda,1.0,0.74,1,circle
+6,Argentina,1.2,2.36,278,circle
+7,Armenia,1.8,3.03,39,circle
+8,Aruba,1.2,1.86,4,circle
+9,Australia,1.3,1.93,2752,circle
+10,Austria,1.2,2.04,515,circle
+11,Azerbaijan,1.4,2.16,24,circle
+12,BU,1.0,2.97,1,circle
+13,Bahamas,1.1,2.37,16,circle
+14,Bahrain,1.3,2.14,102,circle
+15,Bangladesh,1.4,2.57,57,circle
+16,Barbados,1.0,4.33,2,circle
+17,Belarus,1.4,2.36,160,circle
+18,Belgium,1.2,1.78,368,circle
+19,Belize,1.0,1.16,4,circle
+20,Bermuda,1.3,2.36,9,circle
+21,Bhutan,1.0,0.65,1,circle
+22,"Bolivia, Plurinational State of",1.0,1.46,11,circle
+23,Bosnia and Herzegovina,1.3,2.45,247,circle
+24,Botswana,2.0,5.9,1,circle
+25,Brazil,1.2,2.22,2502,circle
+26,Brunei Darussalam,1.2,2.0,39,circle
+27,Bulgaria,1.3,2.22,491,circle
+28,Cambodia,1.3,1.97,173,circle
+29,Cameroon,1.0,1.4,1,circle
+30,Canada,1.3,2.06,4266,circle
+31,Cayman Islands,2.2,4.2,6,circle
+32,Chile,1.2,1.91,169,circle
+33,China,1.1,1.72,10,circle
+34,Colombia,1.4,2.48,146,circle
+35,Costa Rica,1.0,1.43,30,circle
+36,Croatia,1.4,2.4,566,circle
+37,Curaçao,1.0,1.65,10,circle
+38,Cyprus,1.3,2.35,41,circle
+39,Czechia,1.4,2.36,1764,circle
+40,Denmark,1.2,1.96,405,circle
+41,Dominica,1.0,1.3,3,circle
+42,Dominican Republic,1.9,2.49,21,circle
+43,Ecuador,1.4,3.48,43,circle
+44,Egypt,1.5,2.72,231,circle
+45,El Salvador,1.2,2.94,22,circle
+46,Estonia,1.5,2.36,256,circle
+47,Eswatini,1.0,2.3,1,circle
+48,Faroe Islands,2.1,3.42,8,circle
+49,Fiji,1.0,0.95,1,circle
+50,Finland,1.4,2.22,2077,circle
+51,France,1.2,2.03,1693,circle
+52,French Guiana,1.0,3.36,2,circle
+53,French Polynesia,1.6,1.28,5,circle
+54,Georgia,1.8,2.45,82,circle
+55,Germany,1.3,2.02,4122,circle
+56,Ghana,1.0,1.48,2,circle
+57,Gibraltar,1.2,1.89,4,circle
+58,Greece,1.2,2.63,161,circle
+59,Greenland,1.0,0.88,1,circle
+60,Grenada,1.0,1.67,1,circle
+61,Guadeloupe,1.0,1.58,4,circle
+62,Guam,1.3,2.29,37,circle
+63,Guatemala,1.0,2.36,22,circle
+64,Guernsey,1.1,1.49,8,circle
+65,Guyana,1.0,3.18,4,circle
+66,Honduras,1.1,3.29,15,circle
+67,Hong Kong,1.2,1.4,506,circle
+68,Hungary,1.5,2.28,1271,circle
+69,Iceland,1.1,1.23,58,circle
+70,India,1.2,2.08,943,circle
+71,Indonesia,1.4,2.08,945,circle
+72,Iraq,1.6,2.64,245,circle
+73,Ireland,1.3,2.29,566,circle
+74,Isle of Man,1.0,1.23,6,circle
+75,Israel,1.3,2.25,356,circle
+76,Italy,1.2,1.92,1840,circle
+77,Jamaica,1.1,2.5,10,circle
+78,Japan,1.2,1.81,880,circle
+79,Jersey,1.2,1.27,10,circle
+80,Jordan,1.6,2.24,144,circle
+81,Kazakhstan,1.4,2.57,181,circle
+82,Kenya,1.0,1.24,23,circle
+83,"Korea, Republic of",1.6,2.18,1731,circle
+84,Kuwait,1.5,2.08,225,circle
+85,Kyrgyzstan,1.0,2.34,9,circle
+86,Lao People's Democratic Republic,1.0,1.04,4,circle
+87,Latvia,1.2,2.06,163,circle
+88,Lebanon,1.4,2.47,49,circle
+89,Libya,1.0,1.45,4,circle
+90,Liechtenstein,1.0,1.82,2,circle
+91,Lithuania,1.2,2.22,207,circle
+92,Luxembourg,1.0,1.33,27,circle
+93,Macao,1.2,1.63,25,circle
+94,Madagascar,1.0,1.42,1,circle
+95,Malaysia,1.1,1.81,643,circle
+96,Maldives,1.1,1.91,16,circle
+97,Malta,1.1,1.79,37,circle
+98,Martinique,1.1,2.17,7,circle
+99,Mauritius,1.0,1.25,10,circle
+100,Mayotte,1.0,3.27,3,circle
+101,Mexico,1.2,2.17,457,circle
+102,"Micronesia, Federated States of",1.5,2.9,4,circle
+103,"Moldova, Republic of",2.2,3.57,60,circle
+104,Monaco,1.0,0.49,1,circle
+105,Mongolia,1.1,1.36,13,circle
+106,Montenegro,1.1,2.14,40,circle
+107,Morocco,1.6,2.7,109,circle
+108,Myanmar,1.0,1.46,9,circle
+109,Namibia,1.0,2.68,3,circle
+110,Nepal,1.4,2.52,48,circle
+111,Netherlands,1.2,1.74,1304,circle
+112,New Caledonia,1.2,1.75,4,circle
+113,New Zealand,1.3,2.31,552,circle
+114,Nicaragua,1.0,1.51,8,circle
+115,Nigeria,1.6,5.32,8,circle
+116,North Macedonia,1.3,2.19,97,circle
+117,Northern Mariana Islands,1.0,1.52,4,circle
+118,Norway,1.2,1.74,637,circle
+119,Oman,2.0,2.74,53,circle
+120,Pakistan,1.3,2.55,150,circle
+121,"Palestine, State of",1.6,2.74,71,circle
+122,Panama,1.1,1.28,14,circle
+123,Paraguay,1.0,2.23,12,circle
+124,Peru,1.1,2.13,89,circle
+125,Philippines,1.3,2.1,1520,circle
+126,Poland,1.4,2.53,1635,circle
+127,Portugal,1.2,2.08,496,circle
+128,Puerto Rico,1.2,2.07,56,circle
+129,Qatar,1.2,1.96,177,circle
+130,Romania,1.4,2.25,931,circle
+131,Russian Federation,1.5,2.54,2600,circle
+132,Réunion,1.1,2.27,19,circle
+133,Saint Vincent and the Grenadines,1.0,1.38,1,circle
+134,San Marino,1.0,0.73,3,circle
+135,Saudi Arabia,1.7,2.6,1675,circle
+136,Senegal,1.0,2.49,3,circle
+137,Serbia,1.3,2.33,519,circle
+138,Seychelles,1.0,0.96,1,circle
+139,Singapore,1.2,1.69,339,circle
+140,Sint Maarten (Dutch part),1.0,1.62,1,circle
+141,Slovakia,1.3,2.13,823,circle
+142,Slovenia,1.5,2.16,133,circle
+143,Somalia,1.0,0.92,3,circle
+144,South Africa,1.1,2.0,229,circle
+145,Spain,1.2,1.84,470,circle
+146,Sri Lanka,1.3,2.04,10,circle
+147,Suriname,1.5,1.81,8,circle
+148,Sweden,1.3,1.98,2109,circle
+149,Switzerland,1.2,1.67,448,circle
+150,Taiwan,1.2,1.51,802,circle
+151,"Tanzania, United Republic of",1.4,2.01,5,circle
+152,Thailand,1.3,2.05,1538,circle
+153,Trinidad and Tobago,1.2,2.3,41,circle
+154,Tunisia,1.1,1.69,48,circle
+155,Turkey,1.3,1.99,554,circle
+156,Turks and Caicos Islands,1.0,2.01,3,circle
+157,Uganda,1.0,1.58,2,circle
+158,Ukraine,1.5,2.59,678,circle
+159,United Arab Emirates,1.2,1.81,777,circle
+160,United Kingdom,1.2,2.03,8829,circle
+161,United States,1.2,1.92,55037,circle
+162,Uruguay,1.2,2.85,33,circle
+163,Uzbekistan,1.0,1.31,9,circle
+164,"Venezuela, Bolivarian Republic of",1.6,3.44,56,circle
+165,Viet Nam,1.3,2.13,1010,circle
+166,"Virgin Islands, British",1.0,0.51,1,circle
+167,"Virgin Islands, U.S.",1.3,1.99,3,circle
+168,Yemen,1.0,1.3,1,circle
+169,ZZ,1.1,1.79,89,circle
+170,Zimbabwe,2.2,4.56,5,circle
+171,Åland Islands,1.2,3.09,13,circle
+0,AN,1.0,1.13,1,square
+1,Albania,1.1,2.36,30,square
+2,Algeria,3.3,5.33,176,square
+3,Andorra,1.0,1.84,1,square
+4,Anguilla,1.0,2.85,1,square
+5,Antigua and Barbuda,1.0,0.21,1,square
+6,Argentina,1.8,3.71,262,square
+7,Armenia,1.7,3.23,25,square
+8,Aruba,3.3,6.92,3,square
+9,Australia,1.5,2.68,2941,square
+10,Austria,1.9,3.35,409,square
+11,Azerbaijan,2.7,4.51,21,square
+12,BU,1.7,1.93,3,square
+13,Bahamas,1.3,3.2,11,square
+14,Bahrain,2.2,3.19,91,square
+15,Bangladesh,1.4,2.77,62,square
+16,Barbados,2.0,3.12,4,square
+17,Belarus,1.9,3.07,150,square
+18,Belgium,1.8,3.22,303,square
+19,Belize,1.3,4.38,6,square
+20,Bermuda,1.2,2.93,8,square
+21,Bhutan,3.0,2.61,1,square
+22,"Bolivia, Plurinational State of",1.4,2.07,16,square
+23,Bosnia and Herzegovina,2.5,4.73,227,square
+24,Botswana,1.0,2.04,2,square
+25,Brazil,1.6,3.3,2460,square
+26,Brunei Darussalam,1.7,3.12,49,square
+27,Bulgaria,1.8,3.41,503,square
+28,Cambodia,2.3,3.64,119,square
+29,Cameroon,1.0,2.19,1,square
+30,Canada,1.4,2.85,4668,square
+31,Cayman Islands,1.6,3.38,9,square
+32,Chile,1.9,3.28,158,square
+33,China,2.1,2.34,8,square
+34,Colombia,1.7,3.33,161,square
+35,Costa Rica,1.6,3.02,30,square
+36,Croatia,2.0,3.91,531,square
+37,Curaçao,1.3,4.17,9,square
+38,Cyprus,2.0,3.53,37,square
+39,Czechia,3.1,4.89,1490,square
+40,Côte d'Ivoire,1.0,1.9,2,square
+41,Denmark,1.5,2.88,414,square
+42,Dominica,2.0,4.45,1,square
+43,Dominican Republic,1.6,3.11,32,square
+44,Ecuador,1.5,2.76,45,square
+45,Egypt,2.0,4.0,224,square
+46,El Salvador,1.9,3.16,16,square
+47,Estonia,1.7,3.63,235,square
+48,Eswatini,1.0,3.86,1,square
+49,Faroe Islands,1.0,1.96,8,square
+50,Fiji,1.3,4.79,3,square
+51,Finland,2.1,3.63,1769,square
+52,France,1.8,3.24,1541,square
+53,French Polynesia,1.0,2.63,4,square
+54,Georgia,2.5,5.03,79,square
+55,Germany,1.8,3.19,3521,square
+56,Ghana,1.0,3.08,1,square
+57,Gibraltar,1.0,1.5,3,square
+58,Greece,1.8,3.25,185,square
+59,Grenada,1.0,1.76,2,square
+60,Guadeloupe,2.3,2.84,7,square
+61,Guam,1.3,2.19,28,square
+62,Guatemala,1.9,3.39,24,square
+63,Guernsey,1.8,2.4,12,square
+64,Guyana,3.0,5.21,3,square
+65,Haiti,2.0,3.26,1,square
+66,Honduras,1.7,3.74,22,square
+67,Hong Kong,2.0,2.08,461,square
+68,Hungary,2.4,4.01,1207,square
+69,Iceland,1.7,2.94,54,square
+70,India,1.6,3.06,948,square
+71,Indonesia,1.8,3.03,1070,square
+72,Iraq,2.8,4.64,238,square
+73,Ireland,1.4,3.03,681,square
+74,Isle of Man,1.1,2.32,14,square
+75,Israel,2.1,3.65,254,square
+76,Italy,2.5,3.82,1568,square
+77,Jamaica,1.7,3.33,19,square
+78,Japan,1.8,2.58,801,square
+79,Jersey,1.0,1.91,14,square
+80,Jordan,1.9,3.58,137,square
+81,Kazakhstan,2.1,3.78,168,square
+82,Kenya,1.2,2.27,24,square
+83,"Korea, Republic of",2.7,3.45,1609,square
+84,Kuwait,1.7,3.31,192,square
+85,Kyrgyzstan,1.4,3.0,19,square
+86,Lao People's Democratic Republic,1.6,3.22,5,square
+87,Latvia,1.6,3.14,197,square
+88,Lebanon,1.4,2.6,52,square
+89,Libya,1.2,4.79,5,square
+90,Liechtenstein,1.0,1.56,1,square
+91,Lithuania,1.8,3.66,213,square
+92,Luxembourg,1.2,2.7,33,square
+93,Macao,3.1,3.38,28,square
+94,Madagascar,1.0,2.73,2,square
+95,Malawi,1.0,2.34,1,square
+96,Malaysia,1.8,2.76,672,square
+97,Maldives,1.5,3.52,17,square
+98,Malta,1.5,2.36,44,square
+99,Martinique,3.4,7.32,5,square
+100,Mauritania,1.0,3.11,2,square
+101,Mauritius,1.2,2.43,14,square
+102,Mexico,1.5,2.93,444,square
+103,"Moldova, Republic of",2.1,4.41,73,square
+104,Monaco,1.0,2.29,1,square
+105,Mongolia,2.5,3.7,15,square
+106,Montenegro,1.5,3.48,33,square
+107,Montserrat,1.0,2.05,1,square
+108,Morocco,2.0,4.3,87,square
+109,Mozambique,1.0,2.11,2,square
+110,Myanmar,1.6,1.85,5,square
+111,Namibia,1.4,2.67,8,square
+112,Nepal,1.4,2.59,40,square
+113,Netherlands,1.9,3.09,1198,square
+114,New Caledonia,4.2,5.14,8,square
+115,New Zealand,1.5,2.81,630,square
+116,Nicaragua,1.4,3.03,7,square
+117,Nigeria,1.0,3.25,1,square
+118,North Macedonia,1.4,2.68,74,square
+119,Northern Mariana Islands,1.2,2.4,8,square
+120,Norway,1.4,2.74,605,square
+121,Oman,1.8,3.7,59,square
+122,Pakistan,1.5,3.1,110,square
+123,"Palestine, State of",3.0,6.71,45,square
+124,Panama,1.4,2.92,23,square
+125,Paraguay,1.3,3.28,13,square
+126,Peru,2.1,3.46,102,square
+127,Philippines,1.6,3.0,1624,square
+128,Poland,2.2,3.87,1413,square
+129,Portugal,1.7,3.06,461,square
+130,Puerto Rico,1.6,2.99,78,square
+131,Qatar,1.7,3.14,163,square
+132,Romania,1.8,3.32,879,square
+133,Russian Federation,2.1,3.57,2416,square
+134,Rwanda,1.0,3.75,1,square
+135,Réunion,1.4,2.85,21,square
+136,Saint Kitts and Nevis,2.5,4.66,4,square
+137,Saint Vincent and the Grenadines,1.0,2.23,1,square
+138,San Marino,1.0,1.7,3,square
+139,Saudi Arabia,2.4,4.13,1548,square
+140,Senegal,1.2,3.7,4,square
+141,Serbia,2.0,3.75,527,square
+142,Singapore,1.8,2.44,364,square
+143,Sint Maarten (Dutch part),1.2,2.38,5,square
+144,Slovakia,2.4,3.93,736,square
+145,Slovenia,1.5,3.02,128,square
+146,Somalia,1.4,2.63,5,square
+147,South Africa,1.4,2.89,262,square
+148,Spain,1.6,2.66,408,square
+149,Sri Lanka,1.5,3.6,10,square
+150,Suriname,1.0,2.57,5,square
+151,Sweden,1.8,3.48,1894,square
+152,Switzerland,1.5,2.65,436,square
+153,Taiwan,2.4,2.7,669,square
+154,"Tanzania, United Republic of",1.0,2.12,2,square
+155,Thailand,2.2,3.13,1588,square
+156,Trinidad and Tobago,1.5,3.83,34,square
+157,Tunisia,1.7,3.84,45,square
+158,Turkey,1.9,3.16,590,square
+159,Turks and Caicos Islands,3.0,11.39,2,square
+160,Uganda,1.0,3.44,1,square
+161,Ukraine,2.3,3.71,591,square
+162,United Arab Emirates,1.6,3.12,818,square
+163,United Kingdom,1.4,2.88,9502,square
+164,United States,1.4,2.72,59284,square
+165,Uruguay,1.9,4.31,27,square
+166,Uzbekistan,1.5,3.35,11,square
+167,"Venezuela, Bolivarian Republic of",1.5,4.71,59,square
+168,Viet Nam,1.8,3.18,879,square
+169,"Virgin Islands, British",1.0,2.37,1,square
+170,"Virgin Islands, U.S.",1.2,4.76,4,square
+171,Yemen,6.8,9.42,4,square
+172,ZZ,2.0,3.08,98,square
+173,Zambia,1.0,1.33,1,square
+174,Zimbabwe,1.5,3.26,2,square
+175,Åland Islands,2.4,5.75,5,square
+0,Afghanistan,1.5,5.86,2,triangle
+1,Albania,1.7,3.06,31,triangle
+2,Algeria,1.6,2.95,191,triangle
+3,American Samoa,1.0,2.02,1,triangle
+4,Antigua and Barbuda,2.0,1.78,1,triangle
+5,Argentina,1.6,2.62,286,triangle
+6,Armenia,2.4,3.25,39,triangle
+7,Aruba,1.5,1.86,4,triangle
+8,Australia,1.5,2.23,2742,triangle
+9,Austria,1.6,2.68,520,triangle
+10,Azerbaijan,2.1,3.44,31,triangle
+11,BU,1.5,1.29,4,triangle
+12,Bahamas,1.4,2.54,16,triangle
+13,Bahrain,1.8,2.86,103,triangle
+14,Bangladesh,1.3,2.08,63,triangle
+15,Barbados,1.9,2.8,7,triangle
+16,Belarus,1.6,2.64,162,triangle
+17,Belgium,1.5,2.44,377,triangle
+18,Belize,1.3,1.57,3,triangle
+19,Bermuda,1.3,1.74,9,triangle
+20,"Bolivia, Plurinational State of",1.6,1.97,16,triangle
+21,Bosnia and Herzegovina,1.7,3.35,268,triangle
+22,Botswana,4.0,4.63,1,triangle
+23,Brazil,1.5,2.45,2620,triangle
+24,Brunei Darussalam,1.6,2.43,32,triangle
+25,Bulgaria,1.8,2.83,460,triangle
+26,Burkina Faso,1.0,0.31,1,triangle
+27,Cambodia,2.0,2.59,143,triangle
+28,Cameroon,1.0,2.53,1,triangle
+29,Canada,1.5,2.31,4297,triangle
+30,Cayman Islands,1.4,2.56,5,triangle
+31,Chile,1.6,2.44,166,triangle
+32,China,1.9,2.69,13,triangle
+33,Colombia,1.8,2.87,169,triangle
+34,Costa Rica,1.4,2.26,40,triangle
+35,Croatia,1.7,3.02,559,triangle
+36,Curaçao,1.6,2.42,9,triangle
+37,Cyprus,1.7,2.9,37,triangle
+38,Czechia,1.7,3.04,1876,triangle
+39,Côte d'Ivoire,2.0,2.23,4,triangle
+40,Denmark,1.5,2.32,436,triangle
+41,Dominica,1.0,2.18,4,triangle
+42,Dominican Republic,1.8,3.24,28,triangle
+43,Ecuador,1.8,2.85,48,triangle
+44,Egypt,1.7,2.68,223,triangle
+45,El Salvador,1.8,3.31,19,triangle
+46,Estonia,1.9,3.09,261,triangle
+47,Faroe Islands,1.2,1.98,4,triangle
+48,Fiji,3.0,2.82,1,triangle
+49,Finland,1.6,2.85,2075,triangle
+50,France,1.4,2.32,1612,triangle
+51,French Polynesia,1.5,2.79,4,triangle
+52,Georgia,1.6,3.28,82,triangle
+53,Germany,1.7,2.79,4020,triangle
+54,Ghana,1.0,1.05,1,triangle
+55,Gibraltar,1.5,2.35,8,triangle
+56,Greece,1.5,2.66,176,triangle
+57,Greenland,1.0,0.71,1,triangle
+58,Grenada,1.1,3.33,7,triangle
+59,Guadeloupe,1.2,2.34,5,triangle
+60,Guam,1.2,2.05,28,triangle
+61,Guatemala,1.4,2.24,18,triangle
+62,Guernsey,1.2,2.15,11,triangle
+63,Guyana,1.2,2.91,4,triangle
+64,Honduras,1.2,1.88,20,triangle
+65,Hong Kong,1.5,1.62,515,triangle
+66,Hungary,1.8,2.73,1188,triangle
+67,Iceland,2.1,2.28,52,triangle
+68,India,1.5,2.39,884,triangle
+69,Indonesia,1.6,2.41,1009,triangle
+70,Iraq,2.1,3.35,255,triangle
+71,Ireland,1.4,2.37,610,triangle
+72,Isle of Man,1.4,1.61,7,triangle
+73,Israel,1.5,2.31,279,triangle
+74,Italy,1.5,2.22,1878,triangle
+75,Jamaica,1.7,2.86,17,triangle
+76,Japan,1.4,1.86,812,triangle
+77,Jersey,1.4,2.13,11,triangle
+78,Jordan,1.6,2.89,137,triangle
+79,Kazakhstan,1.7,2.88,199,triangle
+80,Kenya,1.9,4.03,16,triangle
+81,"Korea, Republic of",1.8,2.53,1749,triangle
+82,Kuwait,2.0,2.89,205,triangle
+83,Kyrgyzstan,3.0,4.03,20,triangle
+84,Lao People's Democratic Republic,1.4,2.01,5,triangle
+85,Latvia,1.7,2.72,192,triangle
+86,Lebanon,1.3,1.97,60,triangle
+87,Libya,1.0,1.98,8,triangle
+88,Liechtenstein,1.7,2.58,3,triangle
+89,Lithuania,1.6,2.55,184,triangle
+90,Luxembourg,1.2,2.41,34,triangle
+91,Macao,1.4,1.5,23,triangle
+92,Madagascar,1.0,0.61,2,triangle
+93,Malawi,3.0,4.23,1,triangle
+94,Malaysia,1.6,2.29,637,triangle
+95,Maldives,2.9,4.88,14,triangle
+96,Mali,8.0,17.46,1,triangle
+97,Malta,1.7,2.35,50,triangle
+98,Marshall Islands,2.0,1.52,2,triangle
+99,Martinique,3.0,2.84,2,triangle
+100,Mauritius,1.2,2.29,17,triangle
+101,Mayotte,1.5,3.29,2,triangle
+102,Mexico,1.5,2.53,486,triangle
+103,"Moldova, Republic of",1.7,3.05,62,triangle
+104,Monaco,1.0,1.62,2,triangle
+105,Mongolia,1.5,2.41,14,triangle
+106,Montenegro,1.5,2.9,31,triangle
+107,Montserrat,4.0,3.42,1,triangle
+108,Morocco,1.5,2.84,129,triangle
+109,Myanmar,4.7,5.61,3,triangle
+110,Namibia,1.6,2.03,5,triangle
+111,Nepal,1.5,2.58,35,triangle
+112,Netherlands,1.7,2.69,1274,triangle
+113,New Caledonia,1.4,2.31,5,triangle
+114,New Zealand,1.5,2.58,564,triangle
+115,Nicaragua,1.7,1.74,6,triangle
+116,Nigeria,1.0,3.75,3,triangle
+117,North Macedonia,1.6,2.58,86,triangle
+118,Northern Mariana Islands,1.2,2.6,6,triangle
+119,Norway,1.5,2.15,628,triangle
+120,Oman,1.5,2.82,51,triangle
+121,Pakistan,1.6,2.85,136,triangle
+122,"Palestine, State of",1.6,3.1,54,triangle
+123,Panama,1.7,3.38,14,triangle
+124,Paraguay,1.4,2.01,9,triangle
+125,Peru,1.4,2.41,104,triangle
+126,Philippines,1.7,2.55,1470,triangle
+127,Poland,1.8,2.95,1514,triangle
+128,Portugal,1.5,2.39,437,triangle
+129,Puerto Rico,1.5,2.19,67,triangle
+130,Qatar,1.4,2.28,175,triangle
+131,Romania,1.7,2.86,964,triangle
+132,Russian Federation,1.8,2.76,2531,triangle
+133,Rwanda,2.0,3.37,1,triangle
+134,Réunion,1.7,2.86,30,triangle
+135,Saint Kitts and Nevis,1.0,1.77,1,triangle
+136,Saint Lucia,1.0,1.86,1,triangle
+137,Saint Martin (French part),1.0,1.73,1,triangle
+138,Saint Vincent and the Grenadines,1.0,2.98,2,triangle
+139,Samoa,1.0,1.66,1,triangle
+140,San Marino,1.0,1.59,5,triangle
+141,Saudi Arabia,2.2,3.35,1678,triangle
+142,Serbia,1.6,2.89,534,triangle
+143,Singapore,1.5,1.89,387,triangle
+144,Sint Maarten (Dutch part),1.0,0.94,1,triangle
+145,Slovakia,1.6,2.69,825,triangle
+146,Slovenia,1.6,2.97,134,triangle
+147,Somalia,1.5,4.22,4,triangle
+148,South Africa,1.4,2.41,240,triangle
+149,Spain,1.5,2.23,455,triangle
+150,Sri Lanka,1.1,1.76,12,triangle
+151,Suriname,1.5,2.81,8,triangle
+152,Sweden,1.4,2.37,2227,triangle
+153,Switzerland,1.5,2.16,415,triangle
+154,Taiwan,1.3,1.47,725,triangle
+155,Tajikistan,2.0,14.07,1,triangle
+156,"Tanzania, United Republic of",1.0,2.58,3,triangle
+157,Thailand,1.7,2.56,1374,triangle
+158,Trinidad and Tobago,1.5,2.31,46,triangle
+159,Tunisia,1.5,2.77,56,triangle
+160,Turkey,1.7,2.37,536,triangle
+161,Uganda,2.7,7.36,3,triangle
+162,Ukraine,2.1,2.91,652,triangle
+163,United Arab Emirates,1.5,2.41,777,triangle
+164,United Kingdom,1.5,2.4,8914,triangle
+165,United States,1.4,2.25,55646,triangle
+166,Uruguay,1.3,2.34,29,triangle
+167,Uzbekistan,1.2,2.14,8,triangle
+168,"Venezuela, Bolivarian Republic of",1.5,2.64,50,triangle
+169,Viet Nam,1.6,2.56,928,triangle
+170,"Virgin Islands, U.S.",1.5,2.84,2,triangle
+171,ZZ,1.6,2.47,97,triangle
+172,Zambia,1.0,1.81,3,triangle
+173,Åland Islands,1.3,1.46,7,triangle
+0,AN,6.5,8.54,2,windmill
+1,Albania,6.6,10.72,34,windmill
+2,Algeria,6.5,12.03,180,windmill
+3,Andorra,10.0,12.72,1,windmill
+4,Angola,7.0,8.93,1,windmill
+5,Anguilla,8.0,14.14,1,windmill
+6,Antigua and Barbuda,4.0,14.3,2,windmill
+7,Argentina,6.0,10.37,280,windmill
+8,Armenia,6.4,10.82,29,windmill
+9,Aruba,5.2,9.8,5,windmill
+10,Australia,6.1,10.19,2943,windmill
+11,Austria,5.9,10.55,573,windmill
+12,Azerbaijan,5.7,9.88,16,windmill
+13,BU,3.7,8.8,3,windmill
+14,Bahamas,5.8,12.11,8,windmill
+15,Bahrain,7.4,10.73,75,windmill
+16,Bangladesh,5.8,9.43,71,windmill
+17,Barbados,7.5,11.52,12,windmill
+18,Belarus,6.2,9.47,176,windmill
+19,Belgium,6.0,10.39,372,windmill
+20,Belize,8.3,11.96,3,windmill
+21,Bermuda,5.0,10.46,8,windmill
+22,Bhutan,6.0,6.71,1,windmill
+23,"Bolivia, Plurinational State of",6.1,10.89,17,windmill
+24,Bosnia and Herzegovina,5.9,11.06,219,windmill
+25,Botswana,8.0,12.2,1,windmill
+26,Brazil,6.1,11.03,2131,windmill
+27,Brunei Darussalam,5.9,8.99,41,windmill
+28,Bulgaria,6.2,10.5,427,windmill
+29,Cambodia,6.2,9.6,110,windmill
+30,Canada,5.8,10.05,4431,windmill
+31,Cayman Islands,6.8,10.7,12,windmill
+32,Chile,6.3,10.44,139,windmill
+33,China,5.1,9.64,16,windmill
+34,Colombia,5.6,10.6,173,windmill
+35,Costa Rica,6.5,11.38,46,windmill
+36,Croatia,5.9,10.33,532,windmill
+37,Curaçao,7.7,13.21,6,windmill
+38,Cyprus,6.3,10.38,37,windmill
+39,Czechia,5.9,10.53,1939,windmill
+40,Côte d'Ivoire,3.0,9.92,1,windmill
+41,Denmark,5.9,10.02,505,windmill
+42,Dominica,5.4,7.22,5,windmill
+43,Dominican Republic,5.8,10.24,19,windmill
+44,Ecuador,5.9,11.2,40,windmill
+45,Egypt,6.8,11.22,161,windmill
+46,El Salvador,5.5,10.28,16,windmill
+47,Estonia,5.5,10.05,287,windmill
+48,Faroe Islands,3.3,10.83,3,windmill
+49,Fiji,5.0,7.08,1,windmill
+50,Finland,5.5,9.95,2062,windmill
+51,France,5.8,10.3,1568,windmill
+52,French Guiana,8.5,13.68,2,windmill
+53,French Polynesia,8.0,9.33,1,windmill
+54,Georgia,6.6,11.19,70,windmill
+55,Germany,6.0,10.29,4776,windmill
+56,Ghana,5.3,9.43,3,windmill
+57,Gibraltar,6.6,10.33,8,windmill
+58,Greece,6.7,10.88,187,windmill
+59,Grenada,7.5,9.44,2,windmill
+60,Guadeloupe,7.2,11.03,4,windmill
+61,Guam,6.6,9.58,28,windmill
+62,Guatemala,6.2,11.84,19,windmill
+63,Guernsey,6.6,10.97,7,windmill
+64,Guyana,5.0,8.49,3,windmill
+65,Honduras,6.5,10.27,22,windmill
+66,Hong Kong,6.4,8.48,504,windmill
+67,Hungary,6.2,10.17,1338,windmill
+68,Iceland,4.9,9.95,56,windmill
+69,India,6.0,9.39,1146,windmill
+70,Indonesia,6.2,9.8,925,windmill
+71,Iraq,6.9,10.94,178,windmill
+72,Ireland,5.8,10.15,628,windmill
+73,Isle of Man,7.6,10.11,5,windmill
+74,Israel,6.4,10.34,298,windmill
+75,Italy,5.8,9.94,1814,windmill
+76,Jamaica,5.0,11.33,9,windmill
+77,Japan,6.8,9.1,728,windmill
+78,Jersey,6.8,9.71,13,windmill
+79,Jordan,6.7,10.97,105,windmill
+80,Kazakhstan,5.9,10.25,193,windmill
+81,Kenya,7.5,11.25,14,windmill
+82,"Korea, Republic of",6.2,9.07,1406,windmill
+83,Kuwait,6.0,9.79,161,windmill
+84,Kyrgyzstan,6.6,11.23,18,windmill
+85,Lao People's Democratic Republic,6.2,10.19,4,windmill
+86,Latvia,5.9,9.94,201,windmill
+87,Lebanon,6.2,10.4,51,windmill
+88,Libya,7.2,11.98,5,windmill
+89,Liechtenstein,11.0,19.17,1,windmill
+90,Lithuania,6.1,10.47,215,windmill
+91,Luxembourg,6.6,9.98,31,windmill
+92,Macao,7.0,8.53,27,windmill
+93,Malawi,5.0,16.34,1,windmill
+94,Malaysia,5.9,9.43,663,windmill
+95,Maldives,6.9,10.81,13,windmill
+96,Malta,6.2,10.22,40,windmill
+97,Martinique,7.0,12.14,2,windmill
+98,Mauritania,8.0,14.84,1,windmill
+99,Mauritius,6.5,9.96,14,windmill
+100,Mexico,5.8,9.92,413,windmill
+101,"Micronesia, Federated States of",6.7,12.01,3,windmill
+102,"Moldova, Republic of",5.8,10.1,62,windmill
+103,Mongolia,5.6,10.13,19,windmill
+104,Montenegro,5.9,11.03,25,windmill
+105,Montserrat,6.7,12.03,3,windmill
+106,Morocco,6.0,11.83,80,windmill
+107,Mozambique,6.0,12.78,1,windmill
+108,Myanmar,5.7,8.98,6,windmill
+109,Namibia,8.0,15.21,1,windmill
+110,Nepal,6.2,10.24,57,windmill
+111,Netherlands,5.9,9.83,1474,windmill
+112,New Caledonia,6.7,10.51,9,windmill
+113,New Zealand,5.9,10.57,621,windmill
+114,Nicaragua,5.3,14.18,6,windmill
+115,Nigeria,7.0,10.66,6,windmill
+116,North Macedonia,5.7,10.9,66,windmill
+117,Northern Mariana Islands,4.7,9.43,6,windmill
+118,Norway,5.8,9.91,649,windmill
+119,Oman,7.4,10.33,40,windmill
+120,Pakistan,6.1,9.89,133,windmill
+121,"Palestine, State of",6.4,10.92,57,windmill
+122,Panama,6.2,10.01,15,windmill
+123,Paraguay,5.6,11.16,7,windmill
+124,Peru,6.0,10.58,106,windmill
+125,Philippines,6.3,10.43,1624,windmill
+126,Poland,6.0,10.06,1630,windmill
+127,Portugal,6.3,10.56,385,windmill
+128,Puerto Rico,6.0,10.64,56,windmill
+129,Qatar,6.3,10.38,115,windmill
+130,Romania,6.3,10.44,786,windmill
+131,Russian Federation,6.1,9.95,2866,windmill
+132,Réunion,6.1,9.34,18,windmill
+133,Saint Kitts and Nevis,6.0,11.9,1,windmill
+134,Saint Martin (French part),5.5,11.51,2,windmill
+135,Saint Vincent and the Grenadines,8.0,13.3,1,windmill
+136,Samoa,5.0,9.03,1,windmill
+137,San Marino,4.6,12.2,5,windmill
+138,Saudi Arabia,6.6,10.83,1098,windmill
+139,Serbia,5.6,10.22,489,windmill
+140,Seychelles,15.0,19.62,1,windmill
+141,Singapore,5.9,9.07,432,windmill
+142,Sint Maarten (Dutch part),4.5,6.83,2,windmill
+143,Slovakia,6.0,10.63,825,windmill
+144,Slovenia,6.2,10.13,134,windmill
+145,South Africa,5.9,10.17,305,windmill
+146,Spain,6.0,9.84,481,windmill
+147,Sri Lanka,5.9,10.17,14,windmill
+148,Suriname,5.3,10.34,16,windmill
+149,Sweden,5.9,10.4,1888,windmill
+150,Switzerland,5.8,10.19,467,windmill
+151,Taiwan,6.5,8.65,756,windmill
+152,Tajikistan,3.0,7.22,2,windmill
+153,"Tanzania, United Republic of",5.0,9.23,2,windmill
+154,Thailand,6.3,9.0,1374,windmill
+155,Trinidad and Tobago,6.3,10.84,43,windmill
+156,Tunisia,6.2,10.62,43,windmill
+157,Turkey,5.9,9.63,468,windmill
+158,Turkmenistan,7.0,11.88,1,windmill
+159,Uganda,6.5,7.64,2,windmill
+160,Ukraine,6.1,10.17,734,windmill
+161,United Arab Emirates,6.1,10.07,668,windmill
+162,United Kingdom,5.7,10.15,9326,windmill
+163,United States,5.9,10.2,52923,windmill
+164,Uruguay,6.3,10.53,24,windmill
+165,Uzbekistan,6.8,8.98,14,windmill
+166,"Venezuela, Bolivarian Republic of",5.2,10.92,40,windmill
+167,Viet Nam,6.1,9.93,907,windmill
+168,"Virgin Islands, U.S.",1.5,7.97,2,windmill
+169,Yemen,8.0,9.14,1,windmill
+170,ZZ,5.9,10.18,106,windmill
+171,Zimbabwe,7.0,7.87,4,windmill
+172,Åland Islands,5.6,9.36,16,windmill
+0,Afghanistan,12.0,8.71,1,traffic light
+1,Albania,4.9,6.84,45,traffic light
+2,Algeria,5.5,8.73,229,traffic light
+3,American Samoa,6.0,6.01,1,traffic light
+4,Angola,4.0,4.47,1,traffic light
+5,Anguilla,5.0,9.15,1,traffic light
+6,Antigua and Barbuda,3.5,8.37,2,traffic light
+7,Argentina,5.4,8.12,287,traffic light
+8,Armenia,5.2,6.5,28,traffic light
+9,Aruba,4.0,5.48,5,traffic light
+10,Australia,5.2,6.98,3153,traffic light
+11,Austria,5.3,6.96,461,traffic light
+12,Azerbaijan,5.7,8.03,22,traffic light
+13,Bahamas,4.7,9.62,9,traffic light
+14,Bahrain,5.7,7.22,102,traffic light
+15,Bangladesh,5.4,7.87,67,traffic light
+16,Barbados,5.0,9.12,9,traffic light
+17,Belarus,5.5,7.46,177,traffic light
+18,Belgium,5.3,7.6,372,traffic light
+19,Belize,6.8,9.37,5,traffic light
+20,Bermuda,4.8,7.47,11,traffic light
+21,"Bolivia, Plurinational State of",4.8,6.78,16,traffic light
+22,Bosnia and Herzegovina,5.2,8.16,231,traffic light
+23,Botswana,3.5,11.65,2,traffic light
+24,Brazil,4.8,7.6,2312,traffic light
+25,Brunei Darussalam,5.4,6.38,33,traffic light
+26,Bulgaria,5.1,7.63,521,traffic light
+27,Cambodia,5.5,7.23,149,traffic light
+28,Cameroon,4.0,7.36,1,traffic light
+29,Canada,4.9,6.97,4529,traffic light
+30,Cayman Islands,4.5,7.74,6,traffic light
+31,Chile,5.3,6.99,174,traffic light
+32,China,6.2,7.38,16,traffic light
+33,Colombia,5.0,7.83,177,traffic light
+34,Costa Rica,4.3,5.76,28,traffic light
+35,Croatia,5.2,7.8,548,traffic light
+36,Curaçao,4.0,6.36,6,traffic light
+37,Cyprus,5.2,6.6,34,traffic light
+38,Czechia,5.2,7.46,1853,traffic light
+39,Côte d'Ivoire,5.0,8.34,1,traffic light
+40,Denmark,4.8,6.89,468,traffic light
+41,Dominica,6.0,8.45,4,traffic light
+42,Dominican Republic,4.9,7.65,24,traffic light
+43,Ecuador,5.0,7.47,41,traffic light
+44,Egypt,5.3,8.01,200,traffic light
+45,El Salvador,4.4,6.05,15,traffic light
+46,Estonia,5.1,7.21,253,traffic light
+47,Faroe Islands,5.0,8.12,7,traffic light
+48,Fiji,4.5,7.09,2,traffic light
+49,Finland,5.1,7.1,2141,traffic light
+50,France,5.3,7.5,1592,traffic light
+51,French Guiana,4.0,7.91,1,traffic light
+52,French Polynesia,5.0,7.25,2,traffic light
+53,Georgia,5.6,8.45,77,traffic light
+54,Germany,5.2,6.92,3739,traffic light
+55,Ghana,4.5,6.05,2,traffic light
+56,Gibraltar,4.0,7.83,5,traffic light
+57,Greece,5.2,7.31,210,traffic light
+58,Greenland,6.0,7.65,1,traffic light
+59,Grenada,5.0,8.49,2,traffic light
+60,Guadeloupe,3.8,8.49,4,traffic light
+61,Guam,5.6,7.45,23,traffic light
+62,Guatemala,4.4,7.49,15,traffic light
+63,Guernsey,4.7,6.73,9,traffic light
+64,Guyana,5.3,9.04,6,traffic light
+65,Haiti,5.0,15.17,1,traffic light
+66,Honduras,5.1,6.45,21,traffic light
+67,Hong Kong,5.7,6.07,550,traffic light
+68,Hungary,5.2,7.24,1416,traffic light
+69,Iceland,5.1,7.33,59,traffic light
+70,India,5.5,7.37,1017,traffic light
+71,Indonesia,5.4,6.99,1097,traffic light
+72,Iraq,5.4,8.3,250,traffic light
+73,Ireland,5.1,7.44,682,traffic light
+74,Isle of Man,5.8,7.01,8,traffic light
+75,Israel,5.7,7.37,332,traffic light
+76,Italy,5.3,7.15,2093,traffic light
+77,Jamaica,4.6,11.15,7,traffic light
+78,Japan,5.7,6.41,612,traffic light
+79,Jersey,5.2,7.35,13,traffic light
+80,Jordan,5.5,7.67,147,traffic light
+81,Kazakhstan,5.3,7.03,183,traffic light
+82,Kenya,5.9,9.74,22,traffic light
+83,"Korea, Republic of",6.4,7.16,1358,traffic light
+84,Kuwait,5.7,7.65,206,traffic light
+85,Kyrgyzstan,5.4,7.7,12,traffic light
+86,Lao People's Democratic Republic,6.8,5.79,6,traffic light
+87,Latvia,5.0,6.55,178,traffic light
+88,Lebanon,4.8,6.39,50,traffic light
+89,Libya,5.3,8.39,6,traffic light
+90,Liechtenstein,6.0,5.22,1,traffic light
+91,Lithuania,5.2,7.35,228,traffic light
+92,Luxembourg,5.0,7.09,38,traffic light
+93,Macao,5.6,5.49,25,traffic light
+94,Madagascar,4.0,2.24,1,traffic light
+95,Malaysia,5.5,6.75,747,traffic light
+96,Maldives,5.9,8.52,11,traffic light
+97,Malta,5.2,7.62,60,traffic light
+98,Martinique,5.5,7.91,2,traffic light
+99,Mauritius,5.6,8.36,17,traffic light
+100,Mayotte,2.0,5.4,1,traffic light
+101,Mexico,5.3,7.36,464,traffic light
+102,"Micronesia, Federated States of",6.0,9.51,1,traffic light
+103,"Moldova, Republic of",5.3,8.61,66,traffic light
+104,Mongolia,4.6,5.98,13,traffic light
+105,Montenegro,5.0,7.9,27,traffic light
+106,Montserrat,4.7,9.84,3,traffic light
+107,Morocco,5.3,8.91,84,traffic light
+108,Mozambique,3.0,8.35,1,traffic light
+109,Myanmar,5.4,7.17,7,traffic light
+110,Namibia,4.7,5.25,7,traffic light
+111,Nepal,5.3,8.05,59,traffic light
+112,Netherlands,5.3,7.08,1404,traffic light
+113,New Caledonia,5.4,8.4,8,traffic light
+114,New Zealand,5.2,7.72,631,traffic light
+115,Nicaragua,5.3,7.78,6,traffic light
+116,Nigeria,7.0,9.21,1,traffic light
+117,North Macedonia,5.7,7.72,82,traffic light
+118,Northern Mariana Islands,4.9,9.64,7,traffic light
+119,Norway,5.1,6.87,701,traffic light
+120,Oman,7.2,7.96,73,traffic light
+121,Pakistan,5.5,7.92,155,traffic light
+122,"Palestine, State of",5.7,8.38,54,traffic light
+123,Panama,4.4,5.98,26,traffic light
+124,Paraguay,6.1,8.84,12,traffic light
+125,Peru,5.7,7.74,95,traffic light
+126,Philippines,5.3,7.31,1703,traffic light
+127,Poland,5.1,7.32,1548,traffic light
+128,Portugal,5.1,7.11,443,traffic light
+129,Puerto Rico,4.6,6.8,58,traffic light
+130,Qatar,5.3,7.62,144,traffic light
+131,Romania,5.3,7.6,896,traffic light
+132,Russian Federation,5.2,7.17,2793,traffic light
+133,Réunion,5.4,7.8,25,traffic light
+134,Saint Kitts and Nevis,5.0,8.48,1,traffic light
+135,Saint Lucia,5.0,3.96,1,traffic light
+136,Saint Martin (French part),4.0,7.73,1,traffic light
+137,Saint Vincent and the Grenadines,4.0,5.16,1,traffic light
+138,Samoa,4.0,5.83,1,traffic light
+139,San Marino,5.7,7.31,3,traffic light
+140,Saudi Arabia,5.5,7.69,1659,traffic light
+141,Senegal,5.0,9.27,1,traffic light
+142,Serbia,5.4,7.71,475,traffic light
+143,Seychelles,7.0,9.88,1,traffic light
+144,Singapore,5.4,6.45,436,traffic light
+145,Sint Maarten (Dutch part),4.7,10.69,3,traffic light
+146,Slovakia,5.1,7.49,828,traffic light
+147,Slovenia,5.1,6.78,152,traffic light
+148,Somalia,4.7,6.14,3,traffic light
+149,South Africa,5.2,7.18,295,traffic light
+150,Spain,5.3,6.95,524,traffic light
+151,Sri Lanka,5.5,7.2,11,traffic light
+152,Suriname,5.8,8.29,4,traffic light
+153,Sweden,5.0,7.31,2299,traffic light
+154,Switzerland,5.5,6.78,439,traffic light
+155,Taiwan,5.9,6.26,627,traffic light
+156,Tajikistan,6.0,6.12,1,traffic light
+157,"Tanzania, United Republic of",4.0,7.0,1,traffic light
+158,Thailand,5.7,6.66,1585,traffic light
+159,Togo,1.0,0.4,1,traffic light
+160,Trinidad and Tobago,4.5,7.26,42,traffic light
+161,Tunisia,5.0,7.87,47,traffic light
+162,Turkey,5.3,6.8,689,traffic light
+163,Turks and Caicos Islands,4.0,5.76,1,traffic light
+164,Ukraine,5.3,7.52,605,traffic light
+165,United Arab Emirates,5.4,7.47,804,traffic light
+166,United Kingdom,5.0,7.23,10548,traffic light
+167,United States,4.8,6.88,54521,traffic light
+168,Uruguay,4.7,7.29,32,traffic light
+169,Uzbekistan,7.1,8.31,14,traffic light
+170,"Venezuela, Bolivarian Republic of",5.6,9.46,59,traffic light
+171,Viet Nam,5.4,7.41,952,traffic light
+172,"Virgin Islands, U.S.",3.8,11.2,5,traffic light
+173,Yemen,9.5,6.75,2,traffic light
+174,ZZ,5.3,7.16,108,traffic light
+175,Zimbabwe,5.8,8.74,8,traffic light
+176,Åland Islands,4.9,6.54,9,traffic light
+0,AN,2.0,7.49,1,car
+1,Afghanistan,2.5,5.95,2,car
+2,Albania,5.2,10.59,38,car
+3,Algeria,4.9,10.32,305,car
+4,American Samoa,10.0,17.73,1,car
+5,Andorra,6.0,8.1,3,car
+6,Anguilla,5.0,14.44,2,car
+7,Antigua and Barbuda,5.2,11.61,4,car
+8,Argentina,4.6,9.51,493,car
+9,Armenia,5.0,10.3,42,car
+10,Aruba,5.3,9.42,10,car
+11,Australia,5.1,9.72,4347,car
+12,Austria,5.1,9.45,737,car
+13,Azerbaijan,4.9,10.34,34,car
+14,BU,5.0,5.11,2,car
+15,Bahamas,4.1,11.21,13,car
+16,Bahrain,5.0,8.88,185,car
+17,Bangladesh,4.4,9.63,89,car
+18,Barbados,5.9,13.03,7,car
+19,Belarus,4.8,9.1,255,car
+20,Belgium,5.1,9.72,559,car
+21,Belize,6.5,11.25,4,car
+22,Bermuda,4.8,11.88,8,car
+23,Bhutan,2.0,5.98,1,car
+24,"Bolivia, Plurinational State of",4.6,8.85,31,car
+25,Bosnia and Herzegovina,4.9,10.19,389,car
+26,Botswana,1.0,5.47,1,car
+27,Brazil,4.7,9.73,3520,car
+28,Brunei Darussalam,4.6,8.84,59,car
+29,Bulgaria,5.1,10.22,752,car
+30,Cambodia,5.2,9.15,246,car
+31,Cameroon,4.5,10.73,2,car
+32,Canada,5.0,9.74,6420,car
+33,Cayman Islands,4.0,10.91,8,car
+34,Chile,4.6,8.81,246,car
+35,China,4.2,8.45,20,car
+36,Colombia,4.5,9.65,268,car
+37,Costa Rica,5.3,9.5,53,car
+38,Croatia,5.0,9.72,911,car
+39,Curaçao,5.6,11.12,8,car
+40,Cyprus,5.1,9.73,62,car
+41,Czechia,4.8,9.38,3275,car
+42,Côte d'Ivoire,7.7,15.43,3,car
+43,Denmark,4.6,9.21,663,car
+44,Dominica,8.0,18.7,1,car
+45,Dominican Republic,4.2,10.27,41,car
+46,Ecuador,5.0,10.06,81,car
+47,Egypt,5.3,10.42,349,car
+48,El Salvador,3.6,8.15,14,car
+49,Estonia,5.0,9.73,474,car
+50,Ethiopia,3.0,10.64,2,car
+51,Faroe Islands,6.2,11.66,5,car
+52,Fiji,3.7,9.76,3,car
+53,Finland,4.9,9.03,3436,car
+54,France,5.0,9.74,2349,car
+55,French Polynesia,6.2,11.65,5,car
+56,Georgia,4.1,9.53,142,car
+57,Germany,5.1,9.26,5718,car
+58,Gibraltar,4.9,8.71,9,car
+59,Greece,5.0,9.41,299,car
+60,Greenland,3.5,9.29,4,car
+61,Grenada,3.7,7.67,3,car
+62,Guadeloupe,4.3,13.13,3,car
+63,Guam,4.2,8.69,28,car
+64,Guatemala,5.0,10.49,27,car
+65,Guernsey,5.2,12.85,9,car
+66,Guyana,6.0,20.08,1,car
+67,Haiti,2.5,10.18,2,car
+68,Honduras,5.0,9.58,22,car
+69,Hong Kong,5.4,7.33,829,car
+70,Hungary,5.3,9.37,2414,car
+71,Iceland,4.9,9.76,91,car
+72,India,4.7,9.12,1452,car
+73,Indonesia,4.7,9.11,1719,car
+74,Iraq,4.6,9.85,445,car
+75,Ireland,5.0,10.1,874,car
+76,Isle of Man,5.8,10.03,11,car
+77,Israel,5.1,9.43,483,car
+78,Italy,5.3,9.52,2977,car
+79,Jamaica,4.1,11.75,18,car
+80,Japan,4.5,6.96,1381,car
+81,Jersey,6.3,11.94,11,car
+82,Jordan,4.4,8.94,207,car
+83,Kazakhstan,4.6,9.93,314,car
+84,Kenya,5.7,10.46,24,car
+85,"Korea, Republic of",4.5,7.04,3245,car
+86,Kuwait,4.8,8.99,329,car
+87,Kyrgyzstan,4.2,7.78,31,car
+88,Lao People's Democratic Republic,5.7,8.1,12,car
+89,Latvia,5.2,9.49,316,car
+90,Lebanon,4.7,9.1,77,car
+91,Liberia,3.7,7.0,3,car
+92,Libya,4.0,9.8,11,car
+93,Liechtenstein,4.3,11.02,3,car
+94,Lithuania,5.2,9.57,334,car
+95,Luxembourg,6.2,10.15,42,car
+96,Macao,5.1,7.73,31,car
+97,Madagascar,3.0,6.12,1,car
+98,Malaysia,5.0,8.49,1071,car
+99,Maldives,5.4,9.11,17,car
+100,Malta,5.1,10.8,72,car
+101,Marshall Islands,6.0,19.16,1,car
+102,Martinique,4.6,10.62,5,car
+103,Mauritania,6.7,13.18,3,car
+104,Mauritius,5.0,8.33,19,car
+105,Mayotte,4.0,10.79,1,car
+106,Mexico,4.7,9.32,758,car
+107,"Moldova, Republic of",5.4,10.71,134,car
+108,Monaco,2.0,8.62,1,car
+109,Mongolia,4.6,9.39,21,car
+110,Montenegro,5.1,10.33,59,car
+111,Montserrat,10.0,18.87,2,car
+112,Morocco,5.3,10.65,150,car
+113,Mozambique,3.3,10.53,3,car
+114,Myanmar,4.9,8.46,10,car
+115,Namibia,3.9,10.9,8,car
+116,Nepal,4.7,8.97,65,car
+117,Netherlands,5.0,9.57,1997,car
+118,New Caledonia,4.4,8.91,10,car
+119,New Zealand,4.9,10.04,864,car
+120,Nicaragua,5.1,9.25,10,car
+121,Nigeria,3.6,9.53,7,car
+122,North Macedonia,5.2,10.35,166,car
+123,Northern Mariana Islands,4.1,10.43,11,car
+124,Norway,4.9,9.48,982,car
+125,Oman,4.5,8.8,119,car
+126,Pakistan,4.7,9.79,207,car
+127,Palau,6.0,6.44,1,car
+128,"Palestine, State of",4.8,9.51,106,car
+129,Panama,5.6,9.69,32,car
+130,Paraguay,4.8,8.92,13,car
+131,Peru,5.4,9.9,168,car
+132,Philippines,4.8,9.33,2606,car
+133,Poland,5.2,9.74,2719,car
+134,Portugal,5.0,9.8,625,car
+135,Puerto Rico,5.1,10.12,80,car
+136,Qatar,4.1,8.92,233,car
+137,Romania,5.4,10.31,1451,car
+138,Russian Federation,4.9,9.44,4581,car
+139,Réunion,5.1,10.77,29,car
+140,Saint Kitts and Nevis,4.3,9.68,3,car
+141,Samoa,2.0,5.72,1,car
+142,San Marino,4.5,10.74,6,car
+143,Saudi Arabia,4.6,9.33,2995,car
+144,Senegal,3.5,9.88,4,car
+145,Serbia,5.1,9.83,795,car
+146,Seychelles,5.5,10.16,2,car
+147,Singapore,5.2,8.29,617,car
+148,Sint Maarten (Dutch part),7.2,15.86,8,car
+149,Slovakia,5.1,9.25,1492,car
+150,Slovenia,4.9,8.86,243,car
+151,Somalia,4.2,10.89,6,car
+152,South Africa,4.7,9.72,405,car
+153,Spain,4.9,8.75,771,car
+154,Sri Lanka,4.7,8.97,20,car
+155,Suriname,6.1,12.23,11,car
+156,Sweden,5.0,9.8,3195,car
+157,Switzerland,5.1,9.34,658,car
+158,Taiwan,5.2,7.09,1266,car
+159,"Tanzania, United Republic of",3.0,11.91,2,car
+160,Thailand,4.9,8.13,2981,car
+161,Trinidad and Tobago,4.9,10.11,52,car
+162,Tunisia,4.1,9.74,82,car
+163,Turkey,4.7,8.34,963,car
+164,Turkmenistan,4.0,14.33,1,car
+165,Turks and Caicos Islands,8.0,12.56,1,car
+166,Uganda,13.0,18.95,1,car
+167,Ukraine,5.1,9.79,1083,car
+168,United Arab Emirates,4.6,9.27,1204,car
+169,United Kingdom,5.1,10.1,12598,car
+170,United States,5.2,9.99,75307,car
+171,Uruguay,6.0,9.3,44,car
+172,Uzbekistan,4.5,7.26,22,car
+173,"Venezuela, Bolivarian Republic of",4.4,10.03,94,car
+174,Viet Nam,4.9,9.33,1404,car
+175,"Virgin Islands, British",3.0,9.68,1,car
+176,"Virgin Islands, U.S.",6.3,13.75,3,car
+177,Yemen,4.5,6.16,4,car
+178,ZZ,5.2,9.64,189,car
+179,Zimbabwe,5.2,13.14,5,car
+180,Åland Islands,6.4,9.43,17,car
+0,AN,3.0,8.26,1,book
+1,Albania,7.2,10.2,36,book
+2,Algeria,7.9,11.15,178,book
+3,Angola,9.0,9.71,1,book
+4,Anguilla,17.0,16.62,1,book
+5,Antigua and Barbuda,7.0,12.0,1,book
+6,Argentina,7.4,10.6,271,book
+7,Armenia,8.1,10.11,32,book
+8,Aruba,6.7,8.57,3,book
+9,Australia,7.6,9.85,2882,book
+10,Austria,7.6,10.11,521,book
+11,Azerbaijan,9.0,10.66,17,book
+12,BU,4.0,8.24,2,book
+13,Bahamas,5.8,11.26,12,book
+14,Bahrain,7.1,9.07,123,book
+15,Bangladesh,6.4,9.05,73,book
+16,Barbados,6.1,10.13,8,book
+17,Belarus,7.9,10.13,175,book
+18,Belgium,7.6,10.39,390,book
+19,Belize,10.0,9.4,2,book
+20,Bermuda,7.2,9.88,9,book
+21,Bhutan,8.0,6.74,2,book
+22,"Bolivia, Plurinational State of",7.1,7.69,13,book
+23,Bosnia and Herzegovina,7.0,10.82,258,book
+24,Botswana,17.0,18.5,1,book
+25,Brazil,7.1,10.59,2255,book
+26,Brunei Darussalam,7.8,9.84,38,book
+27,Bulgaria,7.0,9.98,534,book
+28,Cambodia,6.7,8.2,187,book
+29,Cameroon,4.0,8.2,1,book
+30,Canada,7.2,9.85,4228,book
+31,Cayman Islands,8.1,11.62,10,book
+32,Chile,7.9,10.4,138,book
+33,China,7.6,8.98,14,book
+34,Colombia,7.8,9.95,171,book
+35,Costa Rica,7.4,9.91,36,book
+36,Croatia,7.6,10.79,587,book
+37,Curaçao,9.2,11.96,6,book
+38,Cyprus,8.7,10.76,35,book
+39,Czechia,7.4,10.37,1892,book
+40,Denmark,7.2,10.02,427,book
+41,Djibouti,8.0,10.69,1,book
+42,Dominica,5.0,7.34,1,book
+43,Dominican Republic,7.6,11.06,40,book
+44,Ecuador,7.1,9.66,49,book
+45,Egypt,7.9,10.89,201,book
+46,El Salvador,7.5,8.88,13,book
+47,Estonia,7.3,10.3,261,book
+48,Faroe Islands,5.0,9.43,5,book
+49,Finland,7.4,9.89,1902,book
+50,France,7.2,9.78,1726,book
+51,French Guiana,3.0,9.07,1,book
+52,French Polynesia,7.0,6.18,1,book
+53,Gabon,5.5,9.28,2,book
+54,Georgia,7.1,9.92,99,book
+55,Germany,7.8,10.06,4229,book
+56,Ghana,5.0,5.51,1,book
+57,Gibraltar,7.4,11.18,5,book
+58,Greece,7.6,10.0,192,book
+59,Grenada,5.0,7.86,1,book
+60,Guadeloupe,4.7,10.02,3,book
+61,Guam,6.7,10.39,33,book
+62,Guatemala,7.1,10.43,23,book
+63,Guernsey,8.6,10.1,12,book
+64,Guyana,5.0,11.42,6,book
+65,Honduras,6.5,10.59,17,book
+66,Hong Kong,8.0,7.96,520,book
+67,Hungary,7.8,9.84,1419,book
+68,Iceland,6.8,10.49,61,book
+69,India,6.7,9.07,961,book
+70,Indonesia,7.3,9.54,993,book
+71,Iraq,7.4,10.34,220,book
+72,Ireland,7.3,10.08,626,book
+73,Isle of Man,7.4,8.32,7,book
+74,Israel,7.8,10.1,348,book
+75,Italy,7.8,9.98,1817,book
+76,Jamaica,8.4,12.82,10,book
+77,Japan,7.0,8.07,1015,book
+78,Jersey,7.4,9.97,20,book
+79,Jordan,7.3,10.31,116,book
+80,Kazakhstan,8.2,10.02,180,book
+81,Kenya,7.4,10.22,25,book
+82,"Korea, Republic of",7.7,8.37,1848,book
+83,Kuwait,7.7,9.87,210,book
+84,Kyrgyzstan,7.3,9.33,22,book
+85,Lao People's Democratic Republic,6.7,8.39,3,book
+86,Latvia,7.9,9.87,177,book
+87,Lebanon,8.5,10.64,51,book
+88,Lesotho,6.0,6.38,1,book
+89,Libya,7.5,11.71,11,book
+90,Liechtenstein,10.0,9.23,1,book
+91,Lithuania,7.2,10.11,203,book
+92,Luxembourg,6.3,9.1,32,book
+93,Macao,7.2,7.04,29,book
+94,Malaysia,7.3,8.93,623,book
+95,Maldives,7.8,11.95,10,book
+96,Malta,8.2,10.83,43,book
+97,Martinique,5.2,11.83,4,book
+98,Mauritius,8.8,8.64,12,book
+99,Mexico,6.9,9.76,433,book
+100,"Micronesia, Federated States of",3.0,8.3,2,book
+101,"Moldova, Republic of",7.2,11.0,77,book
+102,Mongolia,6.6,10.16,22,book
+103,Montenegro,7.4,10.66,33,book
+104,Montserrat,3.0,9.18,2,book
+105,Morocco,6.5,10.23,93,book
+106,Mozambique,5.0,13.27,1,book
+107,Myanmar,10.3,8.73,6,book
+108,Namibia,10.0,12.31,6,book
+109,Nepal,6.7,9.09,46,book
+110,Netherlands,7.4,9.75,1407,book
+111,New Caledonia,7.8,9.64,11,book
+112,New Zealand,7.3,10.0,578,book
+113,Nicaragua,7.8,12.93,4,book
+114,Nigeria,5.2,8.99,4,book
+115,North Macedonia,7.4,10.15,97,book
+116,Northern Mariana Islands,4.0,10.78,6,book
+117,Norway,6.9,9.83,620,book
+118,Oman,6.9,9.48,69,book
+119,Pakistan,7.4,10.39,108,book
+120,"Palestine, State of",7.3,10.65,62,book
+121,Panama,8.5,11.48,19,book
+122,Paraguay,7.7,10.95,13,book
+123,Peru,7.0,9.47,99,book
+124,Philippines,6.8,9.64,1473,book
+125,Poland,7.5,10.03,1765,book
+126,Portugal,7.4,10.13,473,book
+127,Puerto Rico,7.5,10.9,45,book
+128,Qatar,6.9,10.13,165,book
+129,Romania,7.3,10.18,984,book
+130,Russian Federation,7.4,9.77,2826,book
+131,Réunion,7.4,12.01,22,book
+132,Saint Kitts and Nevis,4.0,6.07,1,book
+133,Saint Vincent and the Grenadines,9.0,13.55,1,book
+134,Samoa,28.0,14.91,1,book
+135,San Marino,10.0,6.53,2,book
+136,Saudi Arabia,7.2,9.79,1598,book
+137,Senegal,7.2,9.54,4,book
+138,Serbia,7.7,10.46,518,book
+139,Seychelles,8.0,7.93,2,book
+140,Singapore,7.3,8.82,418,book
+141,Sint Maarten (Dutch part),6.0,16.08,1,book
+142,Slovakia,7.6,10.28,917,book
+143,Slovenia,7.9,9.93,122,book
+144,Somalia,7.0,7.83,1,book
+145,South Africa,7.6,10.7,271,book
+146,Spain,7.4,9.23,483,book
+147,Sri Lanka,8.2,7.16,5,book
+148,Suriname,6.2,10.61,8,book
+149,Sweden,7.1,9.94,2051,book
+150,Switzerland,7.6,9.65,476,book
+151,Taiwan,7.8,7.9,818,book
+152,Tajikistan,6.0,8.09,1,book
+153,"Tanzania, United Republic of",13.5,9.99,2,book
+154,Thailand,7.5,8.79,1660,book
+155,Trinidad and Tobago,7.5,10.68,41,book
+156,Tunisia,6.9,10.41,52,book
+157,Turkey,7.6,9.33,641,book
+158,Turks and Caicos Islands,3.0,7.19,1,book
+159,Uganda,10.2,10.6,5,book
+160,Ukraine,7.0,9.88,726,book
+161,United Arab Emirates,7.3,9.9,764,book
+162,United Kingdom,7.2,9.94,9138,book
+163,United States,7.0,9.91,49834,book
+164,Uruguay,7.6,9.92,37,book
+165,Uzbekistan,8.7,9.55,20,book
+166,Vanuatu,4.0,5.63,1,book
+167,"Venezuela, Bolivarian Republic of",6.6,10.61,52,book
+168,Viet Nam,6.4,9.12,985,book
+169,"Virgin Islands, U.S.",5.0,7.77,2,book
+170,ZZ,7.0,10.02,107,book
+171,Zimbabwe,6.0,12.38,2,book
+172,Åland Islands,11.9,13.94,11,book
+0,AN,3.0,3.72,1,power outlet
+1,Afghanistan,11.0,16.97,1,power outlet
+2,Albania,6.3,9.12,32,power outlet
+3,Algeria,5.7,9.61,230,power outlet
+4,American Samoa,10.0,19.4,1,power outlet
+5,Andorra,9.0,18.12,1,power outlet
+6,Angola,3.0,5.11,1,power outlet
+7,Anguilla,6.0,11.04,1,power outlet
+8,Argentina,6.2,9.51,329,power outlet
+9,Armenia,4.3,6.48,28,power outlet
+10,Aruba,5.4,5.42,8,power outlet
+11,Australia,7.0,9.41,3301,power outlet
+12,Austria,5.4,8.31,533,power outlet
+13,Azerbaijan,5.2,7.56,21,power outlet
+14,Bahamas,5.9,11.16,13,power outlet
+15,Bahrain,5.3,7.79,124,power outlet
+16,Bangladesh,5.9,8.31,49,power outlet
+17,Barbados,5.9,11.28,13,power outlet
+18,Belarus,5.9,8.77,211,power outlet
+19,Belgium,5.8,8.7,441,power outlet
+20,Belize,4.8,8.28,6,power outlet
+21,Bermuda,5.5,7.87,10,power outlet
+22,Bhutan,12.0,7.08,1,power outlet
+23,"Bolivia, Plurinational State of",6.5,8.85,18,power outlet
+24,Bosnia and Herzegovina,5.5,9.14,242,power outlet
+25,Botswana,9.0,18.97,1,power outlet
+26,Brazil,5.5,8.92,2273,power outlet
+27,Brunei Darussalam,5.8,8.55,44,power outlet
+28,Bulgaria,6.3,9.24,485,power outlet
+29,Cambodia,5.9,8.12,178,power outlet
+30,Cameroon,5.0,14.72,1,power outlet
+31,Canada,6.1,8.21,6854,power outlet
+32,Cayman Islands,6.0,9.44,11,power outlet
+33,Chile,6.8,8.97,170,power outlet
+34,China,6.6,7.22,17,power outlet
+35,Colombia,6.0,9.19,203,power outlet
+36,Costa Rica,6.5,8.75,58,power outlet
+37,Croatia,5.8,9.28,628,power outlet
+38,Curaçao,4.9,7.31,7,power outlet
+39,Cyprus,5.4,8.5,50,power outlet
+40,Czechia,5.6,8.58,2502,power outlet
+41,Côte d'Ivoire,3.0,7.23,1,power outlet
+42,Denmark,6.3,8.61,573,power outlet
+43,Dominica,4.0,7.24,3,power outlet
+44,Dominican Republic,6.7,9.39,33,power outlet
+45,Ecuador,6.9,10.4,63,power outlet
+46,Egypt,5.6,9.29,222,power outlet
+47,El Salvador,7.4,9.14,18,power outlet
+48,Estonia,6.0,9.08,338,power outlet
+49,Faroe Islands,5.2,6.23,5,power outlet
+50,Fiji,6.3,11.64,7,power outlet
+51,Finland,6.3,8.36,2322,power outlet
+52,France,5.6,8.48,1805,power outlet
+53,French Guiana,5.3,8.37,6,power outlet
+54,French Polynesia,10.5,9.99,2,power outlet
+55,Georgia,6.3,11.22,89,power outlet
+56,Germany,5.7,8.29,4102,power outlet
+57,Ghana,4.0,8.85,2,power outlet
+58,Gibraltar,3.8,9.37,4,power outlet
+59,Greece,5.8,8.72,206,power outlet
+60,Greenland,7.5,16.82,2,power outlet
+61,Grenada,5.2,6.26,6,power outlet
+62,Guadeloupe,6.1,9.23,8,power outlet
+63,Guam,6.0,8.16,44,power outlet
+64,Guatemala,6.0,10.14,26,power outlet
+65,Guernsey,4.9,8.3,10,power outlet
+66,Guyana,5.1,9.1,7,power outlet
+67,Haiti,8.0,13.61,1,power outlet
+68,Honduras,5.2,8.06,26,power outlet
+69,Hong Kong,6.6,7.4,534,power outlet
+70,Hungary,6.2,9.16,1858,power outlet
+71,Iceland,5.9,8.37,57,power outlet
+72,India,6.1,8.46,1016,power outlet
+73,Indonesia,5.9,8.41,1207,power outlet
+74,Iraq,6.7,9.83,227,power outlet
+75,Ireland,6.3,9.28,620,power outlet
+76,Isle of Man,9.2,9.36,12,power outlet
+77,Israel,6.0,8.03,376,power outlet
+78,Italy,6.1,8.73,2117,power outlet
+79,Jamaica,6.2,10.27,16,power outlet
+80,Japan,6.7,7.07,859,power outlet
+81,Jersey,4.5,7.04,17,power outlet
+82,Jordan,6.4,10.2,140,power outlet
+83,Kazakhstan,5.9,8.36,197,power outlet
+84,Kenya,6.0,8.23,24,power outlet
+85,"Korea, Republic of",6.9,7.04,1241,power outlet
+86,Kuwait,6.3,9.0,198,power outlet
+87,Kyrgyzstan,6.2,8.22,24,power outlet
+88,Lao People's Democratic Republic,5.8,6.37,4,power outlet
+89,Latvia,6.0,9.06,211,power outlet
+90,Lebanon,6.0,9.61,44,power outlet
+91,Lesotho,6.0,9.52,3,power outlet
+92,Libya,6.0,11.12,9,power outlet
+93,Lithuania,5.4,8.29,247,power outlet
+94,Luxembourg,6.7,8.67,41,power outlet
+95,Macao,6.2,7.03,26,power outlet
+96,Madagascar,2.5,3.99,2,power outlet
+97,Malaysia,5.8,8.05,718,power outlet
+98,Maldives,6.4,8.85,22,power outlet
+99,Malta,5.3,9.04,54,power outlet
+100,Marshall Islands,4.0,5.3,1,power outlet
+101,Martinique,6.8,13.29,4,power outlet
+102,Mauritius,7.1,10.21,11,power outlet
+103,Mayotte,4.0,6.78,1,power outlet
+104,Mexico,6.2,8.71,569,power outlet
+105,"Micronesia, Federated States of",8.0,5.71,2,power outlet
+106,"Moldova, Republic of",5.6,9.05,82,power outlet
+107,Mongolia,5.5,9.83,11,power outlet
+108,Montenegro,5.2,8.62,42,power outlet
+109,Montserrat,6.0,10.58,3,power outlet
+110,Morocco,5.9,9.87,135,power outlet
+111,Mozambique,5.0,5.74,1,power outlet
+112,Myanmar,10.0,11.42,4,power outlet
+113,Namibia,7.7,14.22,3,power outlet
+114,Nepal,6.7,8.62,46,power outlet
+115,Netherlands,6.0,8.3,1666,power outlet
+116,New Caledonia,6.1,9.47,7,power outlet
+117,New Zealand,6.2,8.97,797,power outlet
+118,Nicaragua,5.0,7.6,6,power outlet
+119,Nigeria,4.2,9.37,9,power outlet
+120,North Macedonia,5.3,8.99,86,power outlet
+121,Northern Mariana Islands,6.1,9.02,13,power outlet
+122,Norway,6.3,8.35,766,power outlet
+123,Oman,5.4,8.36,90,power outlet
+124,Pakistan,5.6,8.9,136,power outlet
+125,"Palestine, State of",7.1,9.77,73,power outlet
+126,Panama,5.8,8.14,14,power outlet
+127,Papua New Guinea,7.0,11.56,1,power outlet
+128,Paraguay,4.5,7.31,12,power outlet
+129,Peru,6.8,9.93,100,power outlet
+130,Philippines,6.3,8.7,1950,power outlet
+131,Poland,6.0,8.73,2214,power outlet
+132,Portugal,5.8,8.66,512,power outlet
+133,Puerto Rico,5.8,8.03,67,power outlet
+134,Qatar,6.0,9.38,198,power outlet
+135,Romania,6.2,8.99,1174,power outlet
+136,Russian Federation,5.9,8.61,3013,power outlet
+137,Rwanda,5.0,6.93,2,power outlet
+138,Réunion,6.9,9.55,30,power outlet
+139,Saint Kitts and Nevis,3.5,4.34,2,power outlet
+140,San Marino,7.8,8.0,4,power outlet
+141,Sao Tome and Principe,5.0,11.48,1,power outlet
+142,Saudi Arabia,6.5,9.68,1912,power outlet
+143,Senegal,5.5,7.93,2,power outlet
+144,Serbia,5.6,9.01,559,power outlet
+145,Singapore,6.4,8.32,479,power outlet
+146,Sint Maarten (Dutch part),6.2,9.85,6,power outlet
+147,Slovakia,5.7,8.51,1046,power outlet
+148,Slovenia,5.3,7.69,182,power outlet
+149,Somalia,8.0,11.55,2,power outlet
+150,South Africa,6.0,9.07,307,power outlet
+151,Spain,6.1,8.21,491,power outlet
+152,Sri Lanka,4.5,7.3,11,power outlet
+153,Suriname,4.0,7.5,7,power outlet
+154,Sweden,6.0,8.15,2720,power outlet
+155,Switzerland,5.6,8.04,463,power outlet
+156,Taiwan,6.5,7.18,782,power outlet
+157,Tajikistan,3.0,6.13,1,power outlet
+158,"Tanzania, United Republic of",8.0,15.43,1,power outlet
+159,Thailand,7.4,9.34,1471,power outlet
+160,Trinidad and Tobago,6.6,9.78,46,power outlet
+161,Tunisia,5.3,8.94,69,power outlet
+162,Turkey,5.9,8.02,640,power outlet
+163,Turkmenistan,5.0,6.04,1,power outlet
+164,Turks and Caicos Islands,7.0,6.15,1,power outlet
+165,Uganda,7.2,13.4,5,power outlet
+166,Ukraine,5.8,8.58,701,power outlet
+167,United Arab Emirates,6.2,8.93,877,power outlet
+168,United Kingdom,6.2,9.09,10093,power outlet
+169,United States,5.9,8.16,90337,power outlet
+170,Uruguay,6.1,8.95,33,power outlet
+171,Uzbekistan,6.3,8.08,20,power outlet
+172,"Venezuela, Bolivarian Republic of",7.4,11.01,61,power outlet
+173,Viet Nam,5.8,8.81,989,power outlet
+174,"Virgin Islands, U.S.",4.0,4.67,1,power outlet
+175,Yemen,11.7,9.01,3,power outlet
+176,ZZ,5.6,8.35,114,power outlet
+177,Zambia,6.0,8.8,2,power outlet
+178,Zimbabwe,5.0,6.85,2,power outlet
+179,Åland Islands,6.9,8.14,17,power outlet
