@@ -3,16 +3,14 @@ import glob
 import subprocess
 import json
 import csv
+import sys
 import pycountry
 
 DATA_ROOT = "./data/"
 PROCESS_ROOT = "./processed_data/time_per_"
 CATEGORY_FILE = "./data_processing/list_category.txt"
 
-abspath = os.path.abspath(__file__)
-dname = os.path.dirname(abspath)
-
-os.chdir(os.path.dirname(dname))
+os.chdir(os.path.dirname(sys.argv[0]))
 
 # Function to get name of all the category
 def get_raw_list():
