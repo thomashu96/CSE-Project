@@ -84,6 +84,7 @@ def save_figure_animated(list_key, drawing_dict, filename):
     
     plt.xlim(0, 255)
     plt.ylim(0, 255)
+    plt.gca().invert_yaxis()
         
     # Create color map
     cmap = plt.get_cmap('nipy_spectral')
