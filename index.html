@@ -273,7 +273,7 @@ var tip_map = d3.tip()
 		var name = d.properties.name;
 		var img_name = shape+"_"+name;
 		<!-- console.log("<img src='/"+img_name+".png'>"); -->
-		var path = "<img src='/drawings/"+shape+"/"+img_name+".png'>";
+		var path = "<img src='./drawings/"+shape+"/"+img_name+".png'>";
 		console.log(path);
 		div.html(path)
 		return (name);
@@ -390,7 +390,6 @@ d3.csv("./processed_data/circle_per_country.csv", function(d, i, columns) {
   var keys = data.columns.slice(1);
 
   data.sort(function(a, b) { return d3.descending(a.Clockwise, b.Clockwise);});
-  console.log(data);
   y.domain(data.map(function(d) { return d.country; }));				
   x.domain([0, d3.max(data, function(d) { return d.total; })]).nice();	
   z.domain(keys);
