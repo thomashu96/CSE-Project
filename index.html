@@ -3,6 +3,8 @@
 <script src="//d3js.org/d3.v4.min.js"></script>
 <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- modified from http://bl.ocks.org/mbostock/f705fc55e6f26df29354 -->
 <style>
 
@@ -13,11 +15,8 @@
   stroke-linejoin: round;
   stroke-linecap: round;
 }
-#container {
-    background-image:circle.png;
-    background-position:center;
-    width:700px;
-    height:400px;
+.container {
+  float: left;
 }
 
 /* Centered text */
@@ -37,101 +36,160 @@ line-height: 1;
   border-radius: 2px;
 }
 
-.rect{fill:#f7f4f9;stroke-width:3;stroke:rgb(0,0,0);}
+  .states :hover {
+   opacity:0.5;
+}
+.state-borders {
+  fill: #f7f4f9;
+  stroke: black;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+
+.rect{fill:#f7f4f9;stroke-width:3;stroke:rgb(0,0,0);
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 120px;
+  height: 33px;
+  padding: 8px;
+  font: 10px sans-serif;
+  background: #ddd;
+  border: solid 1px #aaa;
+  border-radius: 8px;
+  pointer-events: none;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+
+}
+.button5 {border-radius: 50%;}
+
+
+}
 
 </style>
 
-<!-- <script src="//d3js.org/d3.v3.min.js"></script> -->
-
 <body>
-<div id="start" style="padding-left:50px ;text-align:center;padding-right: 50px;">
-<img width="100%" height="75%" src="src/doodle.png">
+<div id="start" style="padding-left:100px ;text-align:center;padding-right: 100px;">
+<img width="100%" height="100%" src="/title.png">
 </div>
-<h3 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">If someone asks you to draw a square, how would you do it? Would you start from the top-left and go right? Would you draw it in one stroke? Would you draw it clockwise or not? Though these details might be trivial, they reveal a lot about a person. Even if we don&rsquo;t realize it, our culture has many effects in our life. It affects art by shaping the worldview of the artist and the associations they have with color, shapes and patterns.</span></h3>
+<h3 style="text-align: justify; padding-left: 100px;padding-right: 100px; font-family: Comic Sans MS, Comic Sans, cursive;">
+<span style="font-weight: 40;">If someone asks you to draw a square, how would you do it? Would you start from the top-left and go right? Would you draw it in one stroke? Would you draw it clockwise or not? Though these details might be trivial, they reveal a lot about a person. Even if we don&rsquo;t realize it, our culture has many effects in our life. It affects art by shaping the worldview of the artist and the associations they have with color, shapes and patterns.</span></h3>
 <p></p>
 <p></p>
-<h3 style="text-align: center; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">Let's do a quick exercise ! Ready ? Draw a circle in the box below: Go ahead !&nbsp;</h3>
-
-<div style="padding-left:0px ;text-align:center" >
-<svg  width="500" height="350">
+<h3 style="text-align: center; padding-left: 100px;padding-right: 100px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">Let's do a quick exercise ! Ready ? Draw a circle in the box below: Go ahead !</h3>
+<div style="padding-left:100px ;padding-right:100px ;text-align:center" >
+<svg  width="400" height="350">
   <rect style="fill:#f7f4f9;stroke-width:3;stroke:rgb(0,0,0)" width="100%" height="100%" ></rect>
 </svg></div>
 <div id="trial" style="padding-left:50px;style=font-weight:bold;text-align:center">
 <!-- <rect id="t" style="fill:#00FDC7"></rect> -->
 <p id="t" style="font-weight:bold"></p>
 </div>
-<h4 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">How did you draw the shape ? Clockwise or Anti-Clockwise ? Did you start at the top or the bottom ? The way you draw holds clues about where you come from.&nbsp;</h4>
-<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">We analyzed the public database from <a href="https://quickdraw.withgoogle.com/data"> Google's Quick,Draw! </a> to compare how people draw basic shapes around the world. Our study suggests that the way you draw basic shapes such as Square, Circle, Triangle is linked to geography and cultural upbringing,&nbsp;<span>deep-rooted in hundreds of years of written language, and significant in developmental psychology and trends in education today.</span></h3>
-<h3 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">Circle: A Universal Form</h3>
-<div style="padding-left:50px ;text-align:justify;padding-right: 50px;">
-	<img width="100%" height="100%" src="src/cc.gif">
+<h4 style="text-align: justify; padding-left: 100px;padding-right: 100px; font-family: Comic Sans MS, Comic Sans, cursive; ">How did you draw the shape ? Clockwise or Anti-Clockwise ? Did you start at the top or the bottom ? The way you draw holds clues about where you come from.&nbsp;</h4>
+<h3 style="text-align: justify; padding-left: 100px;padding-right: 100px; font-family: Comic Sans MS, Comic Sans, cursive; "><span style="font-weight: 40;">We analyzed the public database from <a href="https://quickdraw.withgoogle.com/data"> Google's Quick,Draw! </a> to compare how people draw basic shapes around the world. Our study suggests that the way you draw basic shapes such as Square, Circle, Triangle is linked to geography and cultural upbringing,&nbsp;<span>deep-rooted in hundreds of years of written language, and significant in developmental psychology and trends in education today.</span></h3>
+<h2 style="text-align: justify; padding-left: 100px;padding-right: 100px; font-family: Comic Sans MS, Comic Sans, cursive; ">Circle: A Universal Form</h2>
+<div style="padding-left: 100px;padding-right: 100px;text-align:justify;">
+	<img width="100%" height="50%" src="/cc.gif">
 </div>
-<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+<h3 style="text-align: justify; padding-left: 100px;  font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 100px;"><span style="font-weight: 40;">
 Revered by the ancient Greeks, essential to Islamic art, and venerated in Zen and Tibetan Buddhism, circles are a universal shape. No matter where you begin, there are really only two ways to draw a circle, a single stroke heading clockwise, or a single stroke heading counterclockwise.</span></h3>
-<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+<h3 style="text-align: justify; padding-left: 100px;  font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 100px;"><span style="font-weight: 40;">
 Google’s dataset contains 119,000 unique circles drawn by people in 148 countries, and includes coordinates for the path traced by each player’s finger (or mouse). Applying some simple geometry to data from the 66 countries that submitted over 100 circles, we identified the circle-drawing directions favored by different nations.</span></h3>
+<p style="font-weight:bold;font-family: Comic Sans MS, Comic Sans, cursive;text-align:center;">How do people in the world draw a circle?</p>
 
-<div id="circle_chart" style="padding-left: 50px;style=font-weight:bold; text-align:center">
-<p style="font-weight:bold;font-family: Comic Sans MS, Comic Sans, cursive;text-align:left;padding-left:500px">How do people in the world draw a circle?</p>
+<div id="circle_chart" style="width: 50%;float: left; padding-left: 90px;style=font-weight:bold; text-align:center">
+<p></p>
+
 </div>
-<!-- <svg id="circle_chart" style="padding-left:50px;style=font-weight:bold;text-align:center"></svg> -->
+<div style="float: left; width: 37%;">
 
-<h3 style="text-align: justify; padding-left: 50px;padding-top: 30px;  font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
-Americans tend to draw circles anti-clockwise. Of nearly 50,000 circles drawn in the US, 86% were drawn this way. People in Japan, on the other hand, tend to draw circles in the opposite direction. Of 800 circles drawn in Japan, 80% went clockwise. Here’s a random sample of 100 circles people drew in each country:
-</span></h3>
-<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
-British, Czech, Australian, and Finnish circles were drawn in the same direction, with the same consistency, as American ones. Some countries are even more regular—around 90% of French, German, and Filipino drawers submitted circles drawn counterclockwise. In Vietnam, a full 95% were drawn this way.
-</span></h3>
-
-<h3 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">Square: Solidity and Stability</h3>
-<div style="padding-left:50px ;text-align:justify;padding-right: 50px;">
-	<img width="100%" height="100%" src="src/sq.gif">
+	<p style="text-align: justify; font-family: Comic Sans MS, Comic Sans, cursive;font-size:115%;"><span style="font-weight: 70;">Americans tend to draw circles anti-clockwise. Of nearly 50,000 circles drawn in the US, 86% were drawn this way. People in Japan, on the other hand, tend to draw circles in the opposite direction. Of 800 circles drawn in Japan, 80% went clockwise. Here’s a random sample of 100 circles people drew in each country:
+</span></p>
+	<p style="text-align: justify; font-family: Comic Sans MS, Comic Sans, cursive;font-size:115%;"><span style="font-weight: 70;">British, Czech, Australian, and Finnish circles were drawn in the same direction, with the same consistency, as American ones. Some countries are even more regular—around 90% of French, German, and Filipino drawers submitted circles drawn counterclockwise. In Vietnam, a full 95% were drawn this way.
+</span></p>
 </div>
 
-<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+<h2 style="clear:both;text-align: justify; padding-top: 50px;padding-left: 100px;padding-right: 100px;  font-family: Comic Sans MS, Comic Sans, cursive; ">Square: Solidity and Stability</h2>
+<div style="padding-left: 100px;padding-right: 100px;text-align:justify;">
+	<img width="100%" height="50%" src="/sq.gif">
+</div>
+<h3 style="text-align: justify; padding-left: 100px;  font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 100px;"><span style="font-weight: 40;">
 Squares represent solidity, a perfection that is static, dependable, earthly and material. In Hinduism, the square represents cosmic order and the balance of opposites; in Native American religions, the square represents permanence, a safe place. In Chinese symbolism, the square represents the earth. In many many cultures, a square is a meeting place, a plaza at the heart of a city.</span></h3>
-<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+<h3 style="text-align: justify; padding-left: 100px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 100px;"><span style="font-weight: 40;">
 Google’s dataset contains 120,538 unique squares drawn by people , and includes coordinates for the path traced by each player’s finger (or mouse).</span></h3>
+<p style="font-weight:bold;font-family: Comic Sans MS, Comic Sans, cursive;text-align:center;padding-top: 30px;">How do people in the world draw a square?</p>
 
-<div id="square_chart" style="padding-left: 50px;style=font-weight:bold; text-align:center">
-<p style="font-weight:bold;font-family: Comic Sans MS, Comic Sans, cursive;text-align:left;padding-left:500px">How do people in the world draw a square?</p>
+
+<div style="clear: both;float: left; padding-left: 90px;width: 37%;">
+	<p style="text-align: justify; font-family: Comic Sans MS, Comic Sans, cursive;font-size:115%;"><span style="font-weight: 40;">Most people in the world prefer to draw a square anti-clockwise. Out of nearly 60 000 squares drawn in the United State of America, 74% prefer to draw it this way. Unlike the trend observed with circles, people in Japan draw a square anti-clockwise like the rest of the world. 
+</span></p>
+	<p style="text-align: justify; font-family: Comic Sans MS, Comic Sans, cursive;font-size:115%;"><span style="font-weight: 40;">In Malaysia, India, United Arab Emirates and Saudi Arabia, there is equal preference for clockwise and anti-clockwise. 
+</span></p>
 </div>
-
-<h3 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
-Most people in the world prefer to draw a square anti-clockwise. Out of nearly 60 000 squares drawn in the United State of America, 74% prefer to draw it this way. Unlike the trend observed with circles, people in Japan draw a square anti-clockwise like the rest of the world. 
-</span></h3>
-
-<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
-In Malaysia, India, United Arab Emirates and Saudi Arabia, there is equal preference for clockwise and anti-clockwise. 
-</span></h3>
-
-<h3 style="text-align: justify; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">Triangle: Resiliance and Resolve</h3>
-<div style="padding-left:50px ;text-align:justify;padding-right: 50px;">
-	<img width="100%" height="100%" src="src/tr.gif">
+<div id="square_chart" style="width: 50%;float: left; padding-left: 40px;style=font-weight:bold; text-align:center">
+<p></p>
 </div>
-
-<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+<h2 style="clear:both;text-align: justify; padding-top: 50px;padding-left: 100px;padding-right: 100px;  font-family: Comic Sans MS, Comic Sans, cursive; ">Triangle: Resiliance and Resolve</h2>
+<div style="padding-left: 100px;padding-right: 100px;text-align:justify;">
+	<img width="100%" height="50%" src="/tr.gif">
+</div>
+<h3 style="text-align: justify; padding-left: 100px;  font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 100px;"><span style="font-weight: 40;">
 In Western society, equilateral triangles most often have Christian meanings in religious contexts. Because the Christian God is a trinity — Father, Son, and Holy Ghost united in a single godhead—he is commonly represented by a triangle.
-
 Pythagoras associated the number 3 with triangles, which is meaningful to many groups. Triangles and other three-part symbols may present such concepts as past, present, and future or spirit, mind, and body.</span></h3>
-
-<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
+</span></h3>
+<h3 style="text-align: justify; padding-left: 100px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 100px;"><span style="font-weight: 40;">
 Google’s dataset contains 120,499 unique squares drawn by people , and includes coordinates for the path traced by each player’s finger (or mouse).</span></h3>
+<p style="font-weight:bold;font-family: Comic Sans MS, Comic Sans, cursive;text-align:center;padding-top: 30px;">How do people in the world draw a triangle?</p>
+<div id="triangle_chart" style="width: 50%;float: left; padding-left: 90px;style=font-weight:bold; text-align:center">
+<p></p>
 
-<div id="triangle_chart" style="padding-left: 50px;style=font-weight:bold; text-align:center">
-<p style="font-weight:bold;font-family: Comic Sans MS, Comic Sans, cursive;text-align:left;padding-left:500px">How do people in the world draw a triangle?</p>
 </div>
+<div style="float: left; width: 37%;">
+	<p style="text-align: justify; font-family: Comic Sans MS, Comic Sans, cursive;font-size:115%;"><span style="font-weight: 70;">Unlike circles and squares, triangles follow a different trend. Most people in the world have an equal preference for clockwise/anti-clockwise when drawing a triangle. There are a few exceptions, in Brazil, more than 65% of the population prefere to draw a triangle clockwise.
+</span></p>
+	<p style="text-align: justify; font-family: Comic Sans MS, Comic Sans, cursive;font-size:115%;"><span style="font-weight: 70;">Whereas, in Taiwan, South Korea, Hong Kong and Japan, around 90% of the population prefere to draw a triangle anti-clockwise.
+</span></p>
+</div>
+<h2 style="clear:both;text-align: justify; padding-top: 50px;padding-left: 100px;padding-right: 100px;  font-family: Comic Sans MS, Comic Sans, cursive; ">Shapes by Country</h2>
+<h3 style="text-align: justify; padding-left: 100px;  font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 100px;"><span style="font-weight: 40;">
+Each period of culture produces an art of its own which can never be repeated. We are living through a widely distributed amateur creativity. We are in the age of sharing, in the age of user-generated content.The variety of doodles in Quick Draw! Dataset push us to expand our idea of beauty. Generated in a few seconds these drawings never became too mannered, and offer a fascinating window into human cognitive activity.</span></h3>
 
-<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
-Unlike circles and squares, triangles follow a different trend. Most people in the world have an equal preference for clockwise/anti-clockwise when drawing a triangle. There are a few exceptions, in Brasil, more than 65% of the population prefere to draw a triangle clockwise.
-</span></h3>
-
-<h3 style="text-align: justify; padding-left: 50px; padding-left: 50px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;"><span style="font-weight: 40;">
-Whereas, in Taiwan, South Korea, Hong Kong and Japan, around 90% of the population prefere to draw a triangle anti-clockwise. 
-</span></h3>
-
+<h3 style="text-align: justify; padding-left: 100px;  font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 100px;"><span style="font-weight: 40;">
+The lines that compose every drawing are in free finger movements, the signs people use are never identical, sometimes close to the reality, sometimes are so close to a personal vision of the reality, that it becomes too obscure to be understandable. The similarity of form in the drawings is a similarity in the cultural atmosphere, a similarity of ideals.</span></h3>
+<p style="font-weight:bold;font-family: Comic Sans MS, Comic Sans, cursive;text-align:left;padding-left: 100px;padding-top: 10px;">Choose a shape and hover over the map to observe an overlap of drawings and find out how each country draws the shape.</p>
+<div style="padding-left: 100px;padding-bottom: 50px;style=font-weight:bold; text-align:left;font-family: Comic Sans MS, Comic Sans, cursive;">
+<form id="dimensions">
+  <input  type='radio' id="circle" name="mode" checked> Circle</input>
+  <input type='radio' id="square" name="mode"> Square</input>
+	<input type='radio' id="triangle" name="mode"> Triangle</input>
+	<input type='radio' id="windmill" name="mode"> Windmill</input>
+	<input type='radio' id="traffic_light" name="mode"> Traffic Light</input>
+	<input type='radio' id="book" name="mode"> Book</input>
+	<input type='radio' id="car" name="mode"> Car</input>
+	<input type='radio' id="power_outlet" name="mode"> Power Outlet</input>
+</form>
+</div>
+<div id="map" style="width: 65%;float: left; padding-left: 90px;style=font-weight:bold; text-align:center">
+<p></p>
+</div>
+<div id="chart2"style="float: left; width: 27%;">
+<!-- <img width="75%" height="50%" src="/dog-circle.png"> -->
+</div>
+<h2 style="clear:both;text-align: justify; padding-top: 50px;padding-left: 100px;padding-right: 100px;  font-family: Comic Sans MS, Comic Sans, cursive; ">Swarm Plot</h2>
+<h2 style="clear:both;text-align: justify; padding-top: 50px;padding-left: 100px;padding-right: 100px;  font-family: Comic Sans MS, Comic Sans, cursive; ">Feature Statistics</h2>
 <script>
-
 var margin = {top: 50, left: 0,bottom: 10, right: 0},
 width="600", height="612";
 
@@ -143,7 +201,7 @@ var renderPath = d3.line()
     .y(function(d) { return d[1]; });
 //width+margin.left+margin.right
 
-
+var shape = "circle";
 var svg1 = d3.select("#circle_chart")
   .append("svg")
       .attr("width", 800)
@@ -151,6 +209,8 @@ var svg1 = d3.select("#circle_chart")
 	
 var g = svg1.attr("transform",
 			  "translate(" + 0 + "," + 0 + ")");
+		  
+
 			  
 var svg2 = d3.select("#square_chart")
   .append("svg")
@@ -178,8 +238,106 @@ var x = d3.scaleLinear()		// y = d3.scaleLinear()
 
 var z = d3.scaleOrdinal()
     .range(["#3690c0", "#fc4e2a"]);
+
+var inputElems = d3.selectAll("input");
+inputElems.on("change", function(d, i) {   // ** Highlight Change **
+     // do something here
+	 console.log(this.id);
+	 shape = this.id;
+});
+
+
+var map1 = d3.select("#map")
+  .append("svg")
+  .attr("width", 1000)
+  .attr("height", 600 );
 	
-  var mouseover = function(d) {
+var projection = d3.geoMercator()
+  .scale(130)
+  .center([-35,30])
+  .translate([width/2, height/2]);
+  
+var div = d3.select("#chart2").append("div")
+    .attr("class", "tooltip")
+    .style("opacity", 1);
+
+var tip_map = d3.tip()
+		.attr('class','d3-tip')
+		.offset([0,0])
+		.attr("data-html","true")
+		<!-- .attr("src","/dog.png") -->
+		.html(function(d) {
+		div.transition()
+				.duration(200)
+				.style("opacity", .9);
+		var name = d.properties.name;
+		var img_name = shape+"_"+name;
+		<!-- console.log("<img src='/"+img_name+".png'>"); -->
+		var path = "<img src='/drawings/"+shape+"/"+img_name+".png'>";
+		console.log(path);
+		div.html(path)
+		return (name);
+		});
+			
+var path = d3.geoPath();
+
+var color =["#fff7fb","#ece2f0","#d0d1e6","#a6bddb","#67a9cf","#3690c0","#02818a"]
+var map_data = d3.map();
+var colorScale = d3.scaleThreshold()
+  .domain([100000, 1000000, 10000000, 30000000, 100000000, 500000000])
+  .range(color);
+
+
+// Load external data and boot
+d3.queue()
+  .defer(d3.json, "world.json")
+  .defer(d3.csv, "world_population.csv", function(d) { map_data.set(d.code, +d.pop); })
+  .await(ready);
+
+function ready(error, topo) {
+
+  map1.call(tip_map);
+  // Draw the map
+  map1.append("g")
+    .selectAll("path")
+    .data(topo.features)
+    .enter()
+    .append("path")
+      // draw each country
+    .attr("d", d3.geoPath()
+        .projection(projection)
+      )
+      // set the color of each country
+    .attr("fill", function (d) {
+        d.total = map_data.get(d.id) || 0;
+        return colorScale(d.total);
+      })
+	.on('mouseover',function(d){
+			tip_map.show(d);
+			d3.select(this)
+				.style('opacity', 1)
+				.style('stroke-width',0.7);
+		
+		})
+	.on('mouseout',function(d){
+			tip_map.hide(d);
+			d3.select(this)
+				.style('opacity', 0.8)
+				.style('stroke-width',0.3);
+		});
+
+
+}
+
+function mousemove() {
+  div
+   .html("<span style='color:red'><br><img src='dog.jpeg'></span>")
+      .style("left", (d3.event.pageX - 34) + "px")
+      .style("top", (d3.event.pageY - 12) + "px");
+}
+
+	
+  var mouseover1 = function(d) {
 	
     // what subgroup are we hovering?
     var subgroupName = d3.select(this.parentNode).datum().key; // This was the tricky part
@@ -200,9 +358,7 @@ var z = d3.scaleOrdinal()
     // Back to normal opacity: 0.8
     d3.selectAll(".myRect")
       .style("opacity",1)
- 
-
-    }
+ }
 	
 	var tip = d3.tip()
 		.attr('class','d3-tip')
@@ -224,7 +380,7 @@ var z = d3.scaleOrdinal()
 		});
 
 	
-d3.csv("./processed_data/circle_per_country.csv", function(d, i, columns) {
+d3.csv("circle_per_country.csv", function(d, i, columns) {
   for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
   d.total = t;
   return d;
@@ -251,7 +407,7 @@ d3.csv("./processed_data/circle_per_country.csv", function(d, i, columns) {
 	  .attr("x", function(d) { return x(d[0]); })			    //.attr("y", function(d) { return y(d[1]); })	
 	  .attr("width", function(d) { return x(d[1]) - x(d[0]); })	//.attr("height", function(d) { return y(d[0]) - y(d[1]); })
 	  .attr("height", y.bandwidth())			    //.attr("width", x.bandwidth());	
-	  .on("mouseover", mouseover)
+	  .on("mouseover", mouseover1)
       .on("mouseleave", mouseleave);
     
 	svg1.call(tip);
@@ -308,7 +464,7 @@ d3.csv("./processed_data/circle_per_country.csv", function(d, i, columns) {
       .text(function(d) { return d; });
 });
 
-d3.csv("./processed_data/square_per_country.csv", function(d, i, columns) {
+d3.csv("square_per_country.csv", function(d, i, columns) {
   for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
   d.total = t;
   return d;
@@ -335,7 +491,7 @@ d3.csv("./processed_data/square_per_country.csv", function(d, i, columns) {
       .attr("x", function(d) { return x(d[0]); })			    //.attr("y", function(d) { return y(d[1]); })	
       .attr("width", function(d) { return x(d[1]) - x(d[0]); })	//.attr("height", function(d) { return y(d[0]) - y(d[1]); })
       .attr("height", y.bandwidth())			    //.attr("width", x.bandwidth());	
-	      .on("mouseover", mouseover)
+	      .on("mouseover", mouseover1)
       .on("mouseleave", mouseleave);
     
 	svg2.call(tip);
@@ -378,7 +534,7 @@ d3.csv("./processed_data/square_per_country.csv", function(d, i, columns) {
       .text(function(d) { return d; });
 });
 
-d3.csv("./processed_data/triangle_per_country.csv", function(d, i, columns) {
+d3.csv("triangle_per_country.csv", function(d, i, columns) {
   for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
   d.total = t;
   return d;
@@ -405,7 +561,7 @@ d3.csv("./processed_data/triangle_per_country.csv", function(d, i, columns) {
       .attr("x", function(d) { return x(d[0]); })			    //.attr("y", function(d) { return y(d[1]); })	
       .attr("width", function(d) { return x(d[1]) - x(d[0]); })	//.attr("height", function(d) { return y(d[0]) - y(d[1]); })
       .attr("height", y.bandwidth())			    //.attr("width", x.bandwidth());	
-	      .on("mouseover", mouseover)
+	      .on("mouseover", mouseover1)
       .on("mouseleave", mouseleave);
     
 	svg3.call(tip);
@@ -514,16 +670,7 @@ function getDirection(p){
       .append("h3")
       .text("Revered by the ancient Greeks, essential to Islamic art, and venerated in Zen and Tibetan Buddhism, circles are a universal shape. No matter where you begin, there are really only two ways to draw a circle, a single stroke heading clockwise, or a single stroke heading counterclockwise. Google’s dataset contains 119,000 unique circles drawn by people in 148 countries, and includes coordinates for the path traced by each player’s finger (or mouse). Applying some simple geometry to data from the 66 countries that submitted over 100 circles, we identified the circle-drawing directions favored by different nations.");
 	
-	<!-- d3.selectAll("#trial") -->
-		<!-- .append("rect") -->
-        <!-- .attr("id", "t") -->
-        <!-- .append("text") -->
-		<!-- .attr("font-weight","bold") -->
-        <!-- .text(dir) -->
 
-	
-	//console.log(typeof x);
-	//console.log(x);
 }
 
 </script>
