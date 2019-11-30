@@ -1,0 +1,996 @@
+country,stroke_count,drawing_time,count,word,continent
+Algeria,1.5,2.42,165,circle,Africa
+Angola,1.0,0.96,1,circle,Africa
+Anguilla,1.0,1.65,1,circle,North America
+Antigua and Barbuda,1.0,0.74,1,circle,North America
+Argentina,1.2,2.36,278,circle,South America
+Armenia,1.8,3.03,39,circle,Asia
+Aruba,1.2,1.86,4,circle,North America
+Australia,1.3,1.93,2752,circle,Australia
+Azerbaijan,1.4,2.16,24,circle,Asia
+Bahamas,1.1,2.37,16,circle,North America
+Bahrain,1.3,2.14,102,circle,Asia
+Bangladesh,1.4,2.57,57,circle,Asia
+Barbados,1.0,4.33,2,circle,North America
+Belize,1.0,1.16,4,circle,North America
+Bermuda,1.3,2.36,9,circle,North America
+Bhutan,1.0,0.65,1,circle,Asia
+"Bolivia, Plurinational State of",1.0,1.46,11,circle,South America
+Botswana,2.0,5.9,1,circle,Africa
+Brazil,1.2,2.22,2502,circle,South America
+Brunei Darussalam,1.2,2.0,39,circle,Asia
+Cambodia,1.3,1.97,173,circle,Asia
+Cameroon,1.0,1.4,1,circle,Africa
+Canada,1.3,2.06,4266,circle,North America
+Cayman Islands,2.2,4.2,6,circle,North America
+Chile,1.2,1.91,169,circle,South America
+China,1.1,1.72,10,circle,Asia
+Colombia,1.4,2.48,146,circle,South America
+Costa Rica,1.0,1.43,30,circle,North America
+Curaçao,1.0,1.65,10,circle,North America
+Cyprus,1.3,2.35,41,circle,Asia
+Dominica,1.0,1.3,3,circle,North America
+Dominican Republic,1.9,2.49,21,circle,North America
+Ecuador,1.4,3.48,43,circle,South America
+Egypt,1.5,2.72,231,circle,Africa
+El Salvador,1.2,2.94,22,circle,North America
+Eswatini,1.0,2.3,1,circle,Africa
+Fiji,1.0,0.95,1,circle,Australia
+French Guiana,1.0,3.36,2,circle,South America
+French Polynesia,1.6,1.28,5,circle,Australia
+Georgia,1.8,2.45,82,circle,Asia
+Ghana,1.0,1.48,2,circle,Africa
+Greenland,1.0,0.88,1,circle,North America
+Grenada,1.0,1.67,1,circle,North America
+Guadeloupe,1.0,1.58,4,circle,North America
+Guam,1.3,2.29,37,circle,Australia
+Guatemala,1.0,2.36,22,circle,North America
+Guyana,1.0,3.18,4,circle,South America
+Honduras,1.1,3.29,15,circle,North America
+Hong Kong,1.2,1.4,506,circle,Asia
+India,1.2,2.08,943,circle,Asia
+Indonesia,1.4,2.08,945,circle,Asia
+Iraq,1.6,2.64,245,circle,Asia
+Israel,1.3,2.25,356,circle,Asia
+Jamaica,1.1,2.5,10,circle,North America
+Japan,1.2,1.81,880,circle,Asia
+Jordan,1.6,2.24,144,circle,Asia
+Kazakhstan,1.4,2.57,181,circle,Asia
+Kenya,1.0,1.24,23,circle,Africa
+"Korea, Republic of",1.6,2.18,1731,circle,Asia
+Kuwait,1.5,2.08,225,circle,Asia
+Kyrgyzstan,1.0,2.34,9,circle,Asia
+Lao People's Democratic Republic,1.0,1.04,4,circle,Asia
+Lebanon,1.4,2.47,49,circle,Asia
+Libya,1.0,1.45,4,circle,Africa
+Macao,1.2,1.63,25,circle,Asia
+Madagascar,1.0,1.42,1,circle,Africa
+Malaysia,1.1,1.81,643,circle,Asia
+Maldives,1.1,1.91,16,circle,Asia
+Martinique,1.1,2.17,7,circle,North America
+Mauritius,1.0,1.25,10,circle,Africa
+Mayotte,1.0,3.27,3,circle,Africa
+Mexico,1.2,2.17,457,circle,North America
+"Micronesia, Federated States of",1.5,2.9,4,circle,Australia
+Mongolia,1.1,1.36,13,circle,Asia
+Morocco,1.6,2.7,109,circle,Africa
+Myanmar,1.0,1.46,9,circle,Asia
+Namibia,1.0,2.68,3,circle,Africa
+Nepal,1.4,2.52,48,circle,Asia
+New Caledonia,1.2,1.75,4,circle,Australia
+New Zealand,1.3,2.31,552,circle,Australia
+Nicaragua,1.0,1.51,8,circle,North America
+Nigeria,1.6,5.32,8,circle,Africa
+Northern Mariana Islands,1.0,1.52,4,circle,Australia
+Oman,2.0,2.74,53,circle,Asia
+Pakistan,1.3,2.55,150,circle,Asia
+"Palestine, State of",1.6,2.74,71,circle,Asia
+Panama,1.1,1.28,14,circle,North America
+Paraguay,1.0,2.23,12,circle,South America
+Peru,1.1,2.13,89,circle,South America
+Philippines,1.3,2.1,1520,circle,Asia
+Puerto Rico,1.2,2.07,56,circle,North America
+Qatar,1.2,1.96,177,circle,Asia
+Réunion,1.1,2.27,19,circle,Africa
+Saint Vincent and the Grenadines,1.0,1.38,1,circle,North America
+Saudi Arabia,1.7,2.6,1675,circle,Asia
+Senegal,1.0,2.49,3,circle,Africa
+Seychelles,1.0,0.96,1,circle,Africa
+Singapore,1.2,1.69,339,circle,Asia
+Somalia,1.0,0.92,3,circle,Africa
+South Africa,1.1,2.0,229,circle,Africa
+Sri Lanka,1.3,2.04,10,circle,Asia
+Suriname,1.5,1.81,8,circle,South America
+Taiwan,1.2,1.51,802,circle,Asia
+"Tanzania, United Republic of",1.4,2.01,5,circle,Africa
+Thailand,1.3,2.05,1538,circle,Asia
+Trinidad and Tobago,1.2,2.3,41,circle,North America
+Tunisia,1.1,1.69,48,circle,Africa
+Turkey,1.3,1.99,554,circle,Asia
+Turks and Caicos Islands,1.0,2.01,3,circle,North America
+Uganda,1.0,1.58,2,circle,Africa
+United Arab Emirates,1.2,1.81,777,circle,Asia
+United States,1.2,1.92,55037,circle,North America
+Uruguay,1.2,2.85,33,circle,South America
+Uzbekistan,1.0,1.31,9,circle,Asia
+"Venezuela, Bolivarian Republic of",1.6,3.44,56,circle,South America
+Viet Nam,1.3,2.13,1010,circle,Asia
+"Virgin Islands, British",1.0,0.51,1,circle,North America
+"Virgin Islands, U.S.",1.3,1.99,3,circle,North America
+Yemen,1.0,1.3,1,circle,Asia
+Zimbabwe,2.2,4.56,5,circle,Africa
+Algeria,3.3,5.33,176,square,Africa
+Anguilla,1.0,2.85,1,square,North America
+Antigua and Barbuda,1.0,0.21,1,square,North America
+Argentina,1.8,3.71,262,square,South America
+Armenia,1.7,3.23,25,square,Asia
+Aruba,3.3,6.92,3,square,North America
+Australia,1.5,2.68,2941,square,Australia
+Azerbaijan,2.7,4.51,21,square,Asia
+Bahamas,1.3,3.2,11,square,North America
+Bahrain,2.2,3.19,91,square,Asia
+Bangladesh,1.4,2.77,62,square,Asia
+Barbados,2.0,3.12,4,square,North America
+Belize,1.3,4.38,6,square,North America
+Bermuda,1.2,2.93,8,square,North America
+Bhutan,3.0,2.61,1,square,Asia
+"Bolivia, Plurinational State of",1.4,2.07,16,square,South America
+Botswana,1.0,2.04,2,square,Africa
+Brazil,1.6,3.3,2460,square,South America
+Brunei Darussalam,1.7,3.12,49,square,Asia
+Cambodia,2.3,3.64,119,square,Asia
+Cameroon,1.0,2.19,1,square,Africa
+Canada,1.4,2.85,4668,square,North America
+Cayman Islands,1.6,3.38,9,square,North America
+Chile,1.9,3.28,158,square,South America
+China,2.1,2.34,8,square,Asia
+Colombia,1.7,3.33,161,square,South America
+Costa Rica,1.6,3.02,30,square,North America
+Curaçao,1.3,4.17,9,square,North America
+Cyprus,2.0,3.53,37,square,Asia
+Côte d'Ivoire,1.0,1.9,2,square,Africa
+Dominica,2.0,4.45,1,square,North America
+Dominican Republic,1.6,3.11,32,square,North America
+Ecuador,1.5,2.76,45,square,South America
+Egypt,2.0,4.0,224,square,Africa
+El Salvador,1.9,3.16,16,square,North America
+Eswatini,1.0,3.86,1,square,Africa
+Fiji,1.3,4.79,3,square,Australia
+French Polynesia,1.0,2.63,4,square,Australia
+Georgia,2.5,5.03,79,square,Asia
+Ghana,1.0,3.08,1,square,Africa
+Grenada,1.0,1.76,2,square,North America
+Guadeloupe,2.3,2.84,7,square,North America
+Guam,1.3,2.19,28,square,Australia
+Guatemala,1.9,3.39,24,square,North America
+Guyana,3.0,5.21,3,square,South America
+Haiti,2.0,3.26,1,square,North America
+Honduras,1.7,3.74,22,square,North America
+Hong Kong,2.0,2.08,461,square,Asia
+India,1.6,3.06,948,square,Asia
+Indonesia,1.8,3.03,1070,square,Asia
+Iraq,2.8,4.64,238,square,Asia
+Israel,2.1,3.65,254,square,Asia
+Jamaica,1.7,3.33,19,square,North America
+Japan,1.8,2.58,801,square,Asia
+Jordan,1.9,3.58,137,square,Asia
+Kazakhstan,2.1,3.78,168,square,Asia
+Kenya,1.2,2.27,24,square,Africa
+"Korea, Republic of",2.7,3.45,1609,square,Asia
+Kuwait,1.7,3.31,192,square,Asia
+Kyrgyzstan,1.4,3.0,19,square,Asia
+Lao People's Democratic Republic,1.6,3.22,5,square,Asia
+Lebanon,1.4,2.6,52,square,Asia
+Libya,1.2,4.79,5,square,Africa
+Macao,3.1,3.38,28,square,Asia
+Madagascar,1.0,2.73,2,square,Africa
+Malawi,1.0,2.34,1,square,Africa
+Malaysia,1.8,2.76,672,square,Asia
+Maldives,1.5,3.52,17,square,Asia
+Martinique,3.4,7.32,5,square,North America
+Mauritania,1.0,3.11,2,square,Africa
+Mauritius,1.2,2.43,14,square,Africa
+Mexico,1.5,2.93,444,square,North America
+Mongolia,2.5,3.7,15,square,Asia
+Montserrat,1.0,2.05,1,square,North America
+Morocco,2.0,4.3,87,square,Africa
+Mozambique,1.0,2.11,2,square,Africa
+Myanmar,1.6,1.85,5,square,Asia
+Namibia,1.4,2.67,8,square,Africa
+Nepal,1.4,2.59,40,square,Asia
+New Caledonia,4.2,5.14,8,square,Australia
+New Zealand,1.5,2.81,630,square,Australia
+Nicaragua,1.4,3.03,7,square,North America
+Nigeria,1.0,3.25,1,square,Africa
+Northern Mariana Islands,1.2,2.4,8,square,Australia
+Oman,1.8,3.7,59,square,Asia
+Pakistan,1.5,3.1,110,square,Asia
+"Palestine, State of",3.0,6.71,45,square,Asia
+Panama,1.4,2.92,23,square,North America
+Paraguay,1.3,3.28,13,square,South America
+Peru,2.1,3.46,102,square,South America
+Philippines,1.6,3.0,1624,square,Asia
+Puerto Rico,1.6,2.99,78,square,North America
+Qatar,1.7,3.14,163,square,Asia
+Rwanda,1.0,3.75,1,square,Africa
+Réunion,1.4,2.85,21,square,Africa
+Saint Kitts and Nevis,2.5,4.66,4,square,North America
+Saint Vincent and the Grenadines,1.0,2.23,1,square,North America
+Saudi Arabia,2.4,4.13,1548,square,Asia
+Senegal,1.2,3.7,4,square,Africa
+Singapore,1.8,2.44,364,square,Asia
+Somalia,1.4,2.63,5,square,Africa
+South Africa,1.4,2.89,262,square,Africa
+Sri Lanka,1.5,3.6,10,square,Asia
+Suriname,1.0,2.57,5,square,South America
+Taiwan,2.4,2.7,669,square,Asia
+"Tanzania, United Republic of",1.0,2.12,2,square,Africa
+Thailand,2.2,3.13,1588,square,Asia
+Trinidad and Tobago,1.5,3.83,34,square,North America
+Tunisia,1.7,3.84,45,square,Africa
+Turkey,1.9,3.16,590,square,Asia
+Turks and Caicos Islands,3.0,11.39,2,square,North America
+Uganda,1.0,3.44,1,square,Africa
+United Arab Emirates,1.6,3.12,818,square,Asia
+United States,1.4,2.72,59284,square,North America
+Uruguay,1.9,4.31,27,square,South America
+Uzbekistan,1.5,3.35,11,square,Asia
+"Venezuela, Bolivarian Republic of",1.5,4.71,59,square,South America
+Viet Nam,1.8,3.18,879,square,Asia
+"Virgin Islands, British",1.0,2.37,1,square,North America
+"Virgin Islands, U.S.",1.2,4.76,4,square,North America
+Yemen,6.8,9.42,4,square,Asia
+Zambia,1.0,1.33,1,square,Africa
+Zimbabwe,1.5,3.26,2,square,Africa
+Afghanistan,1.5,5.86,2,triangle,Asia
+Algeria,1.6,2.95,191,triangle,Africa
+American Samoa,1.0,2.02,1,triangle,Australia
+Antigua and Barbuda,2.0,1.78,1,triangle,North America
+Argentina,1.6,2.62,286,triangle,South America
+Armenia,2.4,3.25,39,triangle,Asia
+Aruba,1.5,1.86,4,triangle,North America
+Australia,1.5,2.23,2742,triangle,Australia
+Azerbaijan,2.1,3.44,31,triangle,Asia
+Bahamas,1.4,2.54,16,triangle,North America
+Bahrain,1.8,2.86,103,triangle,Asia
+Bangladesh,1.3,2.08,63,triangle,Asia
+Barbados,1.9,2.8,7,triangle,North America
+Belize,1.3,1.57,3,triangle,North America
+Bermuda,1.3,1.74,9,triangle,North America
+"Bolivia, Plurinational State of",1.6,1.97,16,triangle,South America
+Botswana,4.0,4.63,1,triangle,Africa
+Brazil,1.5,2.45,2620,triangle,South America
+Brunei Darussalam,1.6,2.43,32,triangle,Asia
+Burkina Faso,1.0,0.31,1,triangle,Africa
+Cambodia,2.0,2.59,143,triangle,Asia
+Cameroon,1.0,2.53,1,triangle,Africa
+Canada,1.5,2.31,4297,triangle,North America
+Cayman Islands,1.4,2.56,5,triangle,North America
+Chile,1.6,2.44,166,triangle,South America
+China,1.9,2.69,13,triangle,Asia
+Colombia,1.8,2.87,169,triangle,South America
+Costa Rica,1.4,2.26,40,triangle,North America
+Curaçao,1.6,2.42,9,triangle,North America
+Cyprus,1.7,2.9,37,triangle,Asia
+Côte d'Ivoire,2.0,2.23,4,triangle,Africa
+Dominica,1.0,2.18,4,triangle,North America
+Dominican Republic,1.8,3.24,28,triangle,North America
+Ecuador,1.8,2.85,48,triangle,South America
+Egypt,1.7,2.68,223,triangle,Africa
+El Salvador,1.8,3.31,19,triangle,North America
+Fiji,3.0,2.82,1,triangle,Australia
+French Polynesia,1.5,2.79,4,triangle,Australia
+Georgia,1.6,3.28,82,triangle,Asia
+Ghana,1.0,1.05,1,triangle,Africa
+Greenland,1.0,0.71,1,triangle,North America
+Grenada,1.1,3.33,7,triangle,North America
+Guadeloupe,1.2,2.34,5,triangle,North America
+Guam,1.2,2.05,28,triangle,Australia
+Guatemala,1.4,2.24,18,triangle,North America
+Guyana,1.2,2.91,4,triangle,South America
+Honduras,1.2,1.88,20,triangle,North America
+Hong Kong,1.5,1.62,515,triangle,Asia
+India,1.5,2.39,884,triangle,Asia
+Indonesia,1.6,2.41,1009,triangle,Asia
+Iraq,2.1,3.35,255,triangle,Asia
+Israel,1.5,2.31,279,triangle,Asia
+Jamaica,1.7,2.86,17,triangle,North America
+Japan,1.4,1.86,812,triangle,Asia
+Jordan,1.6,2.89,137,triangle,Asia
+Kazakhstan,1.7,2.88,199,triangle,Asia
+Kenya,1.9,4.03,16,triangle,Africa
+"Korea, Republic of",1.8,2.53,1749,triangle,Asia
+Kuwait,2.0,2.89,205,triangle,Asia
+Kyrgyzstan,3.0,4.03,20,triangle,Asia
+Lao People's Democratic Republic,1.4,2.01,5,triangle,Asia
+Lebanon,1.3,1.97,60,triangle,Asia
+Libya,1.0,1.98,8,triangle,Africa
+Macao,1.4,1.5,23,triangle,Asia
+Madagascar,1.0,0.61,2,triangle,Africa
+Malawi,3.0,4.23,1,triangle,Africa
+Malaysia,1.6,2.29,637,triangle,Asia
+Maldives,2.9,4.88,14,triangle,Asia
+Mali,8.0,17.46,1,triangle,Africa
+Marshall Islands,2.0,1.52,2,triangle,Australia
+Martinique,3.0,2.84,2,triangle,North America
+Mauritius,1.2,2.29,17,triangle,Africa
+Mayotte,1.5,3.29,2,triangle,Africa
+Mexico,1.5,2.53,486,triangle,North America
+Mongolia,1.5,2.41,14,triangle,Asia
+Montserrat,4.0,3.42,1,triangle,North America
+Morocco,1.5,2.84,129,triangle,Africa
+Myanmar,4.7,5.61,3,triangle,Asia
+Namibia,1.6,2.03,5,triangle,Africa
+Nepal,1.5,2.58,35,triangle,Asia
+New Caledonia,1.4,2.31,5,triangle,Australia
+New Zealand,1.5,2.58,564,triangle,Australia
+Nicaragua,1.7,1.74,6,triangle,North America
+Nigeria,1.0,3.75,3,triangle,Africa
+Northern Mariana Islands,1.2,2.6,6,triangle,Australia
+Oman,1.5,2.82,51,triangle,Asia
+Pakistan,1.6,2.85,136,triangle,Asia
+"Palestine, State of",1.6,3.1,54,triangle,Asia
+Panama,1.7,3.38,14,triangle,North America
+Paraguay,1.4,2.01,9,triangle,South America
+Peru,1.4,2.41,104,triangle,South America
+Philippines,1.7,2.55,1470,triangle,Asia
+Puerto Rico,1.5,2.19,67,triangle,North America
+Qatar,1.4,2.28,175,triangle,Asia
+Rwanda,2.0,3.37,1,triangle,Africa
+Réunion,1.7,2.86,30,triangle,Africa
+Saint Kitts and Nevis,1.0,1.77,1,triangle,North America
+Saint Lucia,1.0,1.86,1,triangle,North America
+Saint Martin (French part),1.0,1.73,1,triangle,North America
+Saint Vincent and the Grenadines,1.0,2.98,2,triangle,North America
+Samoa,1.0,1.66,1,triangle,Australia
+Saudi Arabia,2.2,3.35,1678,triangle,Asia
+Singapore,1.5,1.89,387,triangle,Asia
+Somalia,1.5,4.22,4,triangle,Africa
+South Africa,1.4,2.41,240,triangle,Africa
+Sri Lanka,1.1,1.76,12,triangle,Asia
+Suriname,1.5,2.81,8,triangle,South America
+Taiwan,1.3,1.47,725,triangle,Asia
+Tajikistan,2.0,14.07,1,triangle,Asia
+"Tanzania, United Republic of",1.0,2.58,3,triangle,Africa
+Thailand,1.7,2.56,1374,triangle,Asia
+Trinidad and Tobago,1.5,2.31,46,triangle,North America
+Tunisia,1.5,2.77,56,triangle,Africa
+Turkey,1.7,2.37,536,triangle,Asia
+Uganda,2.7,7.36,3,triangle,Africa
+United Arab Emirates,1.5,2.41,777,triangle,Asia
+United States,1.4,2.25,55646,triangle,North America
+Uruguay,1.3,2.34,29,triangle,South America
+Uzbekistan,1.2,2.14,8,triangle,Asia
+"Venezuela, Bolivarian Republic of",1.5,2.64,50,triangle,South America
+Viet Nam,1.6,2.56,928,triangle,Asia
+"Virgin Islands, U.S.",1.5,2.84,2,triangle,North America
+Zambia,1.0,1.81,3,triangle,Africa
+Algeria,6.5,12.03,180,windmill,Africa
+Angola,7.0,8.93,1,windmill,Africa
+Anguilla,8.0,14.14,1,windmill,North America
+Antigua and Barbuda,4.0,14.3,2,windmill,North America
+Argentina,6.0,10.37,280,windmill,South America
+Armenia,6.4,10.82,29,windmill,Asia
+Aruba,5.2,9.8,5,windmill,North America
+Australia,6.1,10.19,2943,windmill,Australia
+Azerbaijan,5.7,9.88,16,windmill,Asia
+Bahamas,5.8,12.11,8,windmill,North America
+Bahrain,7.4,10.73,75,windmill,Asia
+Bangladesh,5.8,9.43,71,windmill,Asia
+Barbados,7.5,11.52,12,windmill,North America
+Belize,8.3,11.96,3,windmill,North America
+Bermuda,5.0,10.46,8,windmill,North America
+Bhutan,6.0,6.71,1,windmill,Asia
+"Bolivia, Plurinational State of",6.1,10.89,17,windmill,South America
+Botswana,8.0,12.2,1,windmill,Africa
+Brazil,6.1,11.03,2131,windmill,South America
+Brunei Darussalam,5.9,8.99,41,windmill,Asia
+Cambodia,6.2,9.6,110,windmill,Asia
+Canada,5.8,10.05,4431,windmill,North America
+Cayman Islands,6.8,10.7,12,windmill,North America
+Chile,6.3,10.44,139,windmill,South America
+China,5.1,9.64,16,windmill,Asia
+Colombia,5.6,10.6,173,windmill,South America
+Costa Rica,6.5,11.38,46,windmill,North America
+Curaçao,7.7,13.21,6,windmill,North America
+Cyprus,6.3,10.38,37,windmill,Asia
+Côte d'Ivoire,3.0,9.92,1,windmill,Africa
+Dominica,5.4,7.22,5,windmill,North America
+Dominican Republic,5.8,10.24,19,windmill,North America
+Ecuador,5.9,11.2,40,windmill,South America
+Egypt,6.8,11.22,161,windmill,Africa
+El Salvador,5.5,10.28,16,windmill,North America
+Fiji,5.0,7.08,1,windmill,Australia
+French Guiana,8.5,13.68,2,windmill,South America
+French Polynesia,8.0,9.33,1,windmill,Australia
+Georgia,6.6,11.19,70,windmill,Asia
+Ghana,5.3,9.43,3,windmill,Africa
+Grenada,7.5,9.44,2,windmill,North America
+Guadeloupe,7.2,11.03,4,windmill,North America
+Guam,6.6,9.58,28,windmill,Australia
+Guatemala,6.2,11.84,19,windmill,North America
+Guyana,5.0,8.49,3,windmill,South America
+Honduras,6.5,10.27,22,windmill,North America
+Hong Kong,6.4,8.48,504,windmill,Asia
+India,6.0,9.39,1146,windmill,Asia
+Indonesia,6.2,9.8,925,windmill,Asia
+Iraq,6.9,10.94,178,windmill,Asia
+Israel,6.4,10.34,298,windmill,Asia
+Jamaica,5.0,11.33,9,windmill,North America
+Japan,6.8,9.1,728,windmill,Asia
+Jordan,6.7,10.97,105,windmill,Asia
+Kazakhstan,5.9,10.25,193,windmill,Asia
+Kenya,7.5,11.25,14,windmill,Africa
+"Korea, Republic of",6.2,9.07,1406,windmill,Asia
+Kuwait,6.0,9.79,161,windmill,Asia
+Kyrgyzstan,6.6,11.23,18,windmill,Asia
+Lao People's Democratic Republic,6.2,10.19,4,windmill,Asia
+Lebanon,6.2,10.4,51,windmill,Asia
+Libya,7.2,11.98,5,windmill,Africa
+Macao,7.0,8.53,27,windmill,Asia
+Malawi,5.0,16.34,1,windmill,Africa
+Malaysia,5.9,9.43,663,windmill,Asia
+Maldives,6.9,10.81,13,windmill,Asia
+Martinique,7.0,12.14,2,windmill,North America
+Mauritania,8.0,14.84,1,windmill,Africa
+Mauritius,6.5,9.96,14,windmill,Africa
+Mexico,5.8,9.92,413,windmill,North America
+"Micronesia, Federated States of",6.7,12.01,3,windmill,Australia
+Mongolia,5.6,10.13,19,windmill,Asia
+Montserrat,6.7,12.03,3,windmill,North America
+Morocco,6.0,11.83,80,windmill,Africa
+Mozambique,6.0,12.78,1,windmill,Africa
+Myanmar,5.7,8.98,6,windmill,Asia
+Namibia,8.0,15.21,1,windmill,Africa
+Nepal,6.2,10.24,57,windmill,Asia
+New Caledonia,6.7,10.51,9,windmill,Australia
+New Zealand,5.9,10.57,621,windmill,Australia
+Nicaragua,5.3,14.18,6,windmill,North America
+Nigeria,7.0,10.66,6,windmill,Africa
+Northern Mariana Islands,4.7,9.43,6,windmill,Australia
+Oman,7.4,10.33,40,windmill,Asia
+Pakistan,6.1,9.89,133,windmill,Asia
+"Palestine, State of",6.4,10.92,57,windmill,Asia
+Panama,6.2,10.01,15,windmill,North America
+Paraguay,5.6,11.16,7,windmill,South America
+Peru,6.0,10.58,106,windmill,South America
+Philippines,6.3,10.43,1624,windmill,Asia
+Puerto Rico,6.0,10.64,56,windmill,North America
+Qatar,6.3,10.38,115,windmill,Asia
+Réunion,6.1,9.34,18,windmill,Africa
+Saint Kitts and Nevis,6.0,11.9,1,windmill,North America
+Saint Martin (French part),5.5,11.51,2,windmill,North America
+Saint Vincent and the Grenadines,8.0,13.3,1,windmill,North America
+Samoa,5.0,9.03,1,windmill,Australia
+Saudi Arabia,6.6,10.83,1098,windmill,Asia
+Seychelles,15.0,19.62,1,windmill,Africa
+Singapore,5.9,9.07,432,windmill,Asia
+South Africa,5.9,10.17,305,windmill,Africa
+Sri Lanka,5.9,10.17,14,windmill,Asia
+Suriname,5.3,10.34,16,windmill,South America
+Taiwan,6.5,8.65,756,windmill,Asia
+Tajikistan,3.0,7.22,2,windmill,Asia
+"Tanzania, United Republic of",5.0,9.23,2,windmill,Africa
+Thailand,6.3,9.0,1374,windmill,Asia
+Trinidad and Tobago,6.3,10.84,43,windmill,North America
+Tunisia,6.2,10.62,43,windmill,Africa
+Turkey,5.9,9.63,468,windmill,Asia
+Turkmenistan,7.0,11.88,1,windmill,Asia
+Uganda,6.5,7.64,2,windmill,Africa
+United Arab Emirates,6.1,10.07,668,windmill,Asia
+United States,5.9,10.2,52923,windmill,North America
+Uruguay,6.3,10.53,24,windmill,South America
+Uzbekistan,6.8,8.98,14,windmill,Asia
+"Venezuela, Bolivarian Republic of",5.2,10.92,40,windmill,South America
+Viet Nam,6.1,9.93,907,windmill,Asia
+"Virgin Islands, U.S.",1.5,7.97,2,windmill,North America
+Yemen,8.0,9.14,1,windmill,Asia
+Zimbabwe,7.0,7.87,4,windmill,Africa
+Afghanistan,12.0,8.71,1,traffic light,Asia
+Algeria,5.5,8.73,229,traffic light,Africa
+American Samoa,6.0,6.01,1,traffic light,Australia
+Angola,4.0,4.47,1,traffic light,Africa
+Anguilla,5.0,9.15,1,traffic light,North America
+Antigua and Barbuda,3.5,8.37,2,traffic light,North America
+Argentina,5.4,8.12,287,traffic light,South America
+Armenia,5.2,6.5,28,traffic light,Asia
+Aruba,4.0,5.48,5,traffic light,North America
+Australia,5.2,6.98,3153,traffic light,Australia
+Azerbaijan,5.7,8.03,22,traffic light,Asia
+Bahamas,4.7,9.62,9,traffic light,North America
+Bahrain,5.7,7.22,102,traffic light,Asia
+Bangladesh,5.4,7.87,67,traffic light,Asia
+Barbados,5.0,9.12,9,traffic light,North America
+Belize,6.8,9.37,5,traffic light,North America
+Bermuda,4.8,7.47,11,traffic light,North America
+"Bolivia, Plurinational State of",4.8,6.78,16,traffic light,South America
+Botswana,3.5,11.65,2,traffic light,Africa
+Brazil,4.8,7.6,2312,traffic light,South America
+Brunei Darussalam,5.4,6.38,33,traffic light,Asia
+Cambodia,5.5,7.23,149,traffic light,Asia
+Cameroon,4.0,7.36,1,traffic light,Africa
+Canada,4.9,6.97,4529,traffic light,North America
+Cayman Islands,4.5,7.74,6,traffic light,North America
+Chile,5.3,6.99,174,traffic light,South America
+China,6.2,7.38,16,traffic light,Asia
+Colombia,5.0,7.83,177,traffic light,South America
+Costa Rica,4.3,5.76,28,traffic light,North America
+Curaçao,4.0,6.36,6,traffic light,North America
+Cyprus,5.2,6.6,34,traffic light,Asia
+Côte d'Ivoire,5.0,8.34,1,traffic light,Africa
+Dominica,6.0,8.45,4,traffic light,North America
+Dominican Republic,4.9,7.65,24,traffic light,North America
+Ecuador,5.0,7.47,41,traffic light,South America
+Egypt,5.3,8.01,200,traffic light,Africa
+El Salvador,4.4,6.05,15,traffic light,North America
+Fiji,4.5,7.09,2,traffic light,Australia
+French Guiana,4.0,7.91,1,traffic light,South America
+French Polynesia,5.0,7.25,2,traffic light,Australia
+Georgia,5.6,8.45,77,traffic light,Asia
+Ghana,4.5,6.05,2,traffic light,Africa
+Greenland,6.0,7.65,1,traffic light,North America
+Grenada,5.0,8.49,2,traffic light,North America
+Guadeloupe,3.8,8.49,4,traffic light,North America
+Guam,5.6,7.45,23,traffic light,Australia
+Guatemala,4.4,7.49,15,traffic light,North America
+Guyana,5.3,9.04,6,traffic light,South America
+Haiti,5.0,15.17,1,traffic light,North America
+Honduras,5.1,6.45,21,traffic light,North America
+Hong Kong,5.7,6.07,550,traffic light,Asia
+India,5.5,7.37,1017,traffic light,Asia
+Indonesia,5.4,6.99,1097,traffic light,Asia
+Iraq,5.4,8.3,250,traffic light,Asia
+Israel,5.7,7.37,332,traffic light,Asia
+Jamaica,4.6,11.15,7,traffic light,North America
+Japan,5.7,6.41,612,traffic light,Asia
+Jordan,5.5,7.67,147,traffic light,Asia
+Kazakhstan,5.3,7.03,183,traffic light,Asia
+Kenya,5.9,9.74,22,traffic light,Africa
+"Korea, Republic of",6.4,7.16,1358,traffic light,Asia
+Kuwait,5.7,7.65,206,traffic light,Asia
+Kyrgyzstan,5.4,7.7,12,traffic light,Asia
+Lao People's Democratic Republic,6.8,5.79,6,traffic light,Asia
+Lebanon,4.8,6.39,50,traffic light,Asia
+Libya,5.3,8.39,6,traffic light,Africa
+Macao,5.6,5.49,25,traffic light,Asia
+Madagascar,4.0,2.24,1,traffic light,Africa
+Malaysia,5.5,6.75,747,traffic light,Asia
+Maldives,5.9,8.52,11,traffic light,Asia
+Martinique,5.5,7.91,2,traffic light,North America
+Mauritius,5.6,8.36,17,traffic light,Africa
+Mayotte,2.0,5.4,1,traffic light,Africa
+Mexico,5.3,7.36,464,traffic light,North America
+"Micronesia, Federated States of",6.0,9.51,1,traffic light,Australia
+Mongolia,4.6,5.98,13,traffic light,Asia
+Montserrat,4.7,9.84,3,traffic light,North America
+Morocco,5.3,8.91,84,traffic light,Africa
+Mozambique,3.0,8.35,1,traffic light,Africa
+Myanmar,5.4,7.17,7,traffic light,Asia
+Namibia,4.7,5.25,7,traffic light,Africa
+Nepal,5.3,8.05,59,traffic light,Asia
+New Caledonia,5.4,8.4,8,traffic light,Australia
+New Zealand,5.2,7.72,631,traffic light,Australia
+Nicaragua,5.3,7.78,6,traffic light,North America
+Nigeria,7.0,9.21,1,traffic light,Africa
+Northern Mariana Islands,4.9,9.64,7,traffic light,Australia
+Oman,7.2,7.96,73,traffic light,Asia
+Pakistan,5.5,7.92,155,traffic light,Asia
+"Palestine, State of",5.7,8.38,54,traffic light,Asia
+Panama,4.4,5.98,26,traffic light,North America
+Paraguay,6.1,8.84,12,traffic light,South America
+Peru,5.7,7.74,95,traffic light,South America
+Philippines,5.3,7.31,1703,traffic light,Asia
+Puerto Rico,4.6,6.8,58,traffic light,North America
+Qatar,5.3,7.62,144,traffic light,Asia
+Réunion,5.4,7.8,25,traffic light,Africa
+Saint Kitts and Nevis,5.0,8.48,1,traffic light,North America
+Saint Lucia,5.0,3.96,1,traffic light,North America
+Saint Martin (French part),4.0,7.73,1,traffic light,North America
+Saint Vincent and the Grenadines,4.0,5.16,1,traffic light,North America
+Samoa,4.0,5.83,1,traffic light,Australia
+Saudi Arabia,5.5,7.69,1659,traffic light,Asia
+Senegal,5.0,9.27,1,traffic light,Africa
+Seychelles,7.0,9.88,1,traffic light,Africa
+Singapore,5.4,6.45,436,traffic light,Asia
+Somalia,4.7,6.14,3,traffic light,Africa
+South Africa,5.2,7.18,295,traffic light,Africa
+Sri Lanka,5.5,7.2,11,traffic light,Asia
+Suriname,5.8,8.29,4,traffic light,South America
+Taiwan,5.9,6.26,627,traffic light,Asia
+Tajikistan,6.0,6.12,1,traffic light,Asia
+"Tanzania, United Republic of",4.0,7.0,1,traffic light,Africa
+Thailand,5.7,6.66,1585,traffic light,Asia
+Togo,1.0,0.4,1,traffic light,Africa
+Trinidad and Tobago,4.5,7.26,42,traffic light,North America
+Tunisia,5.0,7.87,47,traffic light,Africa
+Turkey,5.3,6.8,689,traffic light,Asia
+Turks and Caicos Islands,4.0,5.76,1,traffic light,North America
+United Arab Emirates,5.4,7.47,804,traffic light,Asia
+United States,4.8,6.88,54521,traffic light,North America
+Uruguay,4.7,7.29,32,traffic light,South America
+Uzbekistan,7.1,8.31,14,traffic light,Asia
+"Venezuela, Bolivarian Republic of",5.6,9.46,59,traffic light,South America
+Viet Nam,5.4,7.41,952,traffic light,Asia
+"Virgin Islands, U.S.",3.8,11.2,5,traffic light,North America
+Yemen,9.5,6.75,2,traffic light,Asia
+Zimbabwe,5.8,8.74,8,traffic light,Africa
+Afghanistan,2.5,5.95,2,car,Asia
+Algeria,4.9,10.32,305,car,Africa
+American Samoa,10.0,17.73,1,car,Australia
+Anguilla,5.0,14.44,2,car,North America
+Antigua and Barbuda,5.2,11.61,4,car,North America
+Argentina,4.6,9.51,493,car,South America
+Armenia,5.0,10.3,42,car,Asia
+Aruba,5.3,9.42,10,car,North America
+Australia,5.1,9.72,4347,car,Australia
+Azerbaijan,4.9,10.34,34,car,Asia
+Bahamas,4.1,11.21,13,car,North America
+Bahrain,5.0,8.88,185,car,Asia
+Bangladesh,4.4,9.63,89,car,Asia
+Barbados,5.9,13.03,7,car,North America
+Belize,6.5,11.25,4,car,North America
+Bermuda,4.8,11.88,8,car,North America
+Bhutan,2.0,5.98,1,car,Asia
+"Bolivia, Plurinational State of",4.6,8.85,31,car,South America
+Botswana,1.0,5.47,1,car,Africa
+Brazil,4.7,9.73,3520,car,South America
+Brunei Darussalam,4.6,8.84,59,car,Asia
+Cambodia,5.2,9.15,246,car,Asia
+Cameroon,4.5,10.73,2,car,Africa
+Canada,5.0,9.74,6420,car,North America
+Cayman Islands,4.0,10.91,8,car,North America
+Chile,4.6,8.81,246,car,South America
+China,4.2,8.45,20,car,Asia
+Colombia,4.5,9.65,268,car,South America
+Costa Rica,5.3,9.5,53,car,North America
+Curaçao,5.6,11.12,8,car,North America
+Cyprus,5.1,9.73,62,car,Asia
+Côte d'Ivoire,7.7,15.43,3,car,Africa
+Dominica,8.0,18.7,1,car,North America
+Dominican Republic,4.2,10.27,41,car,North America
+Ecuador,5.0,10.06,81,car,South America
+Egypt,5.3,10.42,349,car,Africa
+El Salvador,3.6,8.15,14,car,North America
+Ethiopia,3.0,10.64,2,car,Africa
+Fiji,3.7,9.76,3,car,Australia
+French Polynesia,6.2,11.65,5,car,Australia
+Georgia,4.1,9.53,142,car,Asia
+Greenland,3.5,9.29,4,car,North America
+Grenada,3.7,7.67,3,car,North America
+Guadeloupe,4.3,13.13,3,car,North America
+Guam,4.2,8.69,28,car,Australia
+Guatemala,5.0,10.49,27,car,North America
+Guyana,6.0,20.08,1,car,South America
+Haiti,2.5,10.18,2,car,North America
+Honduras,5.0,9.58,22,car,North America
+Hong Kong,5.4,7.33,829,car,Asia
+India,4.7,9.12,1452,car,Asia
+Indonesia,4.7,9.11,1719,car,Asia
+Iraq,4.6,9.85,445,car,Asia
+Israel,5.1,9.43,483,car,Asia
+Jamaica,4.1,11.75,18,car,North America
+Japan,4.5,6.96,1381,car,Asia
+Jordan,4.4,8.94,207,car,Asia
+Kazakhstan,4.6,9.93,314,car,Asia
+Kenya,5.7,10.46,24,car,Africa
+"Korea, Republic of",4.5,7.04,3245,car,Asia
+Kuwait,4.8,8.99,329,car,Asia
+Kyrgyzstan,4.2,7.78,31,car,Asia
+Lao People's Democratic Republic,5.7,8.1,12,car,Asia
+Lebanon,4.7,9.1,77,car,Asia
+Liberia,3.7,7.0,3,car,Africa
+Libya,4.0,9.8,11,car,Africa
+Macao,5.1,7.73,31,car,Asia
+Madagascar,3.0,6.12,1,car,Africa
+Malaysia,5.0,8.49,1071,car,Asia
+Maldives,5.4,9.11,17,car,Asia
+Marshall Islands,6.0,19.16,1,car,Australia
+Martinique,4.6,10.62,5,car,North America
+Mauritania,6.7,13.18,3,car,Africa
+Mauritius,5.0,8.33,19,car,Africa
+Mayotte,4.0,10.79,1,car,Africa
+Mexico,4.7,9.32,758,car,North America
+Mongolia,4.6,9.39,21,car,Asia
+Montserrat,10.0,18.87,2,car,North America
+Morocco,5.3,10.65,150,car,Africa
+Mozambique,3.3,10.53,3,car,Africa
+Myanmar,4.9,8.46,10,car,Asia
+Namibia,3.9,10.9,8,car,Africa
+Nepal,4.7,8.97,65,car,Asia
+New Caledonia,4.4,8.91,10,car,Australia
+New Zealand,4.9,10.04,864,car,Australia
+Nicaragua,5.1,9.25,10,car,North America
+Nigeria,3.6,9.53,7,car,Africa
+Northern Mariana Islands,4.1,10.43,11,car,Australia
+Oman,4.5,8.8,119,car,Asia
+Pakistan,4.7,9.79,207,car,Asia
+Palau,6.0,6.44,1,car,Australia
+"Palestine, State of",4.8,9.51,106,car,Asia
+Panama,5.6,9.69,32,car,North America
+Paraguay,4.8,8.92,13,car,South America
+Peru,5.4,9.9,168,car,South America
+Philippines,4.8,9.33,2606,car,Asia
+Puerto Rico,5.1,10.12,80,car,North America
+Qatar,4.1,8.92,233,car,Asia
+Réunion,5.1,10.77,29,car,Africa
+Saint Kitts and Nevis,4.3,9.68,3,car,North America
+Samoa,2.0,5.72,1,car,Australia
+Saudi Arabia,4.6,9.33,2995,car,Asia
+Senegal,3.5,9.88,4,car,Africa
+Seychelles,5.5,10.16,2,car,Africa
+Singapore,5.2,8.29,617,car,Asia
+Somalia,4.2,10.89,6,car,Africa
+South Africa,4.7,9.72,405,car,Africa
+Sri Lanka,4.7,8.97,20,car,Asia
+Suriname,6.1,12.23,11,car,South America
+Taiwan,5.2,7.09,1266,car,Asia
+"Tanzania, United Republic of",3.0,11.91,2,car,Africa
+Thailand,4.9,8.13,2981,car,Asia
+Trinidad and Tobago,4.9,10.11,52,car,North America
+Tunisia,4.1,9.74,82,car,Africa
+Turkey,4.7,8.34,963,car,Asia
+Turkmenistan,4.0,14.33,1,car,Asia
+Turks and Caicos Islands,8.0,12.56,1,car,North America
+Uganda,13.0,18.95,1,car,Africa
+United Arab Emirates,4.6,9.27,1204,car,Asia
+United States,5.2,9.99,75307,car,North America
+Uruguay,6.0,9.3,44,car,South America
+Uzbekistan,4.5,7.26,22,car,Asia
+"Venezuela, Bolivarian Republic of",4.4,10.03,94,car,South America
+Viet Nam,4.9,9.33,1404,car,Asia
+"Virgin Islands, British",3.0,9.68,1,car,North America
+"Virgin Islands, U.S.",6.3,13.75,3,car,North America
+Yemen,4.5,6.16,4,car,Asia
+Zimbabwe,5.2,13.14,5,car,Africa
+Algeria,7.9,11.15,178,book,Africa
+Angola,9.0,9.71,1,book,Africa
+Anguilla,17.0,16.62,1,book,North America
+Antigua and Barbuda,7.0,12.0,1,book,North America
+Argentina,7.4,10.6,271,book,South America
+Armenia,8.1,10.11,32,book,Asia
+Aruba,6.7,8.57,3,book,North America
+Australia,7.6,9.85,2882,book,Australia
+Azerbaijan,9.0,10.66,17,book,Asia
+Bahamas,5.8,11.26,12,book,North America
+Bahrain,7.1,9.07,123,book,Asia
+Bangladesh,6.4,9.05,73,book,Asia
+Barbados,6.1,10.13,8,book,North America
+Belize,10.0,9.4,2,book,North America
+Bermuda,7.2,9.88,9,book,North America
+Bhutan,8.0,6.74,2,book,Asia
+"Bolivia, Plurinational State of",7.1,7.69,13,book,South America
+Botswana,17.0,18.5,1,book,Africa
+Brazil,7.1,10.59,2255,book,South America
+Brunei Darussalam,7.8,9.84,38,book,Asia
+Cambodia,6.7,8.2,187,book,Asia
+Cameroon,4.0,8.2,1,book,Africa
+Canada,7.2,9.85,4228,book,North America
+Cayman Islands,8.1,11.62,10,book,North America
+Chile,7.9,10.4,138,book,South America
+China,7.6,8.98,14,book,Asia
+Colombia,7.8,9.95,171,book,South America
+Costa Rica,7.4,9.91,36,book,North America
+Curaçao,9.2,11.96,6,book,North America
+Cyprus,8.7,10.76,35,book,Asia
+Djibouti,8.0,10.69,1,book,Africa
+Dominica,5.0,7.34,1,book,North America
+Dominican Republic,7.6,11.06,40,book,North America
+Ecuador,7.1,9.66,49,book,South America
+Egypt,7.9,10.89,201,book,Africa
+El Salvador,7.5,8.88,13,book,North America
+French Guiana,3.0,9.07,1,book,South America
+French Polynesia,7.0,6.18,1,book,Australia
+Gabon,5.5,9.28,2,book,Africa
+Georgia,7.1,9.92,99,book,Asia
+Ghana,5.0,5.51,1,book,Africa
+Grenada,5.0,7.86,1,book,North America
+Guadeloupe,4.7,10.02,3,book,North America
+Guam,6.7,10.39,33,book,Australia
+Guatemala,7.1,10.43,23,book,North America
+Guyana,5.0,11.42,6,book,South America
+Honduras,6.5,10.59,17,book,North America
+Hong Kong,8.0,7.96,520,book,Asia
+India,6.7,9.07,961,book,Asia
+Indonesia,7.3,9.54,993,book,Asia
+Iraq,7.4,10.34,220,book,Asia
+Israel,7.8,10.1,348,book,Asia
+Jamaica,8.4,12.82,10,book,North America
+Japan,7.0,8.07,1015,book,Asia
+Jordan,7.3,10.31,116,book,Asia
+Kazakhstan,8.2,10.02,180,book,Asia
+Kenya,7.4,10.22,25,book,Africa
+"Korea, Republic of",7.7,8.37,1848,book,Asia
+Kuwait,7.7,9.87,210,book,Asia
+Kyrgyzstan,7.3,9.33,22,book,Asia
+Lao People's Democratic Republic,6.7,8.39,3,book,Asia
+Lebanon,8.5,10.64,51,book,Asia
+Lesotho,6.0,6.38,1,book,Africa
+Libya,7.5,11.71,11,book,Africa
+Macao,7.2,7.04,29,book,Asia
+Malaysia,7.3,8.93,623,book,Asia
+Maldives,7.8,11.95,10,book,Asia
+Martinique,5.2,11.83,4,book,North America
+Mauritius,8.8,8.64,12,book,Africa
+Mexico,6.9,9.76,433,book,North America
+"Micronesia, Federated States of",3.0,8.3,2,book,Australia
+Mongolia,6.6,10.16,22,book,Asia
+Montserrat,3.0,9.18,2,book,North America
+Morocco,6.5,10.23,93,book,Africa
+Mozambique,5.0,13.27,1,book,Africa
+Myanmar,10.3,8.73,6,book,Asia
+Namibia,10.0,12.31,6,book,Africa
+Nepal,6.7,9.09,46,book,Asia
+New Caledonia,7.8,9.64,11,book,Australia
+New Zealand,7.3,10.0,578,book,Australia
+Nicaragua,7.8,12.93,4,book,North America
+Nigeria,5.2,8.99,4,book,Africa
+Northern Mariana Islands,4.0,10.78,6,book,Australia
+Oman,6.9,9.48,69,book,Asia
+Pakistan,7.4,10.39,108,book,Asia
+"Palestine, State of",7.3,10.65,62,book,Asia
+Panama,8.5,11.48,19,book,North America
+Paraguay,7.7,10.95,13,book,South America
+Peru,7.0,9.47,99,book,South America
+Philippines,6.8,9.64,1473,book,Asia
+Puerto Rico,7.5,10.9,45,book,North America
+Qatar,6.9,10.13,165,book,Asia
+Réunion,7.4,12.01,22,book,Africa
+Saint Kitts and Nevis,4.0,6.07,1,book,North America
+Saint Vincent and the Grenadines,9.0,13.55,1,book,North America
+Samoa,28.0,14.91,1,book,Australia
+Saudi Arabia,7.2,9.79,1598,book,Asia
+Senegal,7.2,9.54,4,book,Africa
+Seychelles,8.0,7.93,2,book,Africa
+Singapore,7.3,8.82,418,book,Asia
+Somalia,7.0,7.83,1,book,Africa
+South Africa,7.6,10.7,271,book,Africa
+Sri Lanka,8.2,7.16,5,book,Asia
+Suriname,6.2,10.61,8,book,South America
+Taiwan,7.8,7.9,818,book,Asia
+Tajikistan,6.0,8.09,1,book,Asia
+"Tanzania, United Republic of",13.5,9.99,2,book,Africa
+Thailand,7.5,8.79,1660,book,Asia
+Trinidad and Tobago,7.5,10.68,41,book,North America
+Tunisia,6.9,10.41,52,book,Africa
+Turkey,7.6,9.33,641,book,Asia
+Turks and Caicos Islands,3.0,7.19,1,book,North America
+Uganda,10.2,10.6,5,book,Africa
+United Arab Emirates,7.3,9.9,764,book,Asia
+United States,7.0,9.91,49834,book,North America
+Uruguay,7.6,9.92,37,book,South America
+Uzbekistan,8.7,9.55,20,book,Asia
+Vanuatu,4.0,5.63,1,book,Australia
+"Venezuela, Bolivarian Republic of",6.6,10.61,52,book,South America
+Viet Nam,6.4,9.12,985,book,Asia
+"Virgin Islands, U.S.",5.0,7.77,2,book,North America
+Zimbabwe,6.0,12.38,2,book,Africa
+Afghanistan,11.0,16.97,1,power outlet,Asia
+Algeria,5.7,9.61,230,power outlet,Africa
+American Samoa,10.0,19.4,1,power outlet,Australia
+Angola,3.0,5.11,1,power outlet,Africa
+Anguilla,6.0,11.04,1,power outlet,North America
+Argentina,6.2,9.51,329,power outlet,South America
+Armenia,4.3,6.48,28,power outlet,Asia
+Aruba,5.4,5.42,8,power outlet,North America
+Australia,7.0,9.41,3301,power outlet,Australia
+Azerbaijan,5.2,7.56,21,power outlet,Asia
+Bahamas,5.9,11.16,13,power outlet,North America
+Bahrain,5.3,7.79,124,power outlet,Asia
+Bangladesh,5.9,8.31,49,power outlet,Asia
+Barbados,5.9,11.28,13,power outlet,North America
+Belize,4.8,8.28,6,power outlet,North America
+Bermuda,5.5,7.87,10,power outlet,North America
+Bhutan,12.0,7.08,1,power outlet,Asia
+"Bolivia, Plurinational State of",6.5,8.85,18,power outlet,South America
+Botswana,9.0,18.97,1,power outlet,Africa
+Brazil,5.5,8.92,2273,power outlet,South America
+Brunei Darussalam,5.8,8.55,44,power outlet,Asia
+Cambodia,5.9,8.12,178,power outlet,Asia
+Cameroon,5.0,14.72,1,power outlet,Africa
+Canada,6.1,8.21,6854,power outlet,North America
+Cayman Islands,6.0,9.44,11,power outlet,North America
+Chile,6.8,8.97,170,power outlet,South America
+China,6.6,7.22,17,power outlet,Asia
+Colombia,6.0,9.19,203,power outlet,South America
+Costa Rica,6.5,8.75,58,power outlet,North America
+Curaçao,4.9,7.31,7,power outlet,North America
+Cyprus,5.4,8.5,50,power outlet,Asia
+Côte d'Ivoire,3.0,7.23,1,power outlet,Africa
+Dominica,4.0,7.24,3,power outlet,North America
+Dominican Republic,6.7,9.39,33,power outlet,North America
+Ecuador,6.9,10.4,63,power outlet,South America
+Egypt,5.6,9.29,222,power outlet,Africa
+El Salvador,7.4,9.14,18,power outlet,North America
+Fiji,6.3,11.64,7,power outlet,Australia
+French Guiana,5.3,8.37,6,power outlet,South America
+French Polynesia,10.5,9.99,2,power outlet,Australia
+Georgia,6.3,11.22,89,power outlet,Asia
+Ghana,4.0,8.85,2,power outlet,Africa
+Greenland,7.5,16.82,2,power outlet,North America
+Grenada,5.2,6.26,6,power outlet,North America
+Guadeloupe,6.1,9.23,8,power outlet,North America
+Guam,6.0,8.16,44,power outlet,Australia
+Guatemala,6.0,10.14,26,power outlet,North America
+Guyana,5.1,9.1,7,power outlet,South America
+Haiti,8.0,13.61,1,power outlet,North America
+Honduras,5.2,8.06,26,power outlet,North America
+Hong Kong,6.6,7.4,534,power outlet,Asia
+India,6.1,8.46,1016,power outlet,Asia
+Indonesia,5.9,8.41,1207,power outlet,Asia
+Iraq,6.7,9.83,227,power outlet,Asia
+Israel,6.0,8.03,376,power outlet,Asia
+Jamaica,6.2,10.27,16,power outlet,North America
+Japan,6.7,7.07,859,power outlet,Asia
+Jordan,6.4,10.2,140,power outlet,Asia
+Kazakhstan,5.9,8.36,197,power outlet,Asia
+Kenya,6.0,8.23,24,power outlet,Africa
+"Korea, Republic of",6.9,7.04,1241,power outlet,Asia
+Kuwait,6.3,9.0,198,power outlet,Asia
+Kyrgyzstan,6.2,8.22,24,power outlet,Asia
+Lao People's Democratic Republic,5.8,6.37,4,power outlet,Asia
+Lebanon,6.0,9.61,44,power outlet,Asia
+Lesotho,6.0,9.52,3,power outlet,Africa
+Libya,6.0,11.12,9,power outlet,Africa
+Macao,6.2,7.03,26,power outlet,Asia
+Madagascar,2.5,3.99,2,power outlet,Africa
+Malaysia,5.8,8.05,718,power outlet,Asia
+Maldives,6.4,8.85,22,power outlet,Asia
+Marshall Islands,4.0,5.3,1,power outlet,Australia
+Martinique,6.8,13.29,4,power outlet,North America
+Mauritius,7.1,10.21,11,power outlet,Africa
+Mayotte,4.0,6.78,1,power outlet,Africa
+Mexico,6.2,8.71,569,power outlet,North America
+"Micronesia, Federated States of",8.0,5.71,2,power outlet,Australia
+Mongolia,5.5,9.83,11,power outlet,Asia
+Montserrat,6.0,10.58,3,power outlet,North America
+Morocco,5.9,9.87,135,power outlet,Africa
+Mozambique,5.0,5.74,1,power outlet,Africa
+Myanmar,10.0,11.42,4,power outlet,Asia
+Namibia,7.7,14.22,3,power outlet,Africa
+Nepal,6.7,8.62,46,power outlet,Asia
+New Caledonia,6.1,9.47,7,power outlet,Australia
+New Zealand,6.2,8.97,797,power outlet,Australia
+Nicaragua,5.0,7.6,6,power outlet,North America
+Nigeria,4.2,9.37,9,power outlet,Africa
+Northern Mariana Islands,6.1,9.02,13,power outlet,Australia
+Oman,5.4,8.36,90,power outlet,Asia
+Pakistan,5.6,8.9,136,power outlet,Asia
+"Palestine, State of",7.1,9.77,73,power outlet,Asia
+Panama,5.8,8.14,14,power outlet,North America
+Papua New Guinea,7.0,11.56,1,power outlet,Australia
+Paraguay,4.5,7.31,12,power outlet,South America
+Peru,6.8,9.93,100,power outlet,South America
+Philippines,6.3,8.7,1950,power outlet,Asia
+Puerto Rico,5.8,8.03,67,power outlet,North America
+Qatar,6.0,9.38,198,power outlet,Asia
+Rwanda,5.0,6.93,2,power outlet,Africa
+Réunion,6.9,9.55,30,power outlet,Africa
+Saint Kitts and Nevis,3.5,4.34,2,power outlet,North America
+Sao Tome and Principe,5.0,11.48,1,power outlet,Africa
+Saudi Arabia,6.5,9.68,1912,power outlet,Asia
+Senegal,5.5,7.93,2,power outlet,Africa
+Singapore,6.4,8.32,479,power outlet,Asia
+Somalia,8.0,11.55,2,power outlet,Africa
+South Africa,6.0,9.07,307,power outlet,Africa
+Sri Lanka,4.5,7.3,11,power outlet,Asia
+Suriname,4.0,7.5,7,power outlet,South America
+Taiwan,6.5,7.18,782,power outlet,Asia
+Tajikistan,3.0,6.13,1,power outlet,Asia
+"Tanzania, United Republic of",8.0,15.43,1,power outlet,Africa
+Thailand,7.4,9.34,1471,power outlet,Asia
+Trinidad and Tobago,6.6,9.78,46,power outlet,North America
+Tunisia,5.3,8.94,69,power outlet,Africa
+Turkey,5.9,8.02,640,power outlet,Asia
+Turkmenistan,5.0,6.04,1,power outlet,Asia
+Turks and Caicos Islands,7.0,6.15,1,power outlet,North America
+Uganda,7.2,13.4,5,power outlet,Africa
+United Arab Emirates,6.2,8.93,877,power outlet,Asia
+United States,5.9,8.16,90337,power outlet,North America
+Uruguay,6.1,8.95,33,power outlet,South America
+Uzbekistan,6.3,8.08,20,power outlet,Asia
+"Venezuela, Bolivarian Republic of",7.4,11.01,61,power outlet,South America
+Viet Nam,5.8,8.81,989,power outlet,Asia
+"Virgin Islands, U.S.",4.0,4.67,1,power outlet,North America
+Yemen,11.7,9.01,3,power outlet,Asia
+Zambia,6.0,8.8,2,power outlet,Africa
+Zimbabwe,5.0,6.85,2,power outlet,Africa
