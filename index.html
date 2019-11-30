@@ -89,7 +89,7 @@ div.tooltip {
 <p></p>
 <p></p>
 <h3 style="text-align: center; padding-left: 100px;padding-right: 100px; font-family: Comic Sans MS, Comic Sans, cursive; padding-right: 50px;">Let's do a quick exercise ! Ready ? Draw a circle in the box below: Go ahead !</h3>
-<div style="padding-left:100px ;padding-right:100px ;text-align:center" >
+<div id="circle_draw" style="padding-left:100px ;padding-right:100px ;text-align:center" >
 <svg  width="400" height="350">
   <rect style="fill:#f7f4f9;stroke-width:3;stroke:rgb(0,0,0)" width="100%" height="100%" ></rect>
 </svg></div>
@@ -604,7 +604,7 @@ d3.csv("./processed_data/triangle_per_country.csv", function(d, i, columns) {
       .text(function(d) { return d; });
 });
 
-var svg = d3.select("svg")
+var svg = d3.select("#circle_draw").select("svg")
 	.call(d3.drag()
 	.on("start", dragstarted)
     .on("drag", dragged)
@@ -612,7 +612,7 @@ var svg = d3.select("svg")
 	
 
 function dragstarted() {
-  d3.selectAll("path").remove();
+  d3.select("#circle_draw").selectAll("path").remove();
   d3.select("#t").remove();
   activeLine = null;
   activeLine = svg.append("path").datum([]).attr("class", "line");
