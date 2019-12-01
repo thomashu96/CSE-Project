@@ -94,7 +94,7 @@ line-height: 1;
   stroke-linecap: round;
   pointer-events: none;
 
-.rect{fill:#f7f4f9;stroke-width:3;stroke:rgb(0,0,0);
+.rect{fill:#f7f4f9;stroke-width:3;stroke:rgb(0,0,0);}
 
 div.tooltip {
   position: absolute;
@@ -122,9 +122,6 @@ div.tooltip {
 }
 .button5 {border-radius: 50%;}
 
-
-}
-
 </style>
 
 <body>
@@ -140,7 +137,7 @@ div.tooltip {
 <svg  width="400" height="350">
   <rect style="fill:#f7f4f9;stroke-width:3;stroke:rgb(0,0,0)" width="100%" height="100%" ></rect>
 </svg></div>
-<div id="trial" style="padding-left:50px;style=font-weight:bold;text-align:center">
+<div id="trial" style="padding-left:50px;padding-right:50px;style=font-weight:bold;text-align:center">
 <!-- <rect id="t" style="fill:#00FDC7"></rect> -->
 <p id="t" style="font-weight:bold"></p>
 </div>
@@ -715,6 +712,7 @@ function getDirection(p){
 		.append("p")
         .attr("id", "t")
         .append("text")
+        .style("font-family","Comic Sans MS")
 		.attr("font-weight","bold")
         .text(dir)
 		
