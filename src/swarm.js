@@ -49,7 +49,7 @@ var svg_swarm = d3.select("#swarm").append("svg")
 var axis = svg_swarm.append("line")
     .attr("id", "axis");
 
-d3.json("../processed_data/all_aggregates_with_doodles.json", function (error, data) {
+d3.json("./processed_data/all_aggregates_with_doodles.json", function (error, data) {
     if (error) throw error;
     data.forEach(d => {
         d.key = d.word;
