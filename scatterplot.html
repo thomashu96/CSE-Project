@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-fetch.v1.min.js"></script>
+
+<!-- Create a div where the graph will take place -->
+<div id="plotarea"></div>
+<style>
+  div.tooltip {	
+    position: absolute;			
+    text-align: center;						
+    font: 12px sans-serif;		
+    width: auto;					
+    height: auto;		
+    background: rgb(78, 141, 141);
+    color: white;
+    font-size: 10px;
+    border: 0px;		
+    border-radius: 4px;			
+    pointer-events: none;		
+    padding: 5px;	
+  }
+
+  .text{
+    font-family: sans-serif;
+  }
+</style>
+<script>
+
+// set the dimensions and margins of the graph
+var margin = {top: 20, right: 200, bottom: 50, left: 60},
+    width = 800 - margin.left - margin.right,
+    height = 400 - margin.top - margin.bottom;
+
+var requested_word = "car";
+var legendRectSize = 12;
+var legendSpacing = 4;
+// append the svg object to the body of the page
+var svg = d3.select("#plotarea")
+  .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+  // Color scale: give me a specie name, I return a color
+  var color = d3.scaleOrdinal()
+    .domain(["Africa", "North America", "Asia","Australia","South America"])
+    .range([ "#440154ff", "#21908dff", "#fde725ff","#fe4a49","#4b86b4"])
+//Read the data
+d3.csv("processed_data/time_and_stroke_continent.csv", function(d) {
+  return{
+    country: d.country,
+    stroke: parseFloat(d.stroke_count),
+    drawing_time: parseFloat(d.drawing_time),
+    count: parseInt(d.count),
+    word: d.word,
+    region: d.continent
+  };
+
+}).then(data =>{
+  // console.log(data);
+  // Add X axis
+  var filtered = data.filter(d => d.word == requested_word).filter(d => d.count>100);
+  console.log(filtered);
+  var x = d3.scaleLinear()
+      .domain([
+        d3.min(filtered, function (d) { return d.drawing_time; }),
+        d3.max(filtered, function (d) { return d.drawing_time; })
+      ])
+      .range([ 0, width ]);
+    svg.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+
+    // Add Y axis
+    var y = d3.scaleLinear()
+      .domain([
+        d3.min(filtered, function (d) { return d.stroke; }),
+        d3.max(filtered, function (d) { return d.stroke; })
+      ])
+      .range([ height, 0]);
+    svg.append("g")
+      .call(d3.axisLeft(y));
+
+    var div = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+    
+    var tooltip = d3.selectAll(".tooltip")
+  // Add dots
+  svg.append('g')
+    .selectAll("dot")
+    .data(filtered)
+    .enter()
+    .append("circle")
+      .attr("cx", function (d) { return x(d.drawing_time); } )
+      .attr("cy", function (d) { return y(d.stroke); } )
+      .attr("r", 5)
+      .style("fill", function (d) { return color(d.region) } )
+      .style("fill-opacity",0.7)
+      .on("mouseover", function (d) {
+        div.transition().style("opacity",1)
+          // .style("background",color(d.region))
+        div.html(""+d.country)
+                .style("left", (d3.event.pageX + 10) + "px")
+                .style("top", (d3.event.pageY - 20) + "px");
+
+      })
+      .on("mouseout",function(d){
+        d3.select(this).attr("stroke","none")
+      })
+
+
+  //legend 
+  var legend = svg.selectAll('.legend')
+        .data(color.domain())
+        .enter()
+        .append('g')
+        .attr('class', 'legend')
+        .attr('transform', function (d, i) {
+            var vert = i * (legendRectSize + legendSpacing)
+            return 'translate(' + (width) + "," + (vert) + ")";
+        });
+    legend.append('rect')
+        .attr('width', legendRectSize)
+        .attr('height', legendRectSize)
+        .style('fill', color)
+        .style('stroke', color);
+    legend.append('text')
+        .attr('x', legendRectSize + legendSpacing)
+        .attr('y', legendRectSize - legendSpacing)
+        .text(function (d) { return d; })
+          .attr("font-family","sans-serif");
+    
+    // Title
+    svg.append("text")
+        .text(requested_word.toUpperCase())
+        .attr("x",width/2)
+        .attr("y",margin.top/2)
+        .style("text-anchor","middle")
+        .attr("font-family","sans-serif")
+        .attr("font-size",20)
+
+    //Axis labels 
+    svg.append("text")
+        .attr("transform",
+            "translate(" + (width / 2) + " ," +
+            (height + margin.top+margin.bottom/2) + ")")
+        .style("text-anchor", "middle")
+        .attr("font-family","sans-serif")
+        .text("Drawing Time");
+
+    svg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - margin.left)
+        .attr("x", 0 - (height / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .attr("font-family","sans-serif")
+        .text("Number of strokes");
+
+})
+
+</script>
