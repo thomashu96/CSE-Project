@@ -26,8 +26,8 @@ var svg_scat = d3.select("#scatter_plot")
 
 // Color scale: give me a specie name, I return a color
 var color = d3.scaleOrdinal()
-    .domain(["Africa", "North America", "Asia", "Oceania", "South America"])
-    .range(["#440154ff", "#21908dff", "#fde725ff", "#fe4a49", "#4b86b4"])
+    .domain(["Africa", "North America", "Asia", "Australia", "South America","Europe"])
+    .range(["#440154ff", "#21908dff", "#fde725ff", "#8B0000", "#4b86b4", "#FF8C00"])
 
 //Read the data
 d3.csv("./processed_data/time_and_stroke_continent.csv", function (d) {
@@ -42,7 +42,7 @@ d3.csv("./processed_data/time_and_stroke_continent.csv", function (d) {
 
 }).then(data => {
     // console.log(data);
-    var filtered = data.filter(d => d.word == requested_word).filter(d => d.count > 50);
+    var filtered = data.filter(d => d.word == requested_word).filter(d => d.count > 100);
     console.log(filtered);
 
     // Add X axis
@@ -140,7 +140,9 @@ d3.csv("./processed_data/time_and_stroke_continent.csv", function (d) {
     legend.append('text')
         .attr('x', legendRectSize + legendSpacing)
         .attr('y', legendRectSize - legendSpacing)
-        .text(function (d) { return d; })
+        .text(function (d) { 
+            if (d == "Australia") {return "Oceania";}
+            else {return d; }})
         .attr("font-family", "Comic Sans MS");
 
     // // Title
@@ -173,7 +175,7 @@ d3.csv("./processed_data/time_and_stroke_continent.csv", function (d) {
     function onchange() {
         // Get value in the selected box
         requested_word = d3.select(this).property('value');
-        var new_data = data.filter(d => d.word == requested_word).filter(d => d.count > 50);
+        var new_data = data.filter(d => d.word == requested_word).filter(d => d.count > 100);
         console.log(new_data);
 
         // Update axis
