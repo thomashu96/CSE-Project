@@ -146,6 +146,9 @@ div.tooltip_scat {
     font-family: sans-serif;
   }
 
+img {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
 </style>
 
 <body>
@@ -335,8 +338,8 @@ var projection = d3.geoMercator()
   .translate([width/2, height/2]);
   
 var div = d3.select("#chart2").append("div")
-    .attr("class", "tooltip")
-    .style("opacity", 1);
+    // .attr("class", "tooltip")
+    // .style("opacity", 1);
 
 var tip_map = d3.tip()
 		.attr('class','d3-tip')

@@ -26,7 +26,7 @@ var svg_scat = d3.select("#scatter_plot")
 
 // Color scale: give me a specie name, I return a color
 var color = d3.scaleOrdinal()
-    .domain(["Africa", "North America", "Asia", "Australia", "South America"])
+    .domain(["Africa", "North America", "Asia", "Oceania", "South America"])
     .range(["#440154ff", "#21908dff", "#fde725ff", "#fe4a49", "#4b86b4"])
 
 //Read the data
